@@ -1,0 +1,446 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Shulltronics_Connectors:3085_MiniJack_Thonk_Vert J1
+U 1 1 618F167B
+P 2450 1550
+F 0 "J1" H 2482 1833 50  0000 C CNN
+F 1 "3085_MiniJack_Thonk_Vert" H 2500 1250 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" H 2450 1550 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/thonkiconn/" H 2450 1550 50  0001 C CNN
+F 4 "3085" H 2450 1800 50  0001 C CNN "SPN"
+F 5 "" H 2450 1550 50  0001 C CNN "Val"
+	1    2450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Connectors:3085_MiniJack_Thonk_Vert J3
+U 1 1 618F1F73
+P 2450 2050
+F 0 "J3" H 2482 2333 50  0000 C CNN
+F 1 "3085_MiniJack_Thonk_Vert" H 2500 1750 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" H 2450 2050 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/thonkiconn/" H 2450 2050 50  0001 C CNN
+F 4 "3085" H 2450 2300 50  0001 C CNN "SPN"
+F 5 "" H 2450 2050 50  0001 C CNN "Val"
+	1    2450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Connectors:3085_MiniJack_Thonk_Vert J5
+U 1 1 618F2BE8
+P 2450 2550
+F 0 "J5" H 2482 2833 50  0000 C CNN
+F 1 "3085_MiniJack_Thonk_Vert" H 2500 2250 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" H 2450 2550 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/thonkiconn/" H 2450 2550 50  0001 C CNN
+F 4 "3085" H 2450 2800 50  0001 C CNN "SPN"
+F 5 "" H 2450 2550 50  0001 C CNN "Val"
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Connectors:3085_MiniJack_Thonk_Vert J7
+U 1 1 618F3404
+P 2450 3050
+F 0 "J7" H 2482 3333 50  0000 C CNN
+F 1 "3085_MiniJack_Thonk_Vert" H 2500 2750 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" H 2450 3050 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/thonkiconn/" H 2450 3050 50  0001 C CNN
+F 4 "3085" H 2450 3300 50  0001 C CNN "SPN"
+F 5 "" H 2450 3050 50  0001 C CNN "Val"
+	1    2450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Connectors:3085_MiniJack_Thonk_Vert J2
+U 1 1 618F3CF2
+P 3200 1550
+F 0 "J2" H 3232 1833 50  0000 C CNN
+F 1 "3085_MiniJack_Thonk_Vert" H 3250 1250 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" H 3200 1550 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/thonkiconn/" H 3200 1550 50  0001 C CNN
+F 4 "3085" H 3200 1800 50  0001 C CNN "SPN"
+F 5 "" H 3200 1550 50  0001 C CNN "Val"
+	1    3200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Connectors:3085_MiniJack_Thonk_Vert J4
+U 1 1 618F42D7
+P 3200 2050
+F 0 "J4" H 3232 2333 50  0000 C CNN
+F 1 "3085_MiniJack_Thonk_Vert" H 3250 1750 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" H 3200 2050 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/thonkiconn/" H 3200 2050 50  0001 C CNN
+F 4 "3085" H 3200 2300 50  0001 C CNN "SPN"
+F 5 "" H 3200 2050 50  0001 C CNN "Val"
+	1    3200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Connectors:3085_MiniJack_Thonk_Vert J6
+U 1 1 618F4876
+P 3200 2550
+F 0 "J6" H 3232 2833 50  0000 C CNN
+F 1 "3085_MiniJack_Thonk_Vert" H 3250 2250 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" H 3200 2550 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/thonkiconn/" H 3200 2550 50  0001 C CNN
+F 4 "3085" H 3200 2800 50  0001 C CNN "SPN"
+F 5 "" H 3200 2550 50  0001 C CNN "Val"
+	1    3200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Connectors:3085_MiniJack_Thonk_Vert J8
+U 1 1 618F503E
+P 3200 3050
+F 0 "J8" H 3232 3333 50  0000 C CNN
+F 1 "3085_MiniJack_Thonk_Vert" H 3250 2750 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" H 3200 3050 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/thonkiconn/" H 3200 3050 50  0001 C CNN
+F 4 "3085" H 3200 3300 50  0001 C CNN "SPN"
+F 5 "" H 3200 3050 50  0001 C CNN "Val"
+	1    3200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Connectors:3086_Connector_Eurorack_Power J9
+U 1 1 619035E5
+P 9900 1550
+F 0 "J9" V 9900 1212 50  0000 R CNN
+F 1 "3086_Connector_Eurorack_Power" H 9950 1950 50  0001 C CNN
+F 2 "Shulltronics_Connectors:3086_SMD_Eurorack_Power" H 9900 1550 50  0001 C CNN
+F 3 "" H 9900 1550 50  0001 C CNN
+F 4 "3086" H 9900 1550 50  0001 C CNN "SPN"
+F 5 "" H 9900 1550 50  0001 C CNN "Val"
+	1    9900 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Shulltronics_ElectroMechanical:3087_Potentiometer_10k_Linear RP1
+U 1 1 6190AEB9
+P 4650 1500
+F 0 "RP1" H 4581 1546 50  0000 R CNN
+F 1 "3087_Potentiometer_10k_Linear" H 5100 1350 50  0001 C CNN
+F 2 "Shulltronics_ElectroMechanical:3087_Potentiometer_10k" H 4650 1500 50  0001 C CNN
+F 3 "" H 4650 1500 50  0001 C CNN
+F 4 "3087" H 4650 1500 50  0001 C CNN "SPN"
+F 5 "10k" H 4581 1455 50  0000 R CNN "Val"
+	1    4650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_ElectroMechanical:3087_Potentiometer_10k_Linear RP2
+U 1 1 6190BC66
+P 4650 2000
+F 0 "RP2" H 4581 2046 50  0000 R CNN
+F 1 "3087_Potentiometer_10k_Linear" H 5100 1850 50  0001 C CNN
+F 2 "Shulltronics_ElectroMechanical:3087_Potentiometer_10k" H 4650 2000 50  0001 C CNN
+F 3 "" H 4650 2000 50  0001 C CNN
+F 4 "3087" H 4650 2000 50  0001 C CNN "SPN"
+F 5 "10k" H 4581 1955 50  0000 R CNN "Val"
+	1    4650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_ElectroMechanical:3087_Potentiometer_10k_Linear RP3
+U 1 1 6190C4EE
+P 4650 2500
+F 0 "RP3" H 4581 2546 50  0000 R CNN
+F 1 "3087_Potentiometer_10k_Linear" H 5100 2350 50  0001 C CNN
+F 2 "Shulltronics_ElectroMechanical:3087_Potentiometer_10k" H 4650 2500 50  0001 C CNN
+F 3 "" H 4650 2500 50  0001 C CNN
+F 4 "3087" H 4650 2500 50  0001 C CNN "SPN"
+F 5 "10k" H 4581 2455 50  0000 R CNN "Val"
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_ElectroMechanical:3087_Potentiometer_10k_Linear RP4
+U 1 1 6190D0A7
+P 4650 3000
+F 0 "RP4" H 4581 3046 50  0000 R CNN
+F 1 "3087_Potentiometer_10k_Linear" H 5100 2850 50  0001 C CNN
+F 2 "Shulltronics_ElectroMechanical:3087_Potentiometer_10k" H 4650 3000 50  0001 C CNN
+F 3 "" H 4650 3000 50  0001 C CNN
+F 4 "3087" H 4650 3000 50  0001 C CNN "SPN"
+F 5 "10k" H 4581 2955 50  0000 R CNN "Val"
+	1    4650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Passives:3088_Capacitor_10u_50V_SMD C1
+U 1 1 61912366
+P 9500 2250
+F 0 "C1" V 9752 2250 50  0000 C CNN
+F 1 "3088_Capacitor_10u_50V_SMD" H 9500 2250 50  0001 C CNN
+F 2 "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD" H 9500 2250 50  0001 C CNN
+F 3 "" H 9500 2250 50  0001 C CNN
+F 4 "3088" H 9500 2250 50  0001 C CNN "SPN"
+F 5 "10u" V 9661 2250 50  0000 C CNN "Val"
+	1    9500 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Shulltronics_Passives:3088_Capacitor_10u_50V_SMD C2
+U 1 1 619136E5
+P 10300 2250
+F 0 "C2" V 10552 2250 50  0000 C CNN
+F 1 "3088_Capacitor_10u_50V_SMD" H 10300 2250 50  0001 C CNN
+F 2 "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD" H 10300 2250 50  0001 C CNN
+F 3 "" H 10300 2250 50  0001 C CNN
+F 4 "3088" H 10300 2250 50  0001 C CNN "SPN"
+F 5 "10u" V 10461 2250 50  0000 C CNN "Val"
+	1    10300 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Shulltronics_Sch_Symbols:GND #PWR04
+U 1 1 61914AC4
+P 9900 3000
+F 0 "#PWR04" H 9900 2750 50  0001 C CNN
+F 1 "GND" H 9905 2827 50  0000 C CNN
+F 2 "" H 9900 3000 50  0001 C CNN
+F 3 "" H 9900 3000 50  0001 C CNN
+	1    9900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Sch_Symbols:VSS #PWR03
+U 1 1 619152C4
+P 10500 2950
+F 0 "#PWR03" H 10500 2800 50  0001 C CNN
+F 1 "VSS" H 10515 3123 50  0000 C CNN
+F 2 "" H 10500 2950 50  0001 C CNN
+F 3 "" H 10500 2950 50  0001 C CNN
+	1    10500 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Shulltronics_Sch_Symbols:VCC #PWR02
+U 1 1 6191601B
+P 9300 1100
+F 0 "#PWR02" H 9300 950 50  0001 C CNN
+F 1 "VCC" H 9315 1273 50  0000 C CNN
+F 2 "" H 9300 1100 50  0001 C CNN
+F 3 "" H 9300 1100 50  0001 C CNN
+	1    9300 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1800 10100 1850
+Wire Wire Line
+	10100 1850 10500 1850
+Wire Wire Line
+	10500 1850 10500 1250
+Wire Wire Line
+	10500 1250 10100 1250
+Wire Wire Line
+	10100 1250 10100 1300
+Wire Wire Line
+	9700 1800 9700 1850
+Wire Wire Line
+	9700 1850 9300 1850
+Wire Wire Line
+	9300 1850 9300 1250
+Wire Wire Line
+	9300 1250 9700 1250
+Wire Wire Line
+	9700 1250 9700 1300
+Wire Wire Line
+	9900 1850 10000 1850
+Wire Wire Line
+	10000 1850 10000 1800
+Connection ~ 9900 1850
+Wire Wire Line
+	9900 1850 9900 1800
+Wire Wire Line
+	9900 1850 9800 1850
+Wire Wire Line
+	9800 1850 9800 1800
+Wire Wire Line
+	9900 2250 10150 2250
+Wire Wire Line
+	9900 1850 9900 2250
+Connection ~ 9900 2250
+Connection ~ 10500 1850
+Wire Wire Line
+	10450 2250 10500 2250
+Connection ~ 10500 2250
+Wire Wire Line
+	10500 2250 10500 1850
+Wire Wire Line
+	9300 1100 9300 1250
+Connection ~ 9300 1250
+Wire Wire Line
+	9300 1850 9300 2250
+Wire Wire Line
+	9300 2250 9350 2250
+Connection ~ 9300 1850
+Wire Wire Line
+	9650 2250 9900 2250
+$Comp
+L Shulltronics_Passives:3089_Capacitor_100n_16V_SMD C3
+U 1 1 619200C0
+P 9550 2700
+F 0 "C3" H 9525 2965 50  0000 C CNN
+F 1 "3089_Capacitor_100n_16V_SMD" H 9550 2700 50  0001 C CNN
+F 2 "Shulltronics_Generics:C_0402_HandSolder" H 9550 2700 50  0001 C CNN
+F 3 "" H 9550 2700 50  0001 C CNN
+F 4 "3089" H 9550 2700 50  0001 C CNN "SPN"
+F 5 "100n" H 9525 2874 50  0000 C CNN "Val"
+	1    9550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Passives:3089_Capacitor_100n_16V_SMD C4
+U 1 1 61920FD1
+P 10350 2700
+F 0 "C4" H 10325 2965 50  0000 C CNN
+F 1 "3089_Capacitor_100n_16V_SMD" H 10350 2700 50  0001 C CNN
+F 2 "Shulltronics_Generics:C_0402_HandSolder" H 10350 2700 50  0001 C CNN
+F 3 "" H 10350 2700 50  0001 C CNN
+F 4 "3089" H 10350 2700 50  0001 C CNN "SPN"
+F 5 "100n" H 10325 2874 50  0000 C CNN "Val"
+	1    10350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 2700 10500 2700
+Wire Wire Line
+	10500 2700 10500 2950
+Wire Wire Line
+	10500 2250 10500 2700
+Connection ~ 10500 2700
+Wire Wire Line
+	9900 2250 9900 2700
+Wire Wire Line
+	9650 2700 9900 2700
+Connection ~ 9900 2700
+Wire Wire Line
+	9900 2700 9900 3000
+Wire Wire Line
+	9900 2700 10200 2700
+Wire Wire Line
+	9400 2700 9300 2700
+Wire Wire Line
+	9300 2700 9300 2250
+Connection ~ 9300 2250
+Wire Wire Line
+	9800 1300 9800 1250
+Wire Wire Line
+	9800 1250 9900 1250
+Wire Wire Line
+	10000 1250 10000 1300
+Wire Wire Line
+	9900 1300 9900 1250
+Connection ~ 9900 1250
+Wire Wire Line
+	9900 1250 10000 1250
+$Comp
+L Shulltronics_Sch_Symbols:GND #PWR01
+U 1 1 61925803
+P 10150 900
+F 0 "#PWR01" H 10150 650 50  0001 C CNN
+F 1 "GND" H 10155 727 50  0000 C CNN
+F 2 "" H 10150 900 50  0001 C CNN
+F 3 "" H 10150 900 50  0001 C CNN
+	1    10150 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 900  10150 800 
+Wire Wire Line
+	10150 800  9900 800 
+Wire Wire Line
+	9900 800  9900 1250
+$Comp
+L Shulltronics_Passives:3089_Capacitor_100n_16V_SMD C5
+U 1 1 6192681D
+P 9550 3900
+F 0 "C5" H 9525 4165 50  0000 C CNN
+F 1 "3089_Capacitor_100n_16V_SMD" H 9550 3900 50  0001 C CNN
+F 2 "Shulltronics_Generics:C_0402_HandSolder" H 9550 3900 50  0001 C CNN
+F 3 "" H 9550 3900 50  0001 C CNN
+F 4 "3089" H 9550 3900 50  0001 C CNN "SPN"
+F 5 "100n" H 9525 4074 50  0000 C CNN "Val"
+	1    9550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Passives:3089_Capacitor_100n_16V_SMD C6
+U 1 1 61927626
+P 10000 3900
+F 0 "C6" H 9975 4165 50  0000 C CNN
+F 1 "3089_Capacitor_100n_16V_SMD" H 10000 3900 50  0001 C CNN
+F 2 "Shulltronics_Generics:C_0402_HandSolder" H 10000 3900 50  0001 C CNN
+F 3 "" H 10000 3900 50  0001 C CNN
+F 4 "3089" H 10000 3900 50  0001 C CNN "SPN"
+F 5 "100n" H 9975 4074 50  0000 C CNN "Val"
+	1    10000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Passives:3089_Capacitor_100n_16V_SMD C7
+U 1 1 61927C19
+P 10400 3900
+F 0 "C7" H 10375 4165 50  0000 C CNN
+F 1 "3089_Capacitor_100n_16V_SMD" H 10400 3900 50  0001 C CNN
+F 2 "Shulltronics_Generics:C_0402_HandSolder" H 10400 3900 50  0001 C CNN
+F 3 "" H 10400 3900 50  0001 C CNN
+F 4 "3089" H 10400 3900 50  0001 C CNN "SPN"
+F 5 "100n" H 10375 4074 50  0000 C CNN "Val"
+	1    10400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Passives:3089_Capacitor_100n_16V_SMD C8
+U 1 1 619281BF
+P 10850 3900
+F 0 "C8" H 10825 4165 50  0000 C CNN
+F 1 "3089_Capacitor_100n_16V_SMD" H 10850 3900 50  0001 C CNN
+F 2 "Shulltronics_Generics:C_0402_HandSolder" H 10850 3900 50  0001 C CNN
+F 3 "" H 10850 3900 50  0001 C CNN
+F 4 "3089" H 10850 3900 50  0001 C CNN "SPN"
+F 5 "100n" H 10825 4074 50  0000 C CNN "Val"
+	1    10850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Opto:3023_FSD FSD1
+U 1 1 61904297
+P 5300 4900
+F 0 "FSD1" H 5300 5733 50  0000 C CNN
+F 1 "3023_FSD" H 5300 4100 50  0001 C CNN
+F 2 "Shulltronics_Opto:3023_14seg_Display" H 5300 5800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/ACPSA04-41SRWA-17406.pdf" V 5150 4250 50  0001 C CNN
+	1    5300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Shulltronics_Microcontrollers:3090_ATSAMD21E15B U?
+U 1 1 619A4DE0
+P 7250 3650
+F 0 "U?" H 7250 4781 50  0000 C CNN
+F 1 "3090_ATSAMD21E15B" H 7250 4690 50  0000 C CNN
+F 2 "Shulltronics_Microcontrollers:3090_ATSAMD21E15B_TQFP32" H 7250 3100 50  0001 C CNN
+F 3 "" H 7250 3100 50  0001 C CNN
+F 4 "3090" H 7250 3650 50  0001 C CNN "SPN"
+	1    7250 3650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

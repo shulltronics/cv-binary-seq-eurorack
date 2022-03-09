@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\carstentb\Documents\KiCad\6.0\Carsten Projects\cv_sequencer\cv_sequencer.kicad_sch</source>
+    <date>3/7/2022 2:07:20 PM</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cv_sequencer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>3088_Capacitor_10u_50V_SMD</value>
+      <footprint>Shulltronics_Passives:3088_Capacitor_10u_50V_SMD</footprint>
+      <fields>
+        <field name="SPN">3088</field>
+        <field name="Val">10u</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3088_Capacitor_10u_50V_SMD" description=""/>
+      <property name="SPN" value="3088"/>
+      <property name="Val" value="10u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061912366</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>3088_Capacitor_10u_50V_SMD</value>
+      <footprint>Shulltronics_Passives:3088_Capacitor_10u_50V_SMD</footprint>
+      <fields>
+        <field name="SPN">3088</field>
+        <field name="Val">10u</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3088_Capacitor_10u_50V_SMD" description=""/>
+      <property name="SPN" value="3088"/>
+      <property name="Val" value="10u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619136e5</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619200c0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061920fd1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006192681d</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061927626</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061927c19</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619281bf</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <fields>
+        <field name="SPN">3085</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f167b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <fields>
+        <field name="SPN">3085</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f3cf2</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <fields>
+        <field name="SPN">3085</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f1f73</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <fields>
+        <field name="SPN">3085</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f42d7</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <fields>
+        <field name="SPN">3085</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f2be8</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <fields>
+        <field name="SPN">3085</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f4876</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <fields>
+        <field name="SPN">3085</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f3404</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <fields>
+        <field name="SPN">3085</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f503e</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>3086_Connector_Eurorack_Power</value>
+      <footprint>Shulltronics_Connectors:3086_SMD_Eurorack_Power</footprint>
+      <fields>
+        <field name="SPN">3086</field>
+      </fields>
+      <libsource lib="Shulltronics_Connectors" part="3086_Connector_Eurorack_Power" description=""/>
+      <property name="SPN" value="3086"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619035e5</tstamps>
+    </comp>
+    <comp ref="RP1">
+      <value>3087_Potentiometer_10k_Linear</value>
+      <footprint>Shulltronics_ElectroMechanical:3087_Potentiometer_10k</footprint>
+      <fields>
+        <field name="SPN">3087</field>
+        <field name="Val">10k</field>
+      </fields>
+      <libsource lib="Shulltronics_ElectroMechanical" part="3087_Potentiometer_10k_Linear" description=""/>
+      <property name="SPN" value="3087"/>
+      <property name="Val" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006190aeb9</tstamps>
+    </comp>
+    <comp ref="RP2">
+      <value>3087_Potentiometer_10k_Linear</value>
+      <footprint>Shulltronics_ElectroMechanical:3087_Potentiometer_10k</footprint>
+      <fields>
+        <field name="SPN">3087</field>
+        <field name="Val">10k</field>
+      </fields>
+      <libsource lib="Shulltronics_ElectroMechanical" part="3087_Potentiometer_10k_Linear" description=""/>
+      <property name="SPN" value="3087"/>
+      <property name="Val" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006190bc66</tstamps>
+    </comp>
+    <comp ref="RP3">
+      <value>3087_Potentiometer_10k_Linear</value>
+      <footprint>Shulltronics_ElectroMechanical:3087_Potentiometer_10k</footprint>
+      <fields>
+        <field name="SPN">3087</field>
+        <field name="Val">10k</field>
+      </fields>
+      <libsource lib="Shulltronics_ElectroMechanical" part="3087_Potentiometer_10k_Linear" description=""/>
+      <property name="SPN" value="3087"/>
+      <property name="Val" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006190c4ee</tstamps>
+    </comp>
+    <comp ref="RP4">
+      <value>3087_Potentiometer_10k_Linear</value>
+      <footprint>Shulltronics_ElectroMechanical:3087_Potentiometer_10k</footprint>
+      <fields>
+        <field name="SPN">3087</field>
+        <field name="Val">10k</field>
+      </fields>
+      <libsource lib="Shulltronics_ElectroMechanical" part="3087_Potentiometer_10k_Linear" description=""/>
+      <property name="SPN" value="3087"/>
+      <property name="Val" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006190d0a7</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>3090_ATSAMD21E15B</value>
+      <footprint>Shulltronics_Microcontrollers:3090_ATSAMD21E15B_TQFP32</footprint>
+      <fields>
+        <field name="SPN">3090</field>
+      </fields>
+      <libsource lib="Shulltronics_Microcontrollers" part="3090_ATSAMD21E15B" description=""/>
+      <property name="SPN" value="3090"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619a4de0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Shulltronics_Connectors_3085_MiniJack_Thonk_Vert">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Shulltronics_Connectors_3085_MiniJack_Thonk_Vert</field>
+        <field name="Footprint">Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</field>
+        <field name="SPN">3085</field>
+      </fields>
+      <pins>
+        <pin num="S" name="S" type="passive"/>
+        <pin num="T" name="T" type="passive"/>
+        <pin num="TN" name="TN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Shulltronics_Connectors_3086_Connector_Eurorack_Power">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Shulltronics_Connectors_3086_Connector_Eurorack_Power</field>
+        <field name="Footprint">Shulltronics_Connectors:3086_SMD_Eurorack_Power</field>
+        <field name="SPN">3086</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Shulltronics_ElectroMechanical_3087_Potentiometer_10k_Linear">
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value">Shulltronics_ElectroMechanical_3087_Potentiometer_10k_Linear</field>
+        <field name="Footprint">Shulltronics_ElectroMechanical:3087_Potentiometer_10k</field>
+        <field name="SPN">3087</field>
+        <field name="Val">10k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Shulltronics_Microcontrollers_3090_ATSAMD21E15B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Shulltronics_Microcontrollers_3090_ATSAMD21E15B</field>
+        <field name="Footprint">Shulltronics_Microcontrollers:3090_ATSAMD21E15B_TQFP32</field>
+        <field name="SPN">3090</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00" type="bidirectional"/>
+        <pin num="2" name="PA01" type="bidirectional"/>
+        <pin num="3" name="PA02" type="bidirectional"/>
+        <pin num="4" name="PA03" type="bidirectional"/>
+        <pin num="5" name="PA04" type="bidirectional"/>
+        <pin num="6" name="PA05" type="bidirectional"/>
+        <pin num="7" name="PA06" type="bidirectional"/>
+        <pin num="8" name="PA07" type="bidirectional"/>
+        <pin num="9" name="VDDANA" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="PA08" type="bidirectional"/>
+        <pin num="12" name="PA09" type="bidirectional"/>
+        <pin num="13" name="PA10" type="bidirectional"/>
+        <pin num="14" name="PA11" type="bidirectional"/>
+        <pin num="15" name="PA14" type="bidirectional"/>
+        <pin num="16" name="PA15" type="bidirectional"/>
+        <pin num="17" name="PA16" type="bidirectional"/>
+        <pin num="18" name="PA17" type="bidirectional"/>
+        <pin num="19" name="PA18" type="bidirectional"/>
+        <pin num="20" name="PA19" type="bidirectional"/>
+        <pin num="21" name="PA22" type="bidirectional"/>
+        <pin num="22" name="PA23" type="bidirectional"/>
+        <pin num="23" name="PA24" type="bidirectional"/>
+        <pin num="24" name="PA25" type="bidirectional"/>
+        <pin num="25" name="PA27" type="bidirectional"/>
+        <pin num="26" name="~{RESET}" type="input"/>
+        <pin num="27" name="PA28" type="bidirectional"/>
+        <pin num="28" name="GND" type="input"/>
+        <pin num="29" name="VDDCORE" type="power_in"/>
+        <pin num="30" name="VDDIN" type="power_in"/>
+        <pin num="31" name="PA30" type="bidirectional"/>
+        <pin num="32" name="PA31" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Shulltronics_Passives_3088_Capacitor_10u_50V_SMD">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Shulltronics_Passives_3088_Capacitor_10u_50V_SMD</field>
+        <field name="Footprint">Shulltronics_Passives:3088_Capacitor_10u_50V_SMD</field>
+        <field name="SPN">3088</field>
+        <field name="Val">10u</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Shulltronics_Passives_3089_Capacitor_100n_16V_SMD">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Shulltronics_Passives_3089_Capacitor_100n_16V_SMD</field>
+        <field name="Footprint">Shulltronics_Generics:C_0402_HandSolder</field>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="2" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="VSS">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="4" name="unconnected-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J1-PadS)">
+      <node ref="J1" pin="S" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(J1-PadT)">
+      <node ref="J1" pin="T" pinfunction="T" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(J1-PadTN)">
+      <node ref="J1" pin="TN" pinfunction="TN" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(J2-PadS)">
+      <node ref="J2" pin="S" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(J2-PadT)">
+      <node ref="J2" pin="T" pinfunction="T" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(J2-PadTN)">
+      <node ref="J2" pin="TN" pinfunction="TN" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(J3-PadS)">
+      <node ref="J3" pin="S" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(J3-PadT)">
+      <node ref="J3" pin="T" pinfunction="T" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(J3-PadTN)">
+      <node ref="J3" pin="TN" pinfunction="TN" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(J4-PadS)">
+      <node ref="J4" pin="S" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(J4-PadT)">
+      <node ref="J4" pin="T" pinfunction="T" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(J4-PadTN)">
+      <node ref="J4" pin="TN" pinfunction="TN" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(J5-PadS)">
+      <node ref="J5" pin="S" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(J5-PadT)">
+      <node ref="J5" pin="T" pinfunction="T" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(J5-PadTN)">
+      <node ref="J5" pin="TN" pinfunction="TN" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(J6-PadS)">
+      <node ref="J6" pin="S" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(J6-PadT)">
+      <node ref="J6" pin="T" pinfunction="T" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(J6-PadTN)">
+      <node ref="J6" pin="TN" pinfunction="TN" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(J7-PadS)">
+      <node ref="J7" pin="S" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(J7-PadT)">
+      <node ref="J7" pin="T" pinfunction="T" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(J7-PadTN)">
+      <node ref="J7" pin="TN" pinfunction="TN" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(J8-PadS)">
+      <node ref="J8" pin="S" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(J8-PadT)">
+      <node ref="J8" pin="T" pinfunction="T" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(J8-PadTN)">
+      <node ref="J8" pin="TN" pinfunction="TN" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(RP1-Pad1)">
+      <node ref="RP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(RP1-Pad2)">
+      <node ref="RP1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(RP1-Pad3)">
+      <node ref="RP1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(RP2-Pad1)">
+      <node ref="RP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(RP2-Pad2)">
+      <node ref="RP2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(RP2-Pad3)">
+      <node ref="RP2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(RP3-Pad1)">
+      <node ref="RP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(RP3-Pad2)">
+      <node ref="RP3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(RP3-Pad3)">
+      <node ref="RP3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(RP4-Pad1)">
+      <node ref="RP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(RP4-Pad2)">
+      <node ref="RP4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="47" name="unconnected-(RP4-Pad3)">
+      <node ref="RP4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PA00" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PA01" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PA02" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="PA03" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PA04" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="PA05" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PA06" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PA07" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="VDDANA" pintype="power_in"/>
+    </net>
+    <net code="57" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="58" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PA08" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PA09" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="PA16" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="PA17" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="PA18" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="PA19" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="PA22" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="PA23" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PA24" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="PA25" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PA27" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="74" name="unconnected-(U1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PA28" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="76" name="unconnected-(U1-Pad29)">
+      <node ref="U1" pin="29" pinfunction="VDDCORE" pintype="power_in"/>
+    </net>
+    <net code="77" name="unconnected-(U1-Pad30)">
+      <node ref="U1" pin="30" pinfunction="VDDIN" pintype="power_in"/>
+    </net>
+    <net code="78" name="unconnected-(U1-Pad31)">
+      <node ref="U1" pin="31" pinfunction="PA30" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(U1-Pad32)">
+      <node ref="U1" pin="32" pinfunction="PA31" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
