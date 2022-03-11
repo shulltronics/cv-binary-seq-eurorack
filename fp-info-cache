@@ -1,4 +1,4 @@
-20217535649339390
+20219182665360883
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79223,8 +79223,8 @@ Shulltronics_ElectroMechanical
 
 
 0
-0
-0
+4
+2
 Shulltronics_Generics
 CP_Radial_D3mm_P2mm_Vert
 Polarized Cap, Radial, Vertical Mount, pitch=2.00mm, diameter=3mm
@@ -79323,6 +79323,13 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W len
 0
 2
 2
+Shulltronics_Generics
+SOT-23-5
+SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
 Shulltronics_Generics
 TO-92
 
