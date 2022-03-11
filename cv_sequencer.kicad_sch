@@ -5,89 +5,6 @@
   (paper "USLetter")
 
   (lib_symbols
-    (symbol "4003_Capacitor_22pF_50V_0402_1" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (id 0) (at -2.54 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "4003_Capacitor_22pF_50V_0402_1" (id 1) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "Shulltronics_Generics:C_0402_HandSolder" (id 2) (at -1.27 -5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555G1H220JA16-01.pdf" (id 3) (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SPN" "4003" (id 4) (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Val" "22pF" (id 5) (at 3.81 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "4003_Capacitor_22pF_50V_0402_1_1_1"
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy -1.27 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "4010_Resistor_SMD_1k_0.125W_1%_1" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "4010_Resistor_SMD_1k_0.125W_1%_1" (id 1) (at 5.08 6.35 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 1.27 -16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SPN" "4010" (id 4) (at -6.35 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Val" "1k" (id 5) (at 2.54 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_description" "SMD Resistor, 1k Ohms, 1/8W, 1%, 0402" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "4010_Resistor_SMD_1k_0.125W_1%_1_1_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Shulltronics_Connectors:3086_Connector_Eurorack_Power" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 -7.62 0)
         (effects (font (size 1.27 1.27)))
@@ -1139,7 +1056,7 @@
       (property "Value" "4008_Resistor_SMD_10k_0.125W_1%" (id 1) (at 5.08 6.35 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
+      (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 1.27 -16.51 0)
@@ -1176,7 +1093,7 @@
       (property "Value" "4009_Resistor_SMD_5k1_0.10W_1%" (id 1) (at 5.08 6.35 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
+      (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (id 3) (at 1.27 -16.51 0)
@@ -1213,10 +1130,10 @@
       (property "Value" "4010_Resistor_SMD_1k_0.125W_1%" (id 1) (at 5.08 6.35 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
+      (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (id 3) (at 1.27 -16.51 0)
+      (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 1.27 -16.51 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "SPN" "4010" (id 4) (at -6.35 0 0)
@@ -1250,7 +1167,7 @@
       (property "Value" "4011_Resistor_SMD_27_0.125W_1%" (id 1) (at 5.08 6.35 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
+      (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 1.27 -16.51 0)
@@ -1333,7 +1250,7 @@
       (property "Value" "4018_Resistor_SMD_82k_0.125W_1%" (id 1) (at 5.08 6.35 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
+      (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 1.27 -16.51 0)
@@ -1370,7 +1287,7 @@
       (property "Value" "4019_Resistor_SMD_270k_0.125W_1%" (id 1) (at 5.08 6.35 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
+      (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 1.27 -16.51 0)
@@ -1407,7 +1324,7 @@
       (property "Value" "4020_Resistor_SMD_180k_0.125W_1%" (id 1) (at 5.08 6.35 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
+      (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 1.27 -16.51 0)
@@ -1444,7 +1361,7 @@
       (property "Value" "4021_Resistor_SMD_Jumper" (id 1) (at 5.08 6.35 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 0 -20.32 0)
+      (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 0 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 1.27 -16.51 0)
@@ -1783,6 +1700,7 @@
       )
     )
   )
+
 
   (junction (at 182.88 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 0601cee6-6db7-4be7-b904-5a2cec1bd422)
@@ -3498,6 +3416,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 29366c17-c2f0-4a19-8e33-f8747beddcea)
   )
+  (label "BOOTSEL" (at 129.54 110.49 270)
+    (effects (font (size 1 1)) (justify right bottom))
+    (uuid 38d8c941-6ab9-428c-a915-e0ab384b4b9d)
+  )
   (label "IO_SCK" (at 128.905 153.67 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 39dd5b95-fe93-4f04-b2f1-fc283060dd23)
@@ -3670,7 +3592,7 @@
   (symbol (lib_id "Shulltronics_Connectors:3086_Connector_Eurorack_Power") (at 240.03 48.26 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619035e5)
-    (property "Reference" "J9" (id 0) (at 241.3 40.64 0)
+    (property "Reference" "J2" (id 0) (at 241.3 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3086_Connector_Eurorack_Power" (id 1) (at 241.3 38.1 0)
@@ -3703,7 +3625,7 @@
   (symbol (lib_id "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD") (at 222.25 40.64 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061912366)
-    (property "Reference" "C1" (id 0) (at 228.6508 40.64 90))
+    (property "Reference" "C22" (id 0) (at 228.6508 40.64 90))
     (property "Value" "3088_Capacitor_10u_50V_SMD" (id 1) (at 222.25 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3724,7 +3646,7 @@
   (symbol (lib_id "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD") (at 222.25 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619136e5)
-    (property "Reference" "C2" (id 0) (at 228.6508 55.88 90))
+    (property "Reference" "C23" (id 0) (at 228.6508 55.88 90))
     (property "Value" "3088_Capacitor_10u_50V_SMD" (id 1) (at 222.25 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3745,7 +3667,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 201.93 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061914ac4)
-    (property "Reference" "#PWR04" (id 0) (at 201.93 58.42 0)
+    (property "Reference" "#PWR015" (id 0) (at 201.93 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 202.057 56.4642 0))
@@ -3761,7 +3683,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:VSS") (at 201.93 66.04 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619152c4)
-    (property "Reference" "#PWR03" (id 0) (at 201.93 62.23 0)
+    (property "Reference" "#PWR016" (id 0) (at 201.93 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSS" (id 1) (at 201.549 70.4342 0))
@@ -3777,7 +3699,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 259.08 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061925803)
-    (property "Reference" "#PWR01" (id 0) (at 259.08 60.96 0)
+    (property "Reference" "#PWR020" (id 0) (at 259.08 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 259.207 59.0042 0))
@@ -3793,7 +3715,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:VCC") (at 144.78 29.845 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 005389c0-e32b-4e80-a1d4-983a323a48c6)
-    (property "Reference" "#PWR?" (id 0) (at 144.78 33.655 0)
+    (property "Reference" "#PWR012" (id 0) (at 144.78 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 145.161 25.4508 0))
@@ -3809,7 +3731,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 220.98 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0399f8e8-36fe-48cf-a96b-7176ceba0186)
-    (property "Reference" "TP4" (id 0) (at 219.075 93.98 0)
+    (property "Reference" "TP12" (id 0) (at 219.075 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USB_D+" (id 1) (at 222.25 95.885 0)
@@ -3827,7 +3749,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 32.385 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 03cff2e1-e572-48e7-b4b4-849070085afe)
-    (property "Reference" "C?" (id 0) (at 32.385 96.52 90)
+    (property "Reference" "C3" (id 0) (at 32.385 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 40.005 100.33 0)
@@ -3852,7 +3774,7 @@
   (symbol (lib_id "Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD") (at 135.255 110.49 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 04460665-86a7-4df5-9051-2d02db0bc9e1)
-    (property "Reference" "SW?" (id 0) (at 135.255 114.935 0))
+    (property "Reference" "SW2" (id 0) (at 135.255 114.935 0))
     (property "Value" "BOOTSEL" (id 1) (at 135.255 116.84 0))
     (property "Footprint" "Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD" (id 2) (at 135.255 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3870,7 +3792,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 257.81 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 04724cd7-3ad3-4044-b93e-7ae8d68fba2d)
-    (property "Reference" "TP8" (id 0) (at 255.905 133.35 0)
+    (property "Reference" "TP18" (id 0) (at 255.905 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~{RST}" (id 1) (at 259.715 140.97 90)
@@ -3888,7 +3810,7 @@
   (symbol (lib_id "Shulltronics_Connectors:3096_USBC_RA_SMD") (at 242.57 106.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 06f7d7c9-f4b6-4f87-a43a-bb70f198d6a8)
-    (property "Reference" "J10" (id 0) (at 242.57 97.79 0))
+    (property "Reference" "J3" (id 0) (at 242.57 97.79 0))
     (property "Value" "3096_USBC_RA_SMD" (id 1) (at 242.57 115.57 0))
     (property "Footprint" "Shulltronics_Connectors:3096_USBC_RA" (id 2) (at 242.57 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3939,7 +3861,7 @@
   (symbol (lib_id "Shulltronics_Regulators:4015_Adjustable_Reg_500mA_SOT-23-5") (at 165.1 35.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 164b268a-bbf3-44e6-abfc-567f1a2aa15f)
-    (property "Reference" "U?" (id 0) (at 165.1 26.67 0))
+    (property "Reference" "U3" (id 0) (at 165.1 26.67 0))
     (property "Value" "4015_Adjustable_Reg_500mA_SOT-23-5" (id 1) (at 165.1 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3960,7 +3882,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 210.82 39.37 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1e328bb2-4ca5-4007-963a-4fd17a37dfd8)
-    (property "Reference" "C?" (id 0) (at 212.09 38.1 90)
+    (property "Reference" "C20" (id 0) (at 212.09 38.1 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 218.44 39.37 0)
@@ -3985,7 +3907,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:PWR_FLAG") (at 255.27 48.26 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2586d832-ecfc-4895-8231-1b5bad06fd47)
-    (property "Reference" "#FLG0103" (id 0) (at 255.27 46.355 0)
+    (property "Reference" "#FLG03" (id 0) (at 255.27 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 250.19 44.45 0)
@@ -4000,10 +3922,10 @@
     (pin "1" (uuid 4dbe4495-edb0-4194-ae6e-e0bf6585b8bb))
   )
 
-  (symbol (lib_name "4003_Capacitor_22pF_50V_0402_1") (lib_id "Shulltronics_Passives:4003_Capacitor_22pF_50V_0402") (at 62.865 177.8 90) (unit 1)
+  (symbol (lib_id "Shulltronics_Passives:4003_Capacitor_22pF_50V_0402") (at 62.865 177.8 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2944e0b8-0112-4999-aa21-441b2196f54e)
-    (property "Reference" "C9" (id 0) (at 59.055 177.8 90)
+    (property "Reference" "C8" (id 0) (at 59.055 177.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4003_Capacitor_22pF_50V_0402" (id 1) (at 62.865 177.8 0)
@@ -4028,7 +3950,7 @@
   (symbol (lib_id "Shulltronics_Passives:4013_Capacitor_1u_16V_0402") (at 161.29 63.5 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2d6bb70a-52b9-43f5-a3c6-5660b633b3ee)
-    (property "Reference" "C?" (id 0) (at 158.75 62.23 90)
+    (property "Reference" "C17" (id 0) (at 158.75 62.23 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4013_Capacitor_1u_16V_0402" (id 1) (at 168.91 63.5 0)
@@ -4053,7 +3975,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 210.82 55.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 339be20f-7f60-49cd-bcff-74ca72b656a5)
-    (property "Reference" "C?" (id 0) (at 212.09 53.34 90)
+    (property "Reference" "C21" (id 0) (at 212.09 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 218.44 55.88 0)
@@ -4078,7 +4000,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 255.27 48.26 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 33cc6aba-d89e-4070-9a52-d4f631b5fb38)
-    (property "Reference" "TP3" (id 0) (at 256.54 53.975 0)
+    (property "Reference" "TP17" (id 0) (at 256.54 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (id 1) (at 256.54 55.88 0)
@@ -4096,7 +4018,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:VCC") (at 19.685 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 342766c0-ba82-4fd6-bd03-2edba144ce1a)
-    (property "Reference" "#PWR?" (id 0) (at 19.685 96.52 0)
+    (property "Reference" "#PWR01" (id 0) (at 19.685 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 20.066 88.3158 0))
@@ -4112,7 +4034,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:VDD") (at 201.93 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 36edace0-c9bf-4a9e-a1af-aeef2c02478e)
-    (property "Reference" "#PWR?" (id 0) (at 201.93 33.02 0)
+    (property "Reference" "#PWR014" (id 0) (at 201.93 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (id 1) (at 201.93 24.13 0))
@@ -4128,13 +4050,13 @@
   (symbol (lib_id "Shulltronics_Passives:4009_Resistor_SMD_5k1_0.10W_1%") (at 222.25 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 375b01bd-4592-4e32-98f8-07ee0bb9035d)
-    (property "Reference" "R?" (id 0) (at 218.44 118.11 0)
+    (property "Reference" "R13" (id 0) (at 218.44 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4009_Resistor_SMD_5k1_0.10W_1%" (id 1) (at 227.33 111.76 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 222.25 138.43 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 222.25 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (id 3) (at 223.52 134.62 0)
@@ -4153,7 +4075,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 222.25 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3b0f9e31-fd5d-41bd-a834-81a48691dd1c)
-    (property "Reference" "TP1" (id 0) (at 220.98 25.4 0)
+    (property "Reference" "TP13" (id 0) (at 220.98 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+12V" (id 1) (at 220.345 27.305 0)
@@ -4171,7 +4093,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 144.145 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3fd9e5b9-bcc1-41ce-9ba6-86a712103ba5)
-    (property "Reference" "#PWR?" (id 0) (at 144.145 118.11 0)
+    (property "Reference" "#PWR011" (id 0) (at 144.145 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 144.272 116.1542 0))
@@ -4187,7 +4109,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 74.295 158.75 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4097579e-7b77-4646-a891-04e4c54ce124)
-    (property "Reference" "#PWR?" (id 0) (at 67.945 158.75 0)
+    (property "Reference" "#PWR07" (id 0) (at 67.945 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 70.485 158.75 0))
@@ -4203,13 +4125,13 @@
   (symbol (lib_id "Shulltronics_Passives:4021_Resistor_SMD_Jumper") (at 69.85 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 44a99c69-1a45-4e3a-902f-223f8e515530)
-    (property "Reference" "R?" (id 0) (at 72.39 30.4799 0)
+    (property "Reference" "R3" (id 0) (at 72.39 30.4799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4021_Resistor_SMD_Jumper" (id 1) (at 74.93 25.4 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 69.85 52.07 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 69.85 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 71.12 48.26 0)
@@ -4228,7 +4150,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:VCC") (at 217.17 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4ed9380b-fb55-4eaa-9e7a-a1a5fc3c939f)
-    (property "Reference" "#PWR?" (id 0) (at 217.17 142.24 0)
+    (property "Reference" "#PWR017" (id 0) (at 217.17 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 217.551 134.0358 0))
@@ -4244,7 +4166,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 70.485 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 52301aee-1890-4893-8d69-bdd4e5fdb959)
-    (property "Reference" "C?" (id 0) (at 70.485 96.52 90)
+    (property "Reference" "C11" (id 0) (at 70.485 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 78.105 100.33 0)
@@ -4269,7 +4191,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:PWR_FLAG") (at 210.82 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 596a0134-78fe-4dbe-b5ad-ac5040289e55)
-    (property "Reference" "#FLG0101" (id 0) (at 210.82 31.115 0)
+    (property "Reference" "#FLG01" (id 0) (at 210.82 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 205.74 29.21 0)
@@ -4287,7 +4209,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 247.65 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5a96f5bd-7313-44f3-b1a6-c0849ff4c661)
-    (property "Reference" "TP6" (id 0) (at 245.745 133.35 0)
+    (property "Reference" "TP15" (id 0) (at 245.745 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SWDIO" (id 1) (at 248.92 142.24 90)
@@ -4305,7 +4227,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 38.735 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5f6adbe7-647c-4eaf-a1fb-83b5c28d0662)
-    (property "Reference" "C?" (id 0) (at 38.735 96.52 90)
+    (property "Reference" "C4" (id 0) (at 38.735 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 46.355 100.33 0)
@@ -4330,7 +4252,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 26.035 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 616d4e93-5278-40c8-b35d-9d53591e0720)
-    (property "Reference" "C?" (id 0) (at 26.035 96.52 90)
+    (property "Reference" "C2" (id 0) (at 26.035 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 33.655 100.33 0)
@@ -4355,7 +4277,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 19.685 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 66560d5a-e61c-493f-a721-0df4a6905663)
-    (property "Reference" "#PWR?" (id 0) (at 19.685 115.57 0)
+    (property "Reference" "#PWR02" (id 0) (at 19.685 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 19.812 113.6142 0))
@@ -4371,7 +4293,7 @@
   (symbol (lib_id "Shulltronics_Connectors:4005_SWD_Header") (at 229.87 146.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 66b30126-0f41-4f28-aeb6-68976a864457)
-    (property "Reference" "J11" (id 0) (at 229.87 138.43 0))
+    (property "Reference" "J1" (id 0) (at 229.87 138.43 0))
     (property "Value" "4005_SWD_Header" (id 1) (at 229.87 153.67 0))
     (property "Footprint" "Shulltronics_Connectors:4005_SWD_Header" (id 2) (at 229.87 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4394,7 +4316,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 252.73 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 690a6b18-2210-4224-aac1-a82f123f7403)
-    (property "Reference" "TP7" (id 0) (at 250.825 133.35 0)
+    (property "Reference" "TP16" (id 0) (at 250.825 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SWCLK" (id 1) (at 254 142.24 90)
@@ -4412,7 +4334,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 222.25 63.5 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6f6a41a6-91ef-4a7a-839d-bdda8e8cf6fa)
-    (property "Reference" "TP2" (id 0) (at 224.155 69.215 0)
+    (property "Reference" "TP14" (id 0) (at 224.155 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-12V" (id 1) (at 224.79 71.12 0)
@@ -4430,7 +4352,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 51.435 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6fe46850-8a2b-456a-8395-e0959e27e187)
-    (property "Reference" "C?" (id 0) (at 51.435 96.52 90)
+    (property "Reference" "C6" (id 0) (at 51.435 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 59.055 100.33 0)
@@ -4455,7 +4377,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 26.67 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7170bd42-e4d1-4689-ad02-05949c3eebf8)
-    (property "Reference" "#PWR?" (id 0) (at 26.67 59.69 0)
+    (property "Reference" "#PWR04" (id 0) (at 26.67 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 26.797 57.7342 0))
@@ -4505,7 +4427,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 92.71 58.42 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 75916d74-e368-444f-a80d-7902287e2d8c)
-    (property "Reference" "TP?" (id 0) (at 93.345 63.5 90)
+    (property "Reference" "TP3" (id 0) (at 93.345 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SD_SDO" (id 1) (at 93.98 63.5 0)
@@ -4523,13 +4445,13 @@
   (symbol (lib_id "Shulltronics_Passives:4021_Resistor_SMD_Jumper") (at 63.5 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 76793b52-d72b-486d-8b17-6c8bfc8c9943)
-    (property "Reference" "R?" (id 0) (at 59.69 29.21 0)
+    (property "Reference" "R2" (id 0) (at 59.69 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (id 1) (at 63.5 34.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 63.5 52.07 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 63.5 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 64.77 48.26 0)
@@ -4571,7 +4493,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 135.89 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 795eaef7-b558-438b-92a4-770ffd91607f)
-    (property "Reference" "C?" (id 0) (at 147.955 105.41 0)
+    (property "Reference" "C12" (id 0) (at 147.955 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 135.89 113.03 0)
@@ -4596,7 +4518,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 19.05 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7db6a48f-e837-4b93-9533-bea489fce5c0)
-    (property "Reference" "TP?" (id 0) (at 17.78 29.845 0)
+    (property "Reference" "TP1" (id 0) (at 17.78 29.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ENC_BTN" (id 1) (at 17.78 30.48 0)
@@ -4614,7 +4536,7 @@
   (symbol (lib_id "Shulltronics_ICs:4002_RP2040") (at 98.425 133.35 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7e4d6846-66ed-4b17-8099-8e7bb7d7723c)
-    (property "Reference" "U3" (id 0) (at 98.425 91.44 0))
+    (property "Reference" "U2" (id 0) (at 98.425 91.44 0))
     (property "Value" "4002_RP2040" (id 1) (at 98.425 170.18 0))
     (property "Footprint" "Shulltronics_Microcontrollers:4002_RP2040_QFN-56-7x7mm_P0.4mm" (id 2) (at 98.425 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4687,11 +4609,11 @@
   (symbol (lib_id "Shulltronics_Passives:4011_Resistor_SMD_27_0.125W_1%") (at 127.635 100.33 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8578bbbc-84be-4456-b40d-1a2e8510e6b6)
-    (property "Reference" "R?" (id 0) (at 132.715 101.6 90))
+    (property "Reference" "R7" (id 0) (at 132.715 101.6 90))
     (property "Value" "4011_Resistor_SMD_27_0.125W_1%" (id 1) (at 133.985 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 107.315 100.33 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 107.315 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 111.125 101.6 0)
@@ -4708,7 +4630,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 45.085 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 87232a2c-0d9f-4346-ac5f-7fb49eac5c74)
-    (property "Reference" "C?" (id 0) (at 45.085 96.52 90)
+    (property "Reference" "C5" (id 0) (at 45.085 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 52.705 100.33 0)
@@ -4733,7 +4655,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 259.08 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8bed6d0b-b92d-4371-90ee-486a3fd606cc)
-    (property "Reference" "#PWR?" (id 0) (at 259.08 124.46 0)
+    (property "Reference" "#PWR021" (id 0) (at 259.08 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 259.207 122.5042 0))
@@ -4749,11 +4671,11 @@
   (symbol (lib_id "Shulltronics_Passives:4019_Resistor_SMD_270k_0.125W_1%") (at 152.4 38.1 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8f075479-0237-4a5a-960d-2685386d9647)
-    (property "Reference" "R?" (id 0) (at 149.86 38.1 90))
+    (property "Reference" "R9" (id 0) (at 149.86 38.1 90))
     (property "Value" "4019_Resistor_SMD_270k_0.125W_1%" (id 1) (at 147.32 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 152.4 17.78 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 152.4 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 151.13 21.59 0)
@@ -4767,14 +4689,14 @@
     (pin "2" (uuid 38740e8b-67ba-4b15-8cc7-2220824b76f5))
   )
 
-  (symbol (lib_name "4010_Resistor_SMD_1k_0.125W_1%_1") (lib_id "Shulltronics_Passives:4010_Resistor_SMD_1k_0.125W_1%") (at 125.095 110.49 90) (unit 1)
+  (symbol (lib_id "Shulltronics_Passives:4010_Resistor_SMD_1k_0.125W_1%") (at 125.095 110.49 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8f8281dc-bbbe-4682-bed8-000acad27d48)
-    (property "Reference" "R?" (id 0) (at 125.095 113.03 90))
+    (property "Reference" "R5" (id 0) (at 125.095 113.03 90))
     (property "Value" "4010_Resistor_SMD_1k_0.125W_1%" (id 1) (at 118.745 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 145.415 110.49 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 145.415 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 141.605 109.22 0)
@@ -4791,7 +4713,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 105.41 58.42 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 951a0c82-21a6-498c-9351-b983b0fd4847)
-    (property "Reference" "TP?" (id 0) (at 106.045 63.5 90)
+    (property "Reference" "TP8" (id 0) (at 106.045 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SD_CS" (id 1) (at 106.68 63.5 0)
@@ -4809,7 +4731,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 102.87 58.42 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 99f1c95e-1556-4163-82f3-e42bdcfbf9da)
-    (property "Reference" "TP?" (id 0) (at 103.505 63.5 90)
+    (property "Reference" "TP7" (id 0) (at 103.505 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LCD_DC " (id 1) (at 104.14 63.5 0)
@@ -4827,7 +4749,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 153.67 63.5 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9a536fa6-f06e-4dfd-98b0-875312647602)
-    (property "Reference" "C?" (id 0) (at 151.13 62.23 90)
+    (property "Reference" "C16" (id 0) (at 151.13 62.23 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 161.29 63.5 0)
@@ -4852,11 +4774,11 @@
   (symbol (lib_id "Shulltronics_Passives:4008_Resistor_SMD_10k_0.125W_1%") (at 137.795 161.29 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9b82fc37-981e-4e4f-9521-ffd3dffae2b0)
-    (property "Reference" "R?" (id 0) (at 137.795 158.75 90))
+    (property "Reference" "R8" (id 0) (at 137.795 158.75 90))
     (property "Value" "4008_Resistor_SMD_10k_0.125W_1%" (id 1) (at 131.445 156.21 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 158.115 161.29 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 158.115 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 154.305 160.02 0)
@@ -4873,7 +4795,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:VCC") (at 69.85 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a2543ade-dfad-4c4a-8ebd-9d8951011e35)
-    (property "Reference" "#PWR?" (id 0) (at 69.85 31.75 0)
+    (property "Reference" "#PWR06" (id 0) (at 69.85 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 70.231 23.5458 0))
@@ -4889,7 +4811,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:VCC") (at 145.415 161.29 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a69ea236-dc06-400e-83f2-8072122d3e82)
-    (property "Reference" "#PWR?" (id 0) (at 141.605 161.29 0)
+    (property "Reference" "#PWR013" (id 0) (at 141.605 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 149.8092 161.671 0))
@@ -4905,13 +4827,13 @@
   (symbol (lib_id "Shulltronics_Passives:4009_Resistor_SMD_5k1_0.10W_1%") (at 227.33 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a87646a1-21f5-4720-8b93-84df0daf7e92)
-    (property "Reference" "R?" (id 0) (at 228.6 118.11 0)
+    (property "Reference" "R14" (id 0) (at 228.6 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4009_Resistor_SMD_5k1_0.10W_1%" (id 1) (at 232.41 111.76 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 227.33 138.43 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 227.33 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (id 3) (at 228.6 134.62 0)
@@ -4930,7 +4852,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 137.16 38.1 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b587628c-d0b2-4b6e-92b0-65cddf4eb0e9)
-    (property "Reference" "C?" (id 0) (at 132.08 36.83 90)
+    (property "Reference" "C13" (id 0) (at 132.08 36.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 144.78 38.1 0)
@@ -4955,11 +4877,11 @@
   (symbol (lib_id "Shulltronics_Passives:4011_Resistor_SMD_27_0.125W_1%") (at 127.635 97.79 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bc182c78-cf8e-4a8d-8d3f-6fc3fb305ad6)
-    (property "Reference" "R?" (id 0) (at 132.715 96.52 90))
+    (property "Reference" "R6" (id 0) (at 132.715 96.52 90))
     (property "Value" "4011_Resistor_SMD_27_0.125W_1%" (id 1) (at 133.985 102.87 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 107.315 97.79 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 107.315 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 111.125 99.06 0)
@@ -4976,7 +4898,7 @@
   (symbol (lib_id "Shulltronics_Passives:4013_Capacitor_1u_16V_0402") (at 191.77 67.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c3834c5f-8f29-4eca-bc5b-1b6511ef1851)
-    (property "Reference" "C?" (id 0) (at 187.96 66.04 90)
+    (property "Reference" "C19" (id 0) (at 187.96 66.04 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4013_Capacitor_1u_16V_0402" (id 1) (at 199.39 67.31 0)
@@ -5001,11 +4923,11 @@
   (symbol (lib_id "Shulltronics_Passives:4020_Resistor_SMD_180k_0.125W_1%") (at 152.4 45.72 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c6e3dff5-99ab-4094-9aac-e5306942d62e)
-    (property "Reference" "R?" (id 0) (at 149.86 45.72 90))
+    (property "Reference" "R10" (id 0) (at 149.86 45.72 90))
     (property "Value" "4020_Resistor_SMD_180k_0.125W_1%" (id 1) (at 147.32 52.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 152.4 25.4 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 152.4 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 151.13 29.21 0)
@@ -5022,7 +4944,7 @@
   (symbol (lib_id "Shulltronics_Regulators:4015_Adjustable_Reg_500mA_SOT-23-5") (at 182.88 58.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c8ca96ee-9eb0-4b09-a239-2f8955dfd7f9)
-    (property "Reference" "U?" (id 0) (at 177.8 64.77 0))
+    (property "Reference" "U4" (id 0) (at 177.8 64.77 0))
     (property "Value" "4015_Adjustable_Reg_500mA_SOT-23-5" (id 1) (at 182.88 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5068,16 +4990,16 @@
   (symbol (lib_id "Shulltronics_Passives:4010_Resistor_SMD_1k_0.125W_1%") (at 74.295 166.37 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d2e3cefd-392b-43e1-98a5-ed8d9096af03)
-    (property "Reference" "R?" (id 0) (at 75.565 168.91 90)
+    (property "Reference" "R4" (id 0) (at 75.565 168.91 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4010_Resistor_SMD_1k_0.125W_1%" (id 1) (at 67.945 161.29 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 94.615 166.37 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 94.615 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (id 3) (at 90.805 165.1 0)
+    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 90.805 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SPN" "4010" (id 4) (at 74.295 172.72 0)
@@ -5093,7 +5015,7 @@
   (symbol (lib_id "Shulltronics_Passives:4013_Capacitor_1u_16V_0402") (at 144.78 38.1 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d52739f1-6f31-4837-b916-3c73cc7d2b44)
-    (property "Reference" "C?" (id 0) (at 140.97 36.83 90)
+    (property "Reference" "C15" (id 0) (at 140.97 36.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4013_Capacitor_1u_16V_0402" (id 1) (at 152.4 38.1 0)
@@ -5118,7 +5040,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 95.25 58.42 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d567f557-6719-4f9c-bf62-3e197d078379)
-    (property "Reference" "TP?" (id 0) (at 95.885 63.5 90)
+    (property "Reference" "TP4" (id 0) (at 95.885 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LCD/SD_SDI" (id 1) (at 96.52 63.5 0)
@@ -5136,7 +5058,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 65.405 182.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d6a799f8-4b0a-4791-ac10-2b749de4b2c2)
-    (property "Reference" "#PWR?" (id 0) (at 65.405 189.23 0)
+    (property "Reference" "#PWR05" (id 0) (at 65.405 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 65.405 186.69 0))
@@ -5152,11 +5074,11 @@
   (symbol (lib_id "Shulltronics_Passives:4008_Resistor_SMD_10k_0.125W_1%") (at 26.67 45.72 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid de55032d-2bb5-4c27-a471-654a76d45341)
-    (property "Reference" "R?" (id 0) (at 24.13 45.72 90))
+    (property "Reference" "R1" (id 0) (at 24.13 45.72 90))
     (property "Value" "4008_Resistor_SMD_10k_0.125W_1%" (id 1) (at 21.59 52.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 26.67 25.4 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 26.67 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 25.4 29.21 0)
@@ -5173,7 +5095,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 87.63 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid df25bda2-00a2-4f70-a7fa-70c378f17932)
-    (property "Reference" "#PWR?" (id 0) (at 87.63 69.85 0)
+    (property "Reference" "#PWR08" (id 0) (at 87.63 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 85.09 67.31 0))
@@ -5189,7 +5111,7 @@
   (symbol (lib_id "Shulltronics_Passives:4013_Capacitor_1u_16V_0402") (at 175.26 40.64 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e16752be-a80a-430e-8cba-0238c43af532)
-    (property "Reference" "C?" (id 0) (at 179.07 39.37 90)
+    (property "Reference" "C18" (id 0) (at 179.07 39.37 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4013_Capacitor_1u_16V_0402" (id 1) (at 167.64 40.64 0)
@@ -5214,7 +5136,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 57.785 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e1874594-3fde-4ab6-b782-80b274c1fdb0)
-    (property "Reference" "C?" (id 0) (at 57.785 96.52 90)
+    (property "Reference" "C7" (id 0) (at 57.785 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 65.405 100.33 0)
@@ -5239,13 +5161,13 @@
   (symbol (lib_id "Shulltronics_Passives:4018_Resistor_SMD_82k_0.125W_1%") (at 170.18 68.58 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e3042f0f-f26c-43f4-b49b-237a833f1c94)
-    (property "Reference" "R?" (id 0) (at 168.91 67.31 0)
+    (property "Reference" "R12" (id 0) (at 168.91 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4018_Resistor_SMD_82k_0.125W_1%" (id 1) (at 165.1 74.93 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 170.18 48.26 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 170.18 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 168.91 52.07 0)
@@ -5264,7 +5186,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 217.17 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3eede57-eb19-40d1-ac23-f7ef5e3c7b2c)
-    (property "Reference" "#PWR?" (id 0) (at 217.17 160.02 0)
+    (property "Reference" "#PWR018" (id 0) (at 217.17 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 217.17 158.75 0))
@@ -5280,7 +5202,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 215.9 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e4d75aa0-0d00-41af-b7c0-86d0bdda53c9)
-    (property "Reference" "TP5" (id 0) (at 213.995 93.98 0)
+    (property "Reference" "TP11" (id 0) (at 213.995 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USB_D-" (id 1) (at 217.805 102.235 90)
@@ -5298,7 +5220,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 100.33 58.42 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e4db600d-dfac-4f18-a9f9-6f013afcca24)
-    (property "Reference" "TP?" (id 0) (at 100.965 63.5 90)
+    (property "Reference" "TP6" (id 0) (at 100.965 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LCD_RST" (id 1) (at 101.6 63.5 0)
@@ -5316,7 +5238,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:PWR_FLAG") (at 210.82 63.5 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e672436b-0e0a-4bb1-984f-f0c558b6f651)
-    (property "Reference" "#FLG0102" (id 0) (at 210.82 65.405 0)
+    (property "Reference" "#FLG02" (id 0) (at 210.82 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 215.9 67.31 0)
@@ -5334,11 +5256,11 @@
   (symbol (lib_id "Shulltronics_Passives:4019_Resistor_SMD_270k_0.125W_1%") (at 170.18 60.96 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e8c74658-7d30-4692-9b3d-bfc76311e520)
-    (property "Reference" "R?" (id 0) (at 167.64 62.23 90))
+    (property "Reference" "R11" (id 0) (at 167.64 62.23 90))
     (property "Value" "4019_Resistor_SMD_270k_0.125W_1%" (id 1) (at 165.1 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shulltronics_Passives:Resistor_0402" (id 2) (at 170.18 40.64 0)
+    (property "Footprint" "Shulltronics_Generics:RES-0402" (id 2) (at 170.18 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" (id 3) (at 168.91 44.45 0)
@@ -5355,7 +5277,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 19.685 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eab8e027-9858-4087-bd40-ed8526d1e0e5)
-    (property "Reference" "C?" (id 0) (at 19.685 96.52 90)
+    (property "Reference" "C1" (id 0) (at 19.685 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 27.305 100.33 0)
@@ -5380,7 +5302,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 140.97 102.87 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ebcea090-5377-4038-ad27-0cd5744900ac)
-    (property "Reference" "C?" (id 0) (at 147.955 102.87 0)
+    (property "Reference" "C14" (id 0) (at 147.955 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 140.97 110.49 0)
@@ -5405,7 +5327,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 132.08 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ebf99c39-039f-4e92-bd04-4d70ba13802c)
-    (property "Reference" "#PWR?" (id 0) (at 132.08 59.69 0)
+    (property "Reference" "#PWR010" (id 0) (at 132.08 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 132.207 57.7342 0))
@@ -5421,7 +5343,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 224.79 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ec75dbf9-36d4-4f80-84ea-bbeb4dadb453)
-    (property "Reference" "#PWR?" (id 0) (at 224.79 129.54 0)
+    (property "Reference" "#PWR019" (id 0) (at 224.79 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 224.917 127.5842 0))
@@ -5437,7 +5359,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 90.17 58.42 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ee62fba0-8716-410c-baac-976a8fb5d889)
-    (property "Reference" "TP?" (id 0) (at 90.805 63.5 90)
+    (property "Reference" "TP2" (id 0) (at 90.805 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LCD/SD_SCK" (id 1) (at 91.44 63.5 0)
@@ -5455,7 +5377,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:GND") (at 130.175 171.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f1c16da9-0f21-45f4-9cd2-40a5763432c3)
-    (property "Reference" "#PWR?" (id 0) (at 130.175 177.8 0)
+    (property "Reference" "#PWR09" (id 0) (at 130.175 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 130.175 175.26 0))
@@ -5489,7 +5411,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:VCC") (at 26.67 29.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f4fda6be-a731-4720-9769-9f4f91ceb731)
-    (property "Reference" "#PWR?" (id 0) (at 26.67 33.02 0)
+    (property "Reference" "#PWR03" (id 0) (at 26.67 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 27.051 24.8158 0))
@@ -5505,7 +5427,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 97.79 58.42 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f59b0bce-3500-4e0a-b9f4-c902dc77dc8a)
-    (property "Reference" "TP?" (id 0) (at 98.425 63.5 90)
+    (property "Reference" "TP5" (id 0) (at 98.425 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LCD_CS" (id 1) (at 99.06 63.5 0)
@@ -5523,7 +5445,7 @@
   (symbol (lib_id "Shulltronics_Sch_Symbols:TestPoint") (at 153.67 55.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f7efade5-ccc5-4eec-8b83-7648f2629c59)
-    (property "Reference" "TP?" (id 0) (at 148.59 54.61 90)
+    (property "Reference" "TP10" (id 0) (at 148.59 54.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5V3" (id 1) (at 148.59 57.15 90)
@@ -5541,7 +5463,7 @@
   (symbol (lib_id "Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD") (at 130.175 166.37 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fe47c086-eaa2-4714-b0d2-6fe34ddeaafa)
-    (property "Reference" "SW?" (id 0) (at 133.985 165.0999 90)
+    (property "Reference" "SW1" (id 0) (at 133.985 165.0999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RST" (id 1) (at 133.985 167.6399 90)
@@ -5563,7 +5485,7 @@
   (symbol (lib_id "Shulltronics_Passives:3089_Capacitor_100n_16V_0402") (at 64.135 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ff6025b8-0e6c-4396-a13d-47627fd8853e)
-    (property "Reference" "C?" (id 0) (at 64.135 96.52 90)
+    (property "Reference" "C9" (id 0) (at 64.135 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3089_Capacitor_100n_16V_0402" (id 1) (at 71.755 100.33 0)
@@ -5636,457 +5558,457 @@
 
   (symbol_instances
     (path "/596a0134-78fe-4dbe-b5ad-ac5040289e55"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/e672436b-0e0a-4bb1-984f-f0c558b6f651"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/2586d832-ecfc-4895-8231-1b5bad06fd47"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061925803"
-      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619152c4"
-      (reference "#PWR03") (unit 1) (value "VSS") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061914ac4"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/005389c0-e32b-4e80-a1d4-983a323a48c6"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/0ecd2e03-2f95-46f7-bf66-d8a26d1b2d2e"
-      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/342766c0-ba82-4fd6-bd03-2edba144ce1a"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/36edace0-c9bf-4a9e-a1af-aeef2c02478e"
-      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
-    )
-    (path "/3fd9e5b9-bcc1-41ce-9ba6-86a712103ba5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4097579e-7b77-4646-a891-04e4c54ce124"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4ed9380b-fb55-4eaa-9e7a-a1a5fc3c939f"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR01") (unit 1) (value "VCC") (footprint "")
     )
     (path "/66560d5a-e61c-493f-a721-0df4a6905663"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7170bd42-e4d1-4689-ad02-05949c3eebf8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/74147897-7639-4809-b91f-87f97686f9b3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/85a823ad-bdd0-4d68-ab92-caa299b236f2"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8bed6d0b-b92d-4371-90ee-486a3fd606cc"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a01caf68-40ab-45cf-b2f6-5350341db438"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a2543ade-dfad-4c4a-8ebd-9d8951011e35"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a58bf381-ad57-471b-be04-1f32666d24bb"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a69ea236-dc06-400e-83f2-8072122d3e82"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c5174fab-9b9c-4514-b771-6b2a55fb4c7f"
-      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c948378f-433e-4ab1-a68b-85fb7245bd2e"
-      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
-    )
-    (path "/d6a799f8-4b0a-4791-ac10-2b749de4b2c2"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/df25bda2-00a2-4f70-a7fa-70c378f17932"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e3eede57-eb19-40d1-ac23-f7ef5e3c7b2c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e76ac268-7705-48fb-b4dd-7af43392dfb8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ebf99c39-039f-4e92-bd04-4d70ba13802c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ec75dbf9-36d4-4f80-84ea-bbeb4dadb453"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f1c16da9-0f21-45f4-9cd2-40a5763432c3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
     (path "/f4fda6be-a731-4720-9769-9f4f91ceb731"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR03") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/7170bd42-e4d1-4689-ad02-05949c3eebf8"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d6a799f8-4b0a-4791-ac10-2b749de4b2c2"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a2543ade-dfad-4c4a-8ebd-9d8951011e35"
+      (reference "#PWR06") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/4097579e-7b77-4646-a891-04e4c54ce124"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/df25bda2-00a2-4f70-a7fa-70c378f17932"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1c16da9-0f21-45f4-9cd2-40a5763432c3"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ebf99c39-039f-4e92-bd04-4d70ba13802c"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3fd9e5b9-bcc1-41ce-9ba6-86a712103ba5"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/005389c0-e32b-4e80-a1d4-983a323a48c6"
+      (reference "#PWR012") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/a69ea236-dc06-400e-83f2-8072122d3e82"
+      (reference "#PWR013") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/36edace0-c9bf-4a9e-a1af-aeef2c02478e"
+      (reference "#PWR014") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061914ac4"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619152c4"
+      (reference "#PWR016") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/4ed9380b-fb55-4eaa-9e7a-a1a5fc3c939f"
+      (reference "#PWR017") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/e3eede57-eb19-40d1-ac23-f7ef5e3c7b2c"
+      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ec75dbf9-36d4-4f80-84ea-bbeb4dadb453"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061925803"
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8bed6d0b-b92d-4371-90ee-486a3fd606cc"
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e76ac268-7705-48fb-b4dd-7af43392dfb8"
+      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/74147897-7639-4809-b91f-87f97686f9b3"
+      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a58bf381-ad57-471b-be04-1f32666d24bb"
+      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c948378f-433e-4ab1-a68b-85fb7245bd2e"
+      (reference "#PWR025") (unit 1) (value "VDD") (footprint "")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/fd6bdddd-288c-45d6-9969-a68893c77db4"
-      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+      (reference "#PWR026") (unit 1) (value "VSS") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061912366"
-      (reference "C1") (unit 1) (value "3088_Capacitor_10u_50V_SMD") (footprint "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/85a823ad-bdd0-4d68-ab92-caa299b236f2"
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000619136e5"
-      (reference "C2") (unit 1) (value "3088_Capacitor_10u_50V_SMD") (footprint "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a01caf68-40ab-45cf-b2f6-5350341db438"
+      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c5174fab-9b9c-4514-b771-6b2a55fb4c7f"
+      (reference "#PWR029") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/0ecd2e03-2f95-46f7-bf66-d8a26d1b2d2e"
+      (reference "#PWR030") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/eab8e027-9858-4087-bd40-ed8526d1e0e5"
+      (reference "C1") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/616d4e93-5278-40c8-b35d-9d53591e0720"
+      (reference "C2") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/03cff2e1-e572-48e7-b4b4-849070085afe"
+      (reference "C3") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/5f6adbe7-647c-4eaf-a1fb-83b5c28d0662"
+      (reference "C4") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/87232a2c-0d9f-4346-ac5f-7fb49eac5c74"
+      (reference "C5") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/6fe46850-8a2b-456a-8395-e0959e27e187"
+      (reference "C6") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/e1874594-3fde-4ab6-b782-80b274c1fdb0"
+      (reference "C7") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
     )
     (path "/2944e0b8-0112-4999-aa21-441b2196f54e"
-      (reference "C9") (unit 1) (value "4003_Capacitor_22pF_50V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+      (reference "C8") (unit 1) (value "4003_Capacitor_22pF_50V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/ff6025b8-0e6c-4396-a13d-47627fd8853e"
+      (reference "C9") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
     )
     (path "/cbc28b9d-fa03-4678-b5ba-a87f2cb4e8b6"
       (reference "C10") (unit 1) (value "4003_Capacitor_22pF_50V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/0166fb83-b5d4-4b91-8ff5-1f90ec63469c"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_SMD") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/03cff2e1-e572-48e7-b4b4-849070085afe"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/16ced76f-5196-4488-805d-10ba2e64c5a7"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_SMD") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/1e328bb2-4ca5-4007-963a-4fd17a37dfd8"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/2d6bb70a-52b9-43f5-a3c6-5660b633b3ee"
-      (reference "C?") (unit 1) (value "4013_Capacitor_1u_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/339be20f-7f60-49cd-bcff-74ca72b656a5"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
     (path "/52301aee-1890-4893-8d69-bdd4e5fdb959"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/5f6adbe7-647c-4eaf-a1fb-83b5c28d0662"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/616d4e93-5278-40c8-b35d-9d53591e0720"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/6fe46850-8a2b-456a-8395-e0959e27e187"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+      (reference "C11") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
     )
     (path "/795eaef7-b558-438b-92a4-770ffd91607f"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/87232a2c-0d9f-4346-ac5f-7fb49eac5c74"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/9a536fa6-f06e-4dfd-98b0-875312647602"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a57e44de-1be3-4d54-9865-c29710fbe33a"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_SMD") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+      (reference "C12") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
     )
     (path "/b587628c-d0b2-4b6e-92b0-65cddf4eb0e9"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/c3834c5f-8f29-4eca-bc5b-1b6511ef1851"
-      (reference "C?") (unit 1) (value "4013_Capacitor_1u_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/d52739f1-6f31-4837-b916-3c73cc7d2b44"
-      (reference "C?") (unit 1) (value "4013_Capacitor_1u_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/e16752be-a80a-430e-8cba-0238c43af532"
-      (reference "C?") (unit 1) (value "4013_Capacitor_1u_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/e1874594-3fde-4ab6-b782-80b274c1fdb0"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
-    )
-    (path "/eab8e027-9858-4087-bd40-ed8526d1e0e5"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+      (reference "C13") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
     )
     (path "/ebcea090-5377-4038-ad27-0cd5744900ac"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+      (reference "C14") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
     )
-    (path "/ff6025b8-0e6c-4396-a13d-47627fd8853e"
-      (reference "C?") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    (path "/d52739f1-6f31-4837-b916-3c73cc7d2b44"
+      (reference "C15") (unit 1) (value "4013_Capacitor_1u_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/9a536fa6-f06e-4dfd-98b0-875312647602"
+      (reference "C16") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/2d6bb70a-52b9-43f5-a3c6-5660b633b3ee"
+      (reference "C17") (unit 1) (value "4013_Capacitor_1u_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/e16752be-a80a-430e-8cba-0238c43af532"
+      (reference "C18") (unit 1) (value "4013_Capacitor_1u_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/c3834c5f-8f29-4eca-bc5b-1b6511ef1851"
+      (reference "C19") (unit 1) (value "4013_Capacitor_1u_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/1e328bb2-4ca5-4007-963a-4fd17a37dfd8"
+      (reference "C20") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/339be20f-7f60-49cd-bcff-74ca72b656a5"
+      (reference "C21") (unit 1) (value "3089_Capacitor_100n_16V_0402") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061912366"
+      (reference "C22") (unit 1) (value "3088_Capacitor_10u_50V_SMD") (footprint "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD")
+    )
+    (path "/00000000-0000-0000-0000-0000619136e5"
+      (reference "C23") (unit 1) (value "3088_Capacitor_10u_50V_SMD") (footprint "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a57e44de-1be3-4d54-9865-c29710fbe33a"
+      (reference "C24") (unit 1) (value "3089_Capacitor_100n_16V_SMD") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/0166fb83-b5d4-4b91-8ff5-1f90ec63469c"
+      (reference "C25") (unit 1) (value "3089_Capacitor_100n_16V_SMD") (footprint "Shulltronics_Generics:C_0402_HandSolder")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/16ced76f-5196-4488-805d-10ba2e64c5a7"
+      (reference "C26") (unit 1) (value "3089_Capacitor_100n_16V_SMD") (footprint "Shulltronics_Generics:C_0402_HandSolder")
     )
     (path "/77f076a8-329e-4a40-96ea-5854a454e032"
       (reference "E1") (unit 1) (value "3094_Encoder_Switch") (footprint "Shulltronics_ElectroMechanical:3094_Encoder_PEC11R")
     )
+    (path "/66b30126-0f41-4f28-aeb6-68976a864457"
+      (reference "J1") (unit 1) (value "4005_SWD_Header") (footprint "Shulltronics_Connectors:4005_SWD_Header")
+    )
     (path "/00000000-0000-0000-0000-0000619035e5"
-      (reference "J9") (unit 1) (value "3086_Connector_Eurorack_Power") (footprint "Shulltronics_Connectors:3086_SMD_Eurorack_Power")
+      (reference "J2") (unit 1) (value "3086_Connector_Eurorack_Power") (footprint "Shulltronics_Connectors:3086_SMD_Eurorack_Power")
     )
     (path "/06f7d7c9-f4b6-4f87-a43a-bb70f198d6a8"
-      (reference "J10") (unit 1) (value "3096_USBC_RA_SMD") (footprint "Shulltronics_Connectors:3096_USBC_RA")
-    )
-    (path "/66b30126-0f41-4f28-aeb6-68976a864457"
-      (reference "J11") (unit 1) (value "4005_SWD_Header") (footprint "Shulltronics_Connectors:4005_SWD_Header")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/0f29cb79-3895-4b2a-a298-c89024ae3c8d"
-      (reference "J?") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/2fffb89b-adf0-4310-abc4-7c403493d440"
-      (reference "J?") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/3c1a8eb1-7276-4887-bdd7-d43c01aa6889"
-      (reference "J?") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
+      (reference "J3") (unit 1) (value "3096_USBC_RA_SMD") (footprint "Shulltronics_Connectors:3096_USBC_RA")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/42cbd412-601a-4b96-b974-aa963b871161"
-      (reference "J?") (unit 1) (value "CV_OFFSET") (footprint "Shulltronics_Connectors:3046_Header_3pos_2.54mm")
+      (reference "J4") (unit 1) (value "CV_OFFSET") (footprint "Shulltronics_Connectors:3046_Header_3pos_2.54mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/7cb2cce0-a1f8-449a-9356-f336add8c1fb"
-      (reference "J?") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/9ad7c7de-6b19-4f78-be53-785d0113e4e5"
-      (reference "J?") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a8430e7c-062d-4587-914f-19cb238f441e"
-      (reference "J?") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/d353086e-d95f-46bf-b218-fc8c8851978c"
-      (reference "J?") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/3c1a8eb1-7276-4887-bdd7-d43c01aa6889"
+      (reference "J5") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e8887029-e1eb-4848-ba40-ced02b6e88d9"
-      (reference "J?") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
+      (reference "J6") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
     )
-    (path "/375b01bd-4592-4e32-98f8-07ee0bb9035d"
-      (reference "R?") (unit 1) (value "4009_Resistor_SMD_5k1_0.10W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/0f29cb79-3895-4b2a-a298-c89024ae3c8d"
+      (reference "J7") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/3fbd102b-68dd-4fd8-ad9d-847a6ea9bea5"
-      (reference "R?") (unit 1) (value "4022_Resistor_SMD_120k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/d353086e-d95f-46bf-b218-fc8c8851978c"
+      (reference "J8") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/41d80f00-5330-4c14-8889-cb7411f39bab"
-      (reference "R?") (unit 1) (value "4023_Resistor_SMD_56k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/9ad7c7de-6b19-4f78-be53-785d0113e4e5"
+      (reference "J9") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/44a799a8-8f01-4227-9b9e-bce825e30936"
-      (reference "R?") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/7cb2cce0-a1f8-449a-9356-f336add8c1fb"
+      (reference "J10") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
     )
-    (path "/44a99c69-1a45-4e3a-902f-223f8e515530"
-      (reference "R?") (unit 1) (value "4021_Resistor_SMD_Jumper") (footprint "Shulltronics_Passives:Resistor_0402")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/2fffb89b-adf0-4310-abc4-7c403493d440"
+      (reference "J11") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/4e20f179-0353-4668-9ff8-533ea3f006cd"
-      (reference "R?") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/5b22d8f6-186f-4e18-b5e2-713514a2582e"
-      (reference "R?") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/7358ff51-83a4-480f-9c44-da1923bc1f08"
-      (reference "R?") (unit 1) (value "4023_Resistor_SMD_56k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/76793b52-d72b-486d-8b17-6c8bfc8c9943"
-      (reference "R?") (unit 1) (value "DNP") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/8578bbbc-84be-4456-b40d-1a2e8510e6b6"
-      (reference "R?") (unit 1) (value "4011_Resistor_SMD_27_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/8f075479-0237-4a5a-960d-2685386d9647"
-      (reference "R?") (unit 1) (value "4019_Resistor_SMD_270k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/8f8281dc-bbbe-4682-bed8-000acad27d48"
-      (reference "R?") (unit 1) (value "4010_Resistor_SMD_1k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/91c7c675-79a6-4d56-8635-9a493af254a0"
-      (reference "R?") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/97834ad3-79b5-4c27-a1b8-189999fa4360"
-      (reference "R?") (unit 1) (value "4022_Resistor_SMD_120k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/9b82fc37-981e-4e4f-9521-ffd3dffae2b0"
-      (reference "R?") (unit 1) (value "4008_Resistor_SMD_10k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/a87646a1-21f5-4720-8b93-84df0daf7e92"
-      (reference "R?") (unit 1) (value "4009_Resistor_SMD_5k1_0.10W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a87f30ce-dbf9-46a1-b2b0-0a0a5200a4f8"
-      (reference "R?") (unit 1) (value "4022_Resistor_SMD_120k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/ace5dc21-509d-4054-8b2b-33709b3cfa77"
-      (reference "R?") (unit 1) (value "4022_Resistor_SMD_120k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/b5eb984a-7965-45e1-97b1-70a7446b0d25"
-      (reference "R?") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/bc182c78-cf8e-4a8d-8d3f-6fc3fb305ad6"
-      (reference "R?") (unit 1) (value "4011_Resistor_SMD_27_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/c6e3dff5-99ab-4094-9aac-e5306942d62e"
-      (reference "R?") (unit 1) (value "4020_Resistor_SMD_180k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/ca5b358e-a12d-46ce-a8c0-92b1adf2f3f1"
-      (reference "R?") (unit 1) (value "4023_Resistor_SMD_56k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/d2e3cefd-392b-43e1-98a5-ed8d9096af03"
-      (reference "R?") (unit 1) (value "4010_Resistor_SMD_1k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/dd18e0b4-f422-4775-9bde-fba58dd02dc3"
-      (reference "R?") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a8430e7c-062d-4587-914f-19cb238f441e"
+      (reference "J12") (unit 1) (value "3085_MiniJack_Thonk_Vert") (footprint "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert")
     )
     (path "/de55032d-2bb5-4c27-a471-654a76d45341"
-      (reference "R?") (unit 1) (value "4008_Resistor_SMD_10k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+      (reference "R1") (unit 1) (value "4008_Resistor_SMD_10k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
     )
-    (path "/e3042f0f-f26c-43f4-b49b-237a833f1c94"
-      (reference "R?") (unit 1) (value "4018_Resistor_SMD_82k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+    (path "/76793b52-d72b-486d-8b17-6c8bfc8c9943"
+      (reference "R2") (unit 1) (value "DNP") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/44a99c69-1a45-4e3a-902f-223f8e515530"
+      (reference "R3") (unit 1) (value "4021_Resistor_SMD_Jumper") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/d2e3cefd-392b-43e1-98a5-ed8d9096af03"
+      (reference "R4") (unit 1) (value "4010_Resistor_SMD_1k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/8f8281dc-bbbe-4682-bed8-000acad27d48"
+      (reference "R5") (unit 1) (value "4010_Resistor_SMD_1k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/bc182c78-cf8e-4a8d-8d3f-6fc3fb305ad6"
+      (reference "R6") (unit 1) (value "4011_Resistor_SMD_27_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/8578bbbc-84be-4456-b40d-1a2e8510e6b6"
+      (reference "R7") (unit 1) (value "4011_Resistor_SMD_27_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/9b82fc37-981e-4e4f-9521-ffd3dffae2b0"
+      (reference "R8") (unit 1) (value "4008_Resistor_SMD_10k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/8f075479-0237-4a5a-960d-2685386d9647"
+      (reference "R9") (unit 1) (value "4019_Resistor_SMD_270k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/c6e3dff5-99ab-4094-9aac-e5306942d62e"
+      (reference "R10") (unit 1) (value "4020_Resistor_SMD_180k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
     )
     (path "/e8c74658-7d30-4692-9b3d-bfc76311e520"
-      (reference "R?") (unit 1) (value "4019_Resistor_SMD_270k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+      (reference "R11") (unit 1) (value "4019_Resistor_SMD_270k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/ed8548d2-a10d-4718-9f4f-7f64404727c7"
-      (reference "R?") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+    (path "/e3042f0f-f26c-43f4-b49b-237a833f1c94"
+      (reference "R12") (unit 1) (value "4018_Resistor_SMD_82k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/375b01bd-4592-4e32-98f8-07ee0bb9035d"
+      (reference "R13") (unit 1) (value "4009_Resistor_SMD_5k1_0.10W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/a87646a1-21f5-4720-8b93-84df0daf7e92"
+      (reference "R14") (unit 1) (value "4009_Resistor_SMD_5k1_0.10W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/41d80f00-5330-4c14-8889-cb7411f39bab"
+      (reference "R15") (unit 1) (value "4023_Resistor_SMD_56k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/7358ff51-83a4-480f-9c44-da1923bc1f08"
+      (reference "R16") (unit 1) (value "4023_Resistor_SMD_56k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/ca5b358e-a12d-46ce-a8c0-92b1adf2f3f1"
+      (reference "R17") (unit 1) (value "4023_Resistor_SMD_56k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/f2091284-1a5f-477b-8334-782c85ff26ac"
-      (reference "R?") (unit 1) (value "4023_Resistor_SMD_56k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+      (reference "R18") (unit 1) (value "4023_Resistor_SMD_56k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/97834ad3-79b5-4c27-a1b8-189999fa4360"
+      (reference "R19") (unit 1) (value "4022_Resistor_SMD_120k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/a87f30ce-dbf9-46a1-b2b0-0a0a5200a4f8"
+      (reference "R20") (unit 1) (value "4022_Resistor_SMD_120k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/ace5dc21-509d-4054-8b2b-33709b3cfa77"
+      (reference "R21") (unit 1) (value "4022_Resistor_SMD_120k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/3fbd102b-68dd-4fd8-ad9d-847a6ea9bea5"
+      (reference "R22") (unit 1) (value "4022_Resistor_SMD_120k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/44a799a8-8f01-4227-9b9e-bce825e30936"
+      (reference "R23") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/ed8548d2-a10d-4718-9f4f-7f64404727c7"
+      (reference "R24") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/91c7c675-79a6-4d56-8635-9a493af254a0"
+      (reference "R25") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/4e20f179-0353-4668-9ff8-533ea3f006cd"
+      (reference "R26") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/fae5d38d-de55-4c7e-b1e2-5c2c463a9942"
-      (reference "R?") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Passives:Resistor_0402")
+      (reference "R27") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
     )
-    (path "/04460665-86a7-4df5-9051-2d02db0bc9e1"
-      (reference "SW?") (unit 1) (value "BOOTSEL") (footprint "Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/b5eb984a-7965-45e1-97b1-70a7446b0d25"
+      (reference "R28") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/dd18e0b4-f422-4775-9bde-fba58dd02dc3"
+      (reference "R29") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/5b22d8f6-186f-4e18-b5e2-713514a2582e"
+      (reference "R30") (unit 1) (value "4006_Resistor_SMD_68k_0.125W_1%") (footprint "Shulltronics_Generics:RES-0402")
     )
     (path "/fe47c086-eaa2-4714-b0d2-6fe34ddeaafa"
-      (reference "SW?") (unit 1) (value "RST") (footprint "Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD")
+      (reference "SW1") (unit 1) (value "RST") (footprint "Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD")
     )
-    (path "/3b0f9e31-fd5d-41bd-a834-81a48691dd1c"
-      (reference "TP1") (unit 1) (value "+12V") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/04460665-86a7-4df5-9051-2d02db0bc9e1"
+      (reference "SW2") (unit 1) (value "BOOTSEL") (footprint "Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD")
     )
-    (path "/6f6a41a6-91ef-4a7a-839d-bdda8e8cf6fa"
-      (reference "TP2") (unit 1) (value "-12V") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/7db6a48f-e837-4b93-9533-bea489fce5c0"
+      (reference "TP1") (unit 1) (value "ENC_BTN") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/33cc6aba-d89e-4070-9a52-d4f631b5fb38"
-      (reference "TP3") (unit 1) (value "GND") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/ee62fba0-8716-410c-baac-976a8fb5d889"
+      (reference "TP2") (unit 1) (value "LCD/SD_SCK") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/0399f8e8-36fe-48cf-a96b-7176ceba0186"
-      (reference "TP4") (unit 1) (value "USB_D+") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/75916d74-e368-444f-a80d-7902287e2d8c"
+      (reference "TP3") (unit 1) (value "SD_SDO") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/e4d75aa0-0d00-41af-b7c0-86d0bdda53c9"
-      (reference "TP5") (unit 1) (value "USB_D-") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/d567f557-6719-4f9c-bf62-3e197d078379"
+      (reference "TP4") (unit 1) (value "LCD/SD_SDI") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/5a96f5bd-7313-44f3-b1a6-c0849ff4c661"
-      (reference "TP6") (unit 1) (value "SWDIO") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/f59b0bce-3500-4e0a-b9f4-c902dc77dc8a"
+      (reference "TP5") (unit 1) (value "LCD_CS") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/690a6b18-2210-4224-aac1-a82f123f7403"
-      (reference "TP7") (unit 1) (value "SWCLK") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/e4db600d-dfac-4f18-a9f9-6f013afcca24"
+      (reference "TP6") (unit 1) (value "LCD_RST") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/04724cd7-3ad3-4044-b93e-7ae8d68fba2d"
-      (reference "TP8") (unit 1) (value "~{RST}") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/99f1c95e-1556-4163-82f3-e42bdcfbf9da"
+      (reference "TP7") (unit 1) (value "LCD_DC ") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    )
+    (path "/951a0c82-21a6-498c-9351-b983b0fd4847"
+      (reference "TP8") (unit 1) (value "SD_CS") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
     (path "/f37d5281-d51b-448e-b4fa-666b2af6d522"
       (reference "TP9") (unit 1) (value "3V1") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/080aff54-5e93-4ec6-aefa-1ff2a2a1190e"
-      (reference "TP?") (unit 1) (value "DAC_SDO") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/f7efade5-ccc5-4eec-8b83-7648f2629c59"
+      (reference "TP10") (unit 1) (value "5V3") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/4102b298-76d8-4977-b780-8dc8671ce9b5"
-      (reference "TP?") (unit 1) (value "DAC_VOUT1") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/e4d75aa0-0d00-41af-b7c0-86d0bdda53c9"
+      (reference "TP11") (unit 1) (value "USB_D-") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/52edfc6f-ebe6-49a7-95b4-7599d99297f2"
-      (reference "TP?") (unit 1) (value "DAC_SCK") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/0399f8e8-36fe-48cf-a96b-7176ceba0186"
+      (reference "TP12") (unit 1) (value "USB_D+") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/58691756-7d10-4de6-9213-989a292d073b"
-      (reference "TP?") (unit 1) (value "TRIG2") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/3b0f9e31-fd5d-41bd-a834-81a48691dd1c"
+      (reference "TP13") (unit 1) (value "+12V") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/70ed34bd-88ce-4c3b-a05f-1a4d9f1b61b6"
-      (reference "TP?") (unit 1) (value "TRIG1") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/6f6a41a6-91ef-4a7a-839d-bdda8e8cf6fa"
+      (reference "TP14") (unit 1) (value "-12V") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/75916d74-e368-444f-a80d-7902287e2d8c"
-      (reference "TP?") (unit 1) (value "SD_SDO") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/5a96f5bd-7313-44f3-b1a6-c0849ff4c661"
+      (reference "TP15") (unit 1) (value "SWDIO") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/7db6a48f-e837-4b93-9533-bea489fce5c0"
-      (reference "TP?") (unit 1) (value "ENC_BTN") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/690a6b18-2210-4224-aac1-a82f123f7403"
+      (reference "TP16") (unit 1) (value "SWCLK") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/87503284-ff80-41a5-9df9-70871958613d"
-      (reference "TP?") (unit 1) (value "DAC_VOUT0") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/33cc6aba-d89e-4070-9a52-d4f631b5fb38"
+      (reference "TP17") (unit 1) (value "GND") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/8ecc728a-ead0-4145-ac65-898d2e466e9d"
-      (reference "TP?") (unit 1) (value "TRIG3") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
-    )
-    (path "/951a0c82-21a6-498c-9351-b983b0fd4847"
-      (reference "TP?") (unit 1) (value "SD_CS") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
-    )
-    (path "/99f1c95e-1556-4163-82f3-e42bdcfbf9da"
-      (reference "TP?") (unit 1) (value "LCD_DC ") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/b9960a4d-670f-44c1-b27e-66d2b992df78"
-      (reference "TP?") (unit 1) (value "DAC_VOUT3") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/04724cd7-3ad3-4044-b93e-7ae8d68fba2d"
+      (reference "TP18") (unit 1) (value "~{RST}") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c2381309-8688-46c7-b946-c5c99c457b75"
-      (reference "TP?") (unit 1) (value "DAC_SDI") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+      (reference "TP19") (unit 1) (value "DAC_SDI") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/d567f557-6719-4f9c-bf62-3e197d078379"
-      (reference "TP?") (unit 1) (value "LCD/SD_SDI") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/52edfc6f-ebe6-49a7-95b4-7599d99297f2"
+      (reference "TP20") (unit 1) (value "DAC_SCK") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/e4db600d-dfac-4f18-a9f9-6f013afcca24"
-      (reference "TP?") (unit 1) (value "LCD_RST") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/87503284-ff80-41a5-9df9-70871958613d"
+      (reference "TP21") (unit 1) (value "DAC_VOUT0") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e5d282d7-e9be-4dd4-a8c0-575a5dfd7593"
-      (reference "TP?") (unit 1) (value "TRIG0") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e6a64f5f-41f9-48e9-9079-50a109ad6f4c"
-      (reference "TP?") (unit 1) (value "DAC_VOUT2") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/080aff54-5e93-4ec6-aefa-1ff2a2a1190e"
+      (reference "TP22") (unit 1) (value "DAC_SDO") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/ed628a19-79d3-43f7-a309-922dc6c60c11"
-      (reference "TP?") (unit 1) (value "DAC_~{CS}") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+      (reference "TP23") (unit 1) (value "DAC_~{CS}") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/ee62fba0-8716-410c-baac-976a8fb5d889"
-      (reference "TP?") (unit 1) (value "LCD/SD_SCK") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/4102b298-76d8-4977-b780-8dc8671ce9b5"
+      (reference "TP24") (unit 1) (value "DAC_VOUT1") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/f59b0bce-3500-4e0a-b9f4-c902dc77dc8a"
-      (reference "TP?") (unit 1) (value "LCD_CS") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e6a64f5f-41f9-48e9-9079-50a109ad6f4c"
+      (reference "TP25") (unit 1) (value "DAC_VOUT2") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
-    (path "/f7efade5-ccc5-4eec-8b83-7648f2629c59"
-      (reference "TP?") (unit 1) (value "5V3") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/b9960a4d-670f-44c1-b27e-66d2b992df78"
+      (reference "TP26") (unit 1) (value "DAC_VOUT3") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/f955ffe1-e41e-4fd8-83b9-bc9fc53b4c91"
-      (reference "TP?") (unit 1) (value "VREF_5V0") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+      (reference "TP27") (unit 1) (value "VREF_5V0") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e5d282d7-e9be-4dd4-a8c0-575a5dfd7593"
+      (reference "TP28") (unit 1) (value "TRIG0") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/70ed34bd-88ce-4c3b-a05f-1a4d9f1b61b6"
+      (reference "TP29") (unit 1) (value "TRIG1") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/58691756-7d10-4de6-9213-989a292d073b"
+      (reference "TP30") (unit 1) (value "TRIG2") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/8ecc728a-ead0-4145-ac65-898d2e466e9d"
+      (reference "TP31") (unit 1) (value "TRIG3") (footprint "Shulltronics_Generics:TestPoint_Pad_D2.0mm")
     )
     (path "/74c75f18-4777-468f-90df-8c4e57ac4a0f"
       (reference "U1") (unit 1) (value "3097_TFT_Display_SPI") (footprint "Shulltronics-DevBoards:3097_TFT_Display_SPI")
     )
     (path "/7e4d6846-66ed-4b17-8099-8e7bb7d7723c"
-      (reference "U3") (unit 1) (value "4002_RP2040") (footprint "Shulltronics_Microcontrollers:4002_RP2040_QFN-56-7x7mm_P0.4mm")
+      (reference "U2") (unit 1) (value "4002_RP2040") (footprint "Shulltronics_Microcontrollers:4002_RP2040_QFN-56-7x7mm_P0.4mm")
     )
     (path "/164b268a-bbf3-44e6-abfc-567f1a2aa15f"
-      (reference "U?") (unit 1) (value "4015_Adjustable_Reg_500mA_SOT-23-5") (footprint "Shulltronics_Generics:SOT-23-5")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/3a69aef0-729a-458b-8ba8-5ef4f77923bc"
-      (reference "U?") (unit 1) (value "4001_MCP48FEB24_DAC") (footprint "Shulltronics_Generics:TSSOP-20_4.4x6.5mm_P0.65mm")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/81dd1a14-1360-4004-a7c0-a731e2364bbf"
-      (reference "U?") (unit 1) (value "4014_Voltage_Reference_5V_SOT23-6") (footprint "Shulltronics_Generics:SOT-23-5")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/b006ca70-94de-41c5-ba58-6092d02daa51"
-      (reference "U?") (unit 1) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+      (reference "U3") (unit 1) (value "4015_Adjustable_Reg_500mA_SOT-23-5") (footprint "Shulltronics_Generics:SOT-23-5")
     )
     (path "/c8ca96ee-9eb0-4b09-a239-2f8955dfd7f9"
-      (reference "U?") (unit 1) (value "4015_Adjustable_Reg_500mA_SOT-23-5") (footprint "Shulltronics_Generics:SOT-23-5")
+      (reference "U4") (unit 1) (value "4015_Adjustable_Reg_500mA_SOT-23-5") (footprint "Shulltronics_Generics:SOT-23-5")
     )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e6c7da63-9673-412c-a1b6-2d6d4e14c0ca"
-      (reference "U?") (unit 1) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/81dd1a14-1360-4004-a7c0-a731e2364bbf"
+      (reference "U5") (unit 1) (value "4014_Voltage_Reference_5V_SOT23-6") (footprint "Shulltronics_Generics:SOT-23-5")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/3a69aef0-729a-458b-8ba8-5ef4f77923bc"
+      (reference "U6") (unit 1) (value "4001_MCP48FEB24_DAC") (footprint "Shulltronics_Generics:TSSOP-20_4.4x6.5mm_P0.65mm")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/b006ca70-94de-41c5-ba58-6092d02daa51"
+      (reference "U7") (unit 1) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/1ec47497-5fd9-4c87-a805-1284b63c26e1"
-      (reference "U?") (unit 2) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c41c47c1-1ce7-4aeb-8226-157f03e0a09b"
-      (reference "U?") (unit 2) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+      (reference "U7") (unit 2) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/168580f3-f678-407d-8794-4712c98e3f61"
-      (reference "U?") (unit 3) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c1962871-82b1-4134-bd44-c0ba9118222e"
-      (reference "U?") (unit 3) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+      (reference "U7") (unit 3) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/45440427-7841-42fe-91bf-fa345c69a7d7"
-      (reference "U?") (unit 4) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
-    )
-    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/5af96089-d1b7-454c-ab7d-9cd50aff608f"
-      (reference "U?") (unit 4) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+      (reference "U7") (unit 4) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/b79ef1cf-94b6-4c4e-98fb-8b5ae8bcb7b0"
-      (reference "U?") (unit 5) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+      (reference "U7") (unit 5) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/e6c7da63-9673-412c-a1b6-2d6d4e14c0ca"
+      (reference "U8") (unit 1) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c41c47c1-1ce7-4aeb-8226-157f03e0a09b"
+      (reference "U8") (unit 2) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/c1962871-82b1-4134-bd44-c0ba9118222e"
+      (reference "U8") (unit 3) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+    )
+    (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/5af96089-d1b7-454c-ab7d-9cd50aff608f"
+      (reference "U8") (unit 4) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
     )
     (path "/4dfe3baa-4352-450f-8be2-7b95dd9dc153/d94ed16a-48b3-462c-a2e3-87efa9165266"
-      (reference "U?") (unit 5) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
+      (reference "U8") (unit 5) (value "3099_TL074CPW_SMD") (footprint "Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14")
     )
     (path "/0ed7aa39-a4ef-4e9d-a8ce-bbafeb0d7fb6"
       (reference "Y1") (unit 1) (value "4004-Crystal-12MHz_GND24") (footprint "Shulltronics_Passives:4004-Crystal-12MHz-4Pin_2.5x2.0mm")
