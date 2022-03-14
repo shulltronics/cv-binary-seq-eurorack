@@ -4,6 +4,13 @@
 
   (paper "USLetter")
 
+  (title_block
+    (title "Binary CV Sequencer")
+    (date "2022-03-11")
+    (rev "0.1")
+    (company "Shulltronics")
+  )
+
   (lib_symbols
     (symbol "Shulltronics_Connectors:3046_Header_Male_Vert_3pos" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 6.35 0)
@@ -742,7 +749,6 @@
       )
     )
   )
-
 
   (junction (at 140.335 163.83) (diameter 0) (color 0 0 0 0)
     (uuid 011bdee8-8e29-40ad-97de-74a0c7a2d80b)
@@ -1580,9 +1586,9 @@
     (uuid ff8c9ed6-b8c0-49d3-9218-54228cf5e6e3)
   )
 
-  (text "TODO:\n  [ ] - Add reference voltage circuit\n  [X] - Add CV range selector\n  [ ] - Add LED indicators (CC driver?)\n  [ ] - Double check that ~{LAT} pins should go to ground\n"
-    (at 99.06 -5.08 0)
-    (effects (font (size 2 2)) (justify left bottom))
+  (text "TODO:\n  [X] - Add reference voltage circuit\n  [X] - Add CV range selector\n  [ ] - Add LED indicators (CC driver?)\n  [ ] - Double check that ~{LAT} pins should go to ground\n"
+    (at 16.51 33.655 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 0eff4942-39d6-4758-971e-b17eb20907c3)
   )
   (text "Gate Inputs" (at 66.04 107.315 0)
@@ -1604,8 +1610,8 @@
     (uuid 8b68d372-8349-4b29-b851-4158f64fcfd6)
   )
   (text "TODO:\n  Add trigger / clock comparators, maybe Schmitt Trigs?\n    Could the RP2040 ADC channels be used?\n    see: https://midisizer.files.wordpress.com/2015/02/midi2cv_mk2.pdf\n  Circuit to handle varying input trigger voltages\n  Add LED indicators\n"
-    (at 17.145 198.755 0)
-    (effects (font (size 2 2)) (justify left bottom))
+    (at 22.86 184.785 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid bead8c92-4eaf-41cc-b59f-a45117111e1d)
   )
   (text "Non-inverting amplifiers\n  gain = 1+(68k/68k) = 2" (at 231.775 43.815 0)

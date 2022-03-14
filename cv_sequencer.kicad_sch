@@ -4,6 +4,13 @@
 
   (paper "USLetter")
 
+  (title_block
+    (title "Binary CV Sequencer")
+    (date "2022-03-11")
+    (rev "0.1")
+    (company "Shulltronics")
+  )
+
   (lib_symbols
     (symbol "Shulltronics_Connectors:3086_Connector_Eurorack_Power" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 -7.62 0)
@@ -1701,7 +1708,6 @@
     )
   )
 
-
   (junction (at 182.88 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 0601cee6-6db7-4be7-b904-5a2cec1bd422)
   )
@@ -3322,7 +3328,7 @@
     (uuid 2cda39ff-ff61-4ecd-b40c-6c0a4025f49c)
   )
   (text "See https://learn.adafruit.com/assets/100337 for reference implimentation"
-    (at 81.28 201.93 0)
+    (at 81.915 180.975 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 330f86c7-b1a5-41dd-8405-e144d133f5fe)
   )
@@ -3334,6 +3340,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 52ac148c-c430-4a26-bb2d-06c5f63ad1be)
   )
+  (text "TODO: replaced encoder\n  with SMD version\n  (DK: PEC11S-9215K-S0015-ND?)"
+    (at 34.29 60.325 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid 733b245d-f588-49d4-8528-81ee3acab392)
+  )
   (text "USB and SWD Connectors" (at 212.09 90.17 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold italic) (justify left bottom))
     (uuid 7d5b2e0c-e565-47c9-b066-9632264bf109)
@@ -3341,6 +3352,11 @@
   (text "GPIO9:12 Function 1 (SPI1)" (at 38.735 144.78 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8475560c-5b00-48d2-abeb-cdb671120607)
+  )
+  (text "TODO: Add MIDI input option\nusing case input (connector on PCB)"
+    (at 35.56 113.665 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid cbfed367-b5ba-46b2-9266-1ffd7189ad3b)
   )
   (text "GPIO0:1 Function 2 (UART0)" (at 38.735 119.38 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3356,7 +3372,7 @@
   )
   (text "TODO:\n  Check on power dissipation of LDO\n  Add ferite bead filtering"
     (at 182.88 21.59 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid d85b8a86-622a-4657-a6ec-e12b69e1bddd)
   )
   (text "GPIO13:14 Function 5 (SIO)" (at 38.735 153.67 0)
