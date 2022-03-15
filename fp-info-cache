@@ -1,4 +1,4 @@
-20223031134116958
+20225772491138925
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79204,6 +79204,20 @@ Shulltronics_Connectors
 0
 20
 2
+Shulltronics_Connectors
+4026_PicoBlade_3pos_Vert_SMD
+Molex PicoBlade series connector, 53398-0371 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator
+connector Molex PicoBlade side entry
+0
+5
+4
+Shulltronics_Connectors
+4027_PicoBlade_3pos_Vert_THT
+Molex PicoBlade Connector System, 53047-0310, 3 Pins per row (http://www.molex.com/pdm_docs/sd/530470610_sd.pdf), generated with kicad-footprint-generator
+connector Molex PicoBlade side entry
+0
+3
+3
 Shulltronics_ElectroMechanical
 3051_Relay_SPDT_5A
 
