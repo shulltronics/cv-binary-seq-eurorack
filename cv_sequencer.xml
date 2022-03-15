@@ -2,15 +2,33 @@
 <export version="E">
   <design>
     <source>C:\Users\carstentb\Documents\KiCad\6.0\Carsten Projects\cv_sequencer\cv_sequencer.kicad_sch</source>
-    <date>3/7/2022 2:07:20 PM</date>
+    <date>3/15/2022 2:37:25 PM</date>
     <tool>Eeschema (6.0.2)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Binary CV Sequencer</title>
+        <company>Shulltronics</company>
+        <rev>0.1</rev>
+        <date>2022-03-11</date>
         <source>cv_sequencer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/">
+      <title_block>
+        <title>Binary CV Sequencer</title>
+        <company>Shulltronics</company>
+        <rev>0.1</rev>
+        <date>2022-03-11</date>
+        <source>IO_Jacks.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -25,6 +43,310 @@
   </design>
   <components>
     <comp ref="C1">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eab8e027-9858-4087-bd40-ed8526d1e0e5</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f6adbe7-647c-4eaf-a1fb-83b5c28d0662</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87232a2c-0d9f-4346-ac5f-7fb49eac5c74</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fe46850-8a2b-456a-8395-e0959e27e187</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1874594-3fde-4ab6-b782-80b274c1fdb0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4003_Capacitor_22pF_50V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555G1H220JA16-01.pdf</datasheet>
+      <fields>
+        <field name="SPN">4003</field>
+        <field name="Val">22pF</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4003_Capacitor_22pF_50V_0402" description=""/>
+      <property name="SPN" value="4003"/>
+      <property name="Val" value="22pF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2944e0b8-0112-4999-aa21-441b2196f54e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff6025b8-0e6c-4396-a13d-47627fd8853e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4003_Capacitor_22pF_50V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555G1H220JA16-01.pdf</datasheet>
+      <fields>
+        <field name="SPN">4003</field>
+        <field name="Val">22pF</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4003_Capacitor_22pF_50V_0402" description=""/>
+      <property name="SPN" value="4003"/>
+      <property name="Val" value="22pF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbc28b9d-fa03-4678-b5ba-a87f2cb4e8b6</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52301aee-1890-4893-8d69-bdd4e5fdb959</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>795eaef7-b558-438b-92a4-770ffd91607f</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b587628c-d0b2-4b6e-92b0-65cddf4eb0e9</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebcea090-5377-4038-ad27-0cd5744900ac</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4013_Capacitor_1u_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">4013</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4013_Capacitor_1u_16V_0402" description=""/>
+      <property name="SPN" value="4013"/>
+      <property name="Val" value="1u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d52739f1-6f31-4837-b916-3c73cc7d2b44</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a536fa6-f06e-4dfd-98b0-875312647602</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>4013_Capacitor_1u_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">4013</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4013_Capacitor_1u_16V_0402" description=""/>
+      <property name="SPN" value="4013"/>
+      <property name="Val" value="1u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d6bb70a-52b9-43f5-a3c6-5660b633b3ee</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>4013_Capacitor_1u_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">4013</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4013_Capacitor_1u_16V_0402" description=""/>
+      <property name="SPN" value="4013"/>
+      <property name="Val" value="1u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e16752be-a80a-430e-8cba-0238c43af532</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>4013_Capacitor_1u_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">4013</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4013_Capacitor_1u_16V_0402" description=""/>
+      <property name="SPN" value="4013"/>
+      <property name="Val" value="1u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3834c5f-8f29-4eca-bc5b-1b6511ef1851</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e328bb2-4ca5-4007-963a-4fd17a37dfd8</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>3089_Capacitor_100n_16V_0402</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>339be20f-7f60-49cd-bcff-74ca72b656a5</tstamps>
+    </comp>
+    <comp ref="C20">
       <value>3088_Capacitor_10u_50V_SMD</value>
       <footprint>Shulltronics_Passives:3088_Capacitor_10u_50V_SMD</footprint>
       <fields>
@@ -35,11 +357,11 @@
       <property name="SPN" value="3088"/>
       <property name="Val" value="10u"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061912366</tstamps>
     </comp>
-    <comp ref="C2">
+    <comp ref="C21">
       <value>3088_Capacitor_10u_50V_SMD</value>
       <footprint>Shulltronics_Passives:3088_Capacitor_10u_50V_SMD</footprint>
       <fields>
@@ -50,174 +372,690 @@
       <property name="SPN" value="3088"/>
       <property name="Val" value="10u"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000619136e5</tstamps>
     </comp>
-    <comp ref="C3">
-      <value>3089_Capacitor_100n_16V_SMD</value>
-      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+    <comp ref="E1">
+      <value>4025_Encoder_Switch_SMD</value>
+      <footprint>Shulltronics_ElectroMechanical:4025_Encoder_PEC11S</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC11S.pdf</datasheet>
       <fields>
-        <field name="SPN">3089</field>
-        <field name="Val">100n</field>
+        <field name="SPN">4025</field>
       </fields>
-      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
-      <property name="SPN" value="3089"/>
-      <property name="Val" value="100n"/>
+      <libsource lib="Shulltronics_ElectroMechanical" part="4025_Encoder_Switch_SMD" description="Rotary Encoder, 12 PPR, Momentary Switch, 20mm Shaft"/>
+      <property name="SPN" value="4025"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000619200c0</tstamps>
-    </comp>
-    <comp ref="C4">
-      <value>3089_Capacitor_100n_16V_SMD</value>
-      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
-      <fields>
-        <field name="SPN">3089</field>
-        <field name="Val">100n</field>
-      </fields>
-      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
-      <property name="SPN" value="3089"/>
-      <property name="Val" value="100n"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061920fd1</tstamps>
-    </comp>
-    <comp ref="C5">
-      <value>3089_Capacitor_100n_16V_SMD</value>
-      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
-      <fields>
-        <field name="SPN">3089</field>
-        <field name="Val">100n</field>
-      </fields>
-      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
-      <property name="SPN" value="3089"/>
-      <property name="Val" value="100n"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00006192681d</tstamps>
-    </comp>
-    <comp ref="C6">
-      <value>3089_Capacitor_100n_16V_SMD</value>
-      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
-      <fields>
-        <field name="SPN">3089</field>
-        <field name="Val">100n</field>
-      </fields>
-      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
-      <property name="SPN" value="3089"/>
-      <property name="Val" value="100n"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061927626</tstamps>
-    </comp>
-    <comp ref="C7">
-      <value>3089_Capacitor_100n_16V_SMD</value>
-      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
-      <fields>
-        <field name="SPN">3089</field>
-        <field name="Val">100n</field>
-      </fields>
-      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
-      <property name="SPN" value="3089"/>
-      <property name="Val" value="100n"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061927c19</tstamps>
-    </comp>
-    <comp ref="C8">
-      <value>3089_Capacitor_100n_16V_SMD</value>
-      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
-      <fields>
-        <field name="SPN">3089</field>
-        <field name="Val">100n</field>
-      </fields>
-      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_SMD" description=""/>
-      <property name="SPN" value="3089"/>
-      <property name="Val" value="100n"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000619281bf</tstamps>
+      <tstamps>16a49ecd-abfd-4d6b-abb3-2f90d5cb3b16</tstamps>
     </comp>
     <comp ref="J1">
-      <value>3085_MiniJack_Thonk_Vert</value>
-      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
-      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <value>4029_Connector_PicoBlade_4pos_Vert_THT</value>
+      <footprint>Shulltronics_Connectors:4029_PicoBlade_4pos_Vert_THT</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/530470410_sd.pdf</datasheet>
       <fields>
-        <field name="SPN">3085</field>
+        <field name="SPN">4029</field>
       </fields>
-      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
-      <property name="SPN" value="3085"/>
-      <property name="Val" value=""/>
+      <libsource lib="Shulltronics_Connectors" part="4029_Connector_PicoBlade_4pos_Vert_THT" description=""/>
+      <property name="SPN" value="4029"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000618f167b</tstamps>
+      <tstamps>c216ba09-64f5-4bc1-a7b7-557955138101</tstamps>
     </comp>
     <comp ref="J2">
-      <value>3085_MiniJack_Thonk_Vert</value>
-      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
-      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <value>4005_SWD_Header</value>
+      <footprint>Shulltronics_Connectors:4005_SWD_Header</footprint>
+      <datasheet>http://www.cnctech.us/pdfs/3220-XX-0300-00-TR_.PDF</datasheet>
       <fields>
-        <field name="SPN">3085</field>
+        <field name="SPN">4005</field>
       </fields>
-      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
-      <property name="SPN" value="3085"/>
-      <property name="Val" value=""/>
+      <libsource lib="Shulltronics_Connectors" part="4005_SWD_Header" description=""/>
+      <property name="SPN" value="4005"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000618f3cf2</tstamps>
+      <tstamps>66b30126-0f41-4f28-aeb6-68976a864457</tstamps>
     </comp>
     <comp ref="J3">
-      <value>3085_MiniJack_Thonk_Vert</value>
-      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
-      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <value>3086_Connector_Eurorack_Power</value>
+      <footprint>Shulltronics_Connectors:3086_SMD_Eurorack_Power</footprint>
       <fields>
-        <field name="SPN">3085</field>
+        <field name="SPN">3086</field>
       </fields>
-      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
-      <property name="SPN" value="3085"/>
+      <libsource lib="Shulltronics_Connectors" part="3086_Connector_Eurorack_Power" description=""/>
+      <property name="SPN" value="3086"/>
       <property name="Val" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000618f1f73</tstamps>
+      <tstamps>00000000-0000-0000-0000-0000619035e5</tstamps>
     </comp>
     <comp ref="J4">
-      <value>3085_MiniJack_Thonk_Vert</value>
-      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
-      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <value>3096_USBC_RA_SMD</value>
+      <footprint>Shulltronics_Connectors:3096_USBC_RA</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/2171790001_sd.pdf</datasheet>
       <fields>
-        <field name="SPN">3085</field>
+        <field name="SPN">3096</field>
       </fields>
-      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
-      <property name="SPN" value="3085"/>
-      <property name="Val" value=""/>
+      <libsource lib="Shulltronics_Connectors" part="3096_USBC_RA_SMD" description=""/>
+      <property name="SPN" value="3096"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000618f42d7</tstamps>
+      <tstamps>06f7d7c9-f4b6-4f87-a43a-bb70f198d6a8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4008_Resistor_SMD_10k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4008</field>
+        <field name="Val">10k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4008_Resistor_SMD_10k_0.125W_1%" description="SMD Resistor, 10k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4008"/>
+      <property name="Val" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de55032d-2bb5-4c27-a471-654a76d45341</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>DNP</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4021</field>
+        <field name="Val">0</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4021_Resistor_SMD_Jumper" description="Jumper"/>
+      <property name="SPN" value="4021"/>
+      <property name="Val" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76793b52-d72b-486d-8b17-6c8bfc8c9943</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4021_Resistor_SMD_Jumper</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4021</field>
+        <field name="Val">0</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4021_Resistor_SMD_Jumper" description="Jumper"/>
+      <property name="SPN" value="4021"/>
+      <property name="Val" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44a99c69-1a45-4e3a-902f-223f8e515530</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4010_Resistor_SMD_1k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4010</field>
+        <field name="Val">1k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4010_Resistor_SMD_1k_0.125W_1%" description="SMD Resistor, 1k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4010"/>
+      <property name="Val" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2e3cefd-392b-43e1-98a5-ed8d9096af03</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4010_Resistor_SMD_1k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4010</field>
+        <field name="Val">1k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4010_Resistor_SMD_1k_0.125W_1%" description="SMD Resistor, 1k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4010"/>
+      <property name="Val" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f8281dc-bbbe-4682-bed8-000acad27d48</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4011_Resistor_SMD_27_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4011</field>
+        <field name="Val">27</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4011_Resistor_SMD_27_0.125W_1%" description="SMD Resistor, 1k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4011"/>
+      <property name="Val" value="27"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc182c78-cf8e-4a8d-8d3f-6fc3fb305ad6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4011_Resistor_SMD_27_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4011</field>
+        <field name="Val">27</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4011_Resistor_SMD_27_0.125W_1%" description="SMD Resistor, 1k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4011"/>
+      <property name="Val" value="27"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8578bbbc-84be-4456-b40d-1a2e8510e6b6</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4008_Resistor_SMD_10k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4008</field>
+        <field name="Val">10k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4008_Resistor_SMD_10k_0.125W_1%" description="SMD Resistor, 10k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4008"/>
+      <property name="Val" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b82fc37-981e-4e4f-9521-ffd3dffae2b0</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4019_Resistor_SMD_270k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4019</field>
+        <field name="Val">270k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4019_Resistor_SMD_270k_0.125W_1%" description="SMD Resistor, 270k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4019"/>
+      <property name="Val" value="270k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f075479-0237-4a5a-960d-2685386d9647</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4020_Resistor_SMD_180k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4020</field>
+        <field name="Val">180k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4020_Resistor_SMD_180k_0.125W_1%" description="SMD Resistor, 180k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4020"/>
+      <property name="Val" value="180k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6e3dff5-99ab-4094-9aac-e5306942d62e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4019_Resistor_SMD_270k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4019</field>
+        <field name="Val">270k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4019_Resistor_SMD_270k_0.125W_1%" description="SMD Resistor, 270k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4019"/>
+      <property name="Val" value="270k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8c74658-7d30-4692-9b3d-bfc76311e520</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4018_Resistor_SMD_82k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4018</field>
+        <field name="Val">82k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4018_Resistor_SMD_82k_0.125W_1%" description="SMD Resistor, 82k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4018"/>
+      <property name="Val" value="82k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3042f0f-f26c-43f4-b49b-237a833f1c94</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4009_Resistor_SMD_5k1_0.10W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="SPN">4009</field>
+        <field name="Val">5k1</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4009_Resistor_SMD_5k1_0.10W_1%" description="SMD Resistor, 5k1 Ohms, 1/10W, 1%, 0402"/>
+      <property name="SPN" value="4009"/>
+      <property name="Val" value="5k1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>375b01bd-4592-4e32-98f8-07ee0bb9035d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4009_Resistor_SMD_5k1_0.10W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="SPN">4009</field>
+        <field name="Val">5k1</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4009_Resistor_SMD_5k1_0.10W_1%" description="SMD Resistor, 5k1 Ohms, 1/10W, 1%, 0402"/>
+      <property name="SPN" value="4009"/>
+      <property name="Val" value="5k1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a87646a1-21f5-4720-8b93-84df0daf7e92</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>4030_Resistor_SMD_220_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4030</field>
+        <field name="Val">220</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4030_Resistor_SMD_220_0.125W_1%" description="SMD Resistor, 180k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4030"/>
+      <property name="Val" value="220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4ca38de-36d9-4e85-aefa-a7a1afaa94b6</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>4008_Resistor_SMD_10k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4008</field>
+        <field name="Val">10k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4008_Resistor_SMD_10k_0.125W_1%" description="SMD Resistor, 10k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4008"/>
+      <property name="Val" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84644c04-5006-4a0a-b504-85e4c746c66f</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>4030_Resistor_SMD_220_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4030</field>
+        <field name="Val">220</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4030_Resistor_SMD_220_0.125W_1%" description="SMD Resistor, 180k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4030"/>
+      <property name="Val" value="220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc56ec8b-1986-4185-b676-3402f86ecfbc</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/434133025816.pdf</datasheet>
+      <fields>
+        <field name="SPN">4012</field>
+      </fields>
+      <libsource lib="Shulltronics_ElectroMechanical" part="4012_PushButton_NO_SMD" description="Push Button, Tactile Switch, NO, MOM, SMD"/>
+      <property name="SPN" value="4012"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe47c086-eaa2-4714-b0d2-6fe34ddeaafa</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>BOOTSEL</value>
+      <footprint>Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/434133025816.pdf</datasheet>
+      <fields>
+        <field name="SPN">4012</field>
+      </fields>
+      <libsource lib="Shulltronics_ElectroMechanical" part="4012_PushButton_NO_SMD" description="Push Button, Tactile Switch, NO, MOM, SMD"/>
+      <property name="SPN" value="4012"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04460665-86a7-4df5-9051-2d02db0bc9e1</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>ENC_BTN</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7db6a48f-e837-4b93-9533-bea489fce5c0</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>LCD/SD_SCK</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee62fba0-8716-410c-baac-976a8fb5d889</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>SD_SDO</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75916d74-e368-444f-a80d-7902287e2d8c</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>LCD/SD_SDI</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d567f557-6719-4f9c-bf62-3e197d078379</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>LCD_CS</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f59b0bce-3500-4e0a-b9f4-c902dc77dc8a</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>LCD_RST</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4db600d-dfac-4f18-a9f9-6f013afcca24</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>LCD_DC </value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99f1c95e-1556-4163-82f3-e42bdcfbf9da</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>SD_CS</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>951a0c82-21a6-498c-9351-b983b0fd4847</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>3V1</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f37d5281-d51b-448e-b4fa-666b2af6d522</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>5V3</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7efade5-ccc5-4eec-8b83-7648f2629c59</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>USB_D-</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4d75aa0-0d00-41af-b7c0-86d0bdda53c9</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>USB_D+</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0399f8e8-36fe-48cf-a96b-7176ceba0186</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>+12V</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b0f9e31-fd5d-41bd-a834-81a48691dd1c</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>-12V</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f6a41a6-91ef-4a7a-839d-bdda8e8cf6fa</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>SWDIO</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a96f5bd-7313-44f3-b1a6-c0849ff4c661</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>SWCLK</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>690a6b18-2210-4224-aac1-a82f123f7403</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>GND</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33cc6aba-d89e-4070-9a52-d4f631b5fb38</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>~{RST}</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04724cd7-3ad3-4044-b93e-7ae8d68fba2d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>3097_TFT_Display_SPI</value>
+      <footprint>Shulltronics-DevBoards:3097_TFT_Display_SPI</footprint>
+      <datasheet>https://learn.adafruit.com/adafruit-1-14-240x135-color-tft-breakout/overview</datasheet>
+      <fields>
+        <field name="SPN">3097</field>
+        <field name="Val">1.14" TFT Display</field>
+      </fields>
+      <libsource lib="Shulltronics_DevBoards" part="3097_TFT_Display_SPI" description=""/>
+      <property name="SPN" value="3097"/>
+      <property name="Val" value="1.14&quot; TFT Display"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74c75f18-4777-468f-90df-8c4e57ac4a0f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>4002_RP2040</value>
+      <footprint>Shulltronics_Microcontrollers:4002_RP2040_QFN-56-7x7mm_P0.4mm</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</datasheet>
+      <fields>
+        <field name="SPN">4002</field>
+      </fields>
+      <libsource lib="Shulltronics_ICs" part="4002_RP2040" description=""/>
+      <property name="SPN" value="4002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e4d6846-66ed-4b17-8099-8e7bb7d7723c</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>4015_Adjustable_Reg_500mA_SOT-23-5</value>
+      <footprint>Shulltronics_Generics:SOT-23-5</footprint>
+      <datasheet>https://assets.maxlinear.com/web/documents/spx3819.pdf</datasheet>
+      <fields>
+        <field name="SPN">4015</field>
+      </fields>
+      <libsource lib="Shulltronics_Regulators" part="4015_Adjustable_Reg_500mA_SOT-23-5" description=""/>
+      <property name="SPN" value="4015"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>164b268a-bbf3-44e6-abfc-567f1a2aa15f</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>4015_Adjustable_Reg_500mA_SOT-23-5</value>
+      <footprint>Shulltronics_Generics:SOT-23-5</footprint>
+      <datasheet>https://assets.maxlinear.com/web/documents/spx3819.pdf</datasheet>
+      <fields>
+        <field name="SPN">4015</field>
+      </fields>
+      <libsource lib="Shulltronics_Regulators" part="4015_Adjustable_Reg_500mA_SOT-23-5" description=""/>
+      <property name="SPN" value="4015"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ca96ee-9eb0-4b09-a239-2f8955dfd7f9</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>4028_OptoIsolator_TLP290</value>
+      <footprint>Shulltronics_Opto:4028_OptoIsolator_TLP290_SOP-4</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?https://toshiba.semicon-storage.com/info/docget.jsp?did=14154&amp;prodName=TLP290(SE</datasheet>
+      <fields>
+        <field name="SPN">4028</field>
+      </fields>
+      <libsource lib="Shulltronics_Opto" part="4028_OptoIsolator_TLP290" description="AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, not recommended for new designs, SOP4"/>
+      <property name="SPN" value="4028"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aacf5a7e-2b2a-4303-beed-1dbb08f79389</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>4004-Crystal-12MHz_GND24</value>
+      <footprint>Shulltronics_Passives:4004-Crystal-12MHz-4Pin_2.5x2.0mm</footprint>
+      <datasheet>https://suntsu.com/wp-content/uploads/2019/07/SXT224-Series-1.pdf</datasheet>
+      <fields>
+        <field name="SPN">4004</field>
+        <field name="Val">12.00MHz</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4004-Crystal-12MHz_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="SPN" value="4004"/>
+      <property name="Val" value="12.00MHz"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cv_sequencer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ed7aa39-a4ef-4e9d-a8ce-bbafeb0d7fb6</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>a57e44de-1be3-4d54-9865-c29710fbe33a</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>16ced76f-5196-4488-805d-10ba2e64c5a7</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>3089_Capacitor_100n_16V_SMD</value>
+      <footprint>Shulltronics_Generics:C_0402_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
+      <fields>
+        <field name="SPN">3089</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402" description=""/>
+      <property name="SPN" value="3089"/>
+      <property name="Val" value="100n"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>0166fb83-b5d4-4b91-8ff5-1f90ec63469c</tstamps>
     </comp>
     <comp ref="J5">
-      <value>3085_MiniJack_Thonk_Vert</value>
-      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
-      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
+      <value>CV_OFFSET</value>
+      <footprint>Shulltronics_Connectors:3046_Header_3pos_2.54mm</footprint>
       <fields>
-        <field name="SPN">3085</field>
+        <field name="SPN">3046</field>
       </fields>
-      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
-      <property name="SPN" value="3085"/>
-      <property name="Val" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000618f2be8</tstamps>
+      <libsource lib="Shulltronics_Connectors" part="3046_Header_Male_Vert_3pos" description=""/>
+      <property name="SPN" value="3046"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>42cbd412-601a-4b96-b974-aa963b871161</tstamps>
     </comp>
     <comp ref="J6">
       <value>3085_MiniJack_Thonk_Vert</value>
@@ -229,10 +1067,10 @@
       <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
       <property name="SPN" value="3085"/>
       <property name="Val" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000618f4876</tstamps>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>3c1a8eb1-7276-4887-bdd7-d43c01aa6889</tstamps>
     </comp>
     <comp ref="J7">
       <value>3085_MiniJack_Thonk_Vert</value>
@@ -244,10 +1082,10 @@
       <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
       <property name="SPN" value="3085"/>
       <property name="Val" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000618f3404</tstamps>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>e8887029-e1eb-4848-ba40-ced02b6e88d9</tstamps>
     </comp>
     <comp ref="J8">
       <value>3085_MiniJack_Thonk_Vert</value>
@@ -259,105 +1097,542 @@
       <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
       <property name="SPN" value="3085"/>
       <property name="Val" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000618f503e</tstamps>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>0f29cb79-3895-4b2a-a298-c89024ae3c8d</tstamps>
     </comp>
     <comp ref="J9">
-      <value>3086_Connector_Eurorack_Power</value>
-      <footprint>Shulltronics_Connectors:3086_SMD_Eurorack_Power</footprint>
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
       <fields>
-        <field name="SPN">3086</field>
+        <field name="SPN">3085</field>
       </fields>
-      <libsource lib="Shulltronics_Connectors" part="3086_Connector_Eurorack_Power" description=""/>
-      <property name="SPN" value="3086"/>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
       <property name="Val" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000619035e5</tstamps>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>d353086e-d95f-46bf-b218-fc8c8851978c</tstamps>
     </comp>
-    <comp ref="RP1">
-      <value>3087_Potentiometer_10k_Linear</value>
-      <footprint>Shulltronics_ElectroMechanical:3087_Potentiometer_10k</footprint>
+    <comp ref="J10">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
       <fields>
-        <field name="SPN">3087</field>
-        <field name="Val">10k</field>
+        <field name="SPN">3085</field>
       </fields>
-      <libsource lib="Shulltronics_ElectroMechanical" part="3087_Potentiometer_10k_Linear" description=""/>
-      <property name="SPN" value="3087"/>
-      <property name="Val" value="10k"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00006190aeb9</tstamps>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>9ad7c7de-6b19-4f78-be53-785d0113e4e5</tstamps>
     </comp>
-    <comp ref="RP2">
-      <value>3087_Potentiometer_10k_Linear</value>
-      <footprint>Shulltronics_ElectroMechanical:3087_Potentiometer_10k</footprint>
+    <comp ref="J11">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
       <fields>
-        <field name="SPN">3087</field>
-        <field name="Val">10k</field>
+        <field name="SPN">3085</field>
       </fields>
-      <libsource lib="Shulltronics_ElectroMechanical" part="3087_Potentiometer_10k_Linear" description=""/>
-      <property name="SPN" value="3087"/>
-      <property name="Val" value="10k"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00006190bc66</tstamps>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>7cb2cce0-a1f8-449a-9356-f336add8c1fb</tstamps>
     </comp>
-    <comp ref="RP3">
-      <value>3087_Potentiometer_10k_Linear</value>
-      <footprint>Shulltronics_ElectroMechanical:3087_Potentiometer_10k</footprint>
+    <comp ref="J12">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
       <fields>
-        <field name="SPN">3087</field>
-        <field name="Val">10k</field>
+        <field name="SPN">3085</field>
       </fields>
-      <libsource lib="Shulltronics_ElectroMechanical" part="3087_Potentiometer_10k_Linear" description=""/>
-      <property name="SPN" value="3087"/>
-      <property name="Val" value="10k"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00006190c4ee</tstamps>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>2fffb89b-adf0-4310-abc4-7c403493d440</tstamps>
     </comp>
-    <comp ref="RP4">
-      <value>3087_Potentiometer_10k_Linear</value>
-      <footprint>Shulltronics_ElectroMechanical:3087_Potentiometer_10k</footprint>
+    <comp ref="J13">
+      <value>3085_MiniJack_Thonk_Vert</value>
+      <footprint>Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</footprint>
+      <datasheet>https://www.thonk.co.uk/shop/thonkiconn/</datasheet>
       <fields>
-        <field name="SPN">3087</field>
-        <field name="Val">10k</field>
+        <field name="SPN">3085</field>
       </fields>
-      <libsource lib="Shulltronics_ElectroMechanical" part="3087_Potentiometer_10k_Linear" description=""/>
-      <property name="SPN" value="3087"/>
-      <property name="Val" value="10k"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00006190d0a7</tstamps>
+      <libsource lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert" description=""/>
+      <property name="SPN" value="3085"/>
+      <property name="Val" value=""/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>a8430e7c-062d-4587-914f-19cb238f441e</tstamps>
     </comp>
-    <comp ref="U1">
-      <value>3090_ATSAMD21E15B</value>
-      <footprint>Shulltronics_Microcontrollers:3090_ATSAMD21E15B_TQFP32</footprint>
+    <comp ref="R15">
+      <value>4023_Resistor_SMD_56k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
       <fields>
-        <field name="SPN">3090</field>
+        <field name="SPN">4023</field>
+        <field name="Val">56k</field>
       </fields>
-      <libsource lib="Shulltronics_Microcontrollers" part="3090_ATSAMD21E15B" description=""/>
-      <property name="SPN" value="3090"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/carstentb/Documents/KiCad/6.0/Carsten Projects/cv_sequencer/cv_sequencer.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000619a4de0</tstamps>
+      <libsource lib="Shulltronics_Passives" part="4023_Resistor_SMD_56k_0.125W_1%" description="SMD Resistor, 56k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4023"/>
+      <property name="Val" value="56k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>41d80f00-5330-4c14-8889-cb7411f39bab</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4023_Resistor_SMD_56k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4023</field>
+        <field name="Val">56k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4023_Resistor_SMD_56k_0.125W_1%" description="SMD Resistor, 56k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4023"/>
+      <property name="Val" value="56k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>7358ff51-83a4-480f-9c44-da1923bc1f08</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4023_Resistor_SMD_56k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4023</field>
+        <field name="Val">56k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4023_Resistor_SMD_56k_0.125W_1%" description="SMD Resistor, 56k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4023"/>
+      <property name="Val" value="56k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>ca5b358e-a12d-46ce-a8c0-92b1adf2f3f1</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>4023_Resistor_SMD_56k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4023</field>
+        <field name="Val">56k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4023_Resistor_SMD_56k_0.125W_1%" description="SMD Resistor, 56k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4023"/>
+      <property name="Val" value="56k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>f2091284-1a5f-477b-8334-782c85ff26ac</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4022_Resistor_SMD_120k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4022</field>
+        <field name="Val">120k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4022_Resistor_SMD_120k_0.125W_1%" description="SMD Resistor, 120k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4022"/>
+      <property name="Val" value="120k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>97834ad3-79b5-4c27-a1b8-189999fa4360</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>4022_Resistor_SMD_120k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4022</field>
+        <field name="Val">120k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4022_Resistor_SMD_120k_0.125W_1%" description="SMD Resistor, 120k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4022"/>
+      <property name="Val" value="120k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>a87f30ce-dbf9-46a1-b2b0-0a0a5200a4f8</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>4022_Resistor_SMD_120k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4022</field>
+        <field name="Val">120k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4022_Resistor_SMD_120k_0.125W_1%" description="SMD Resistor, 120k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4022"/>
+      <property name="Val" value="120k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>ace5dc21-509d-4054-8b2b-33709b3cfa77</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>4022_Resistor_SMD_120k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4022</field>
+        <field name="Val">120k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4022_Resistor_SMD_120k_0.125W_1%" description="SMD Resistor, 120k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4022"/>
+      <property name="Val" value="120k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>3fbd102b-68dd-4fd8-ad9d-847a6ea9bea5</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>4006_Resistor_SMD_68k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%" description="SMD Resistor, 68k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4006"/>
+      <property name="Val" value="68k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>44a799a8-8f01-4227-9b9e-bce825e30936</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>4006_Resistor_SMD_68k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%" description="SMD Resistor, 68k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4006"/>
+      <property name="Val" value="68k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>ed8548d2-a10d-4718-9f4f-7f64404727c7</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4006_Resistor_SMD_68k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%" description="SMD Resistor, 68k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4006"/>
+      <property name="Val" value="68k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>91c7c675-79a6-4d56-8635-9a493af254a0</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>4006_Resistor_SMD_68k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%" description="SMD Resistor, 68k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4006"/>
+      <property name="Val" value="68k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>4e20f179-0353-4668-9ff8-533ea3f006cd</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>4006_Resistor_SMD_68k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%" description="SMD Resistor, 68k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4006"/>
+      <property name="Val" value="68k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>fae5d38d-de55-4c7e-b1e2-5c2c463a9942</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>4006_Resistor_SMD_68k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%" description="SMD Resistor, 68k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4006"/>
+      <property name="Val" value="68k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>b5eb984a-7965-45e1-97b1-70a7446b0d25</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>4006_Resistor_SMD_68k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%" description="SMD Resistor, 68k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4006"/>
+      <property name="Val" value="68k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>dd18e0b4-f422-4775-9bde-fba58dd02dc3</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>4006_Resistor_SMD_68k_0.125W_1%</value>
+      <footprint>Shulltronics_Generics:RES-0402</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <libsource lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%" description="SMD Resistor, 68k Ohms, 1/8W, 1%, 0402"/>
+      <property name="SPN" value="4006"/>
+      <property name="Val" value="68k"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>5b22d8f6-186f-4e18-b5e2-713514a2582e</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>DAC_SDI</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>c2381309-8688-46c7-b946-c5c99c457b75</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>DAC_SCK</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>52edfc6f-ebe6-49a7-95b4-7599d99297f2</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>DAC_VOUT0</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>87503284-ff80-41a5-9df9-70871958613d</tstamps>
+    </comp>
+    <comp ref="TP22">
+      <value>DAC_SDO</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>080aff54-5e93-4ec6-aefa-1ff2a2a1190e</tstamps>
+    </comp>
+    <comp ref="TP23">
+      <value>DAC_~{CS}</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>ed628a19-79d3-43f7-a309-922dc6c60c11</tstamps>
+    </comp>
+    <comp ref="TP24">
+      <value>DAC_VOUT1</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>4102b298-76d8-4977-b780-8dc8671ce9b5</tstamps>
+    </comp>
+    <comp ref="TP25">
+      <value>DAC_VOUT2</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>e6a64f5f-41f9-48e9-9079-50a109ad6f4c</tstamps>
+    </comp>
+    <comp ref="TP26">
+      <value>DAC_VOUT3</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>b9960a4d-670f-44c1-b27e-66d2b992df78</tstamps>
+    </comp>
+    <comp ref="TP27">
+      <value>VREF_5V0</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>f955ffe1-e41e-4fd8-83b9-bc9fc53b4c91</tstamps>
+    </comp>
+    <comp ref="TP28">
+      <value>TRIG0</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>e5d282d7-e9be-4dd4-a8c0-575a5dfd7593</tstamps>
+    </comp>
+    <comp ref="TP29">
+      <value>TRIG1</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>70ed34bd-88ce-4c3b-a05f-1a4d9f1b61b6</tstamps>
+    </comp>
+    <comp ref="TP30">
+      <value>TRIG2</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>58691756-7d10-4de6-9213-989a292d073b</tstamps>
+    </comp>
+    <comp ref="TP31">
+      <value>TRIG3</value>
+      <footprint>Shulltronics_Generics:TestPoint_Pad_D2.0mm</footprint>
+      <libsource lib="Shulltronics_Sch_Symbols" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>8ecc728a-ead0-4145-ac65-898d2e466e9d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>4014_Voltage_Reference_5V_SOT23-6</value>
+      <footprint>Shulltronics_Generics:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ref34-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1647014997288</datasheet>
+      <fields>
+        <field name="SPN">4014</field>
+      </fields>
+      <libsource lib="Shulltronics_Semiconductors" part="4014_Voltage_Reference_5V_SOT23-6" description=""/>
+      <property name="SPN" value="4014"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>81dd1a14-1360-4004-a7c0-a731e2364bbf</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>4001_MCP48FEB24_DAC</value>
+      <footprint>Shulltronics_Generics:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MCP48FXBX4-8-Family-Data-Sheet-DS20006362A.pdf</datasheet>
+      <fields>
+        <field name="SPN">4001</field>
+      </fields>
+      <libsource lib="Shulltronics_ICs" part="4001_MCP48FEB24_DAC" description=""/>
+      <property name="SPN" value="4001"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>3a69aef0-729a-458b-8ba8-5ef4f77923bc</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>3099_TL074CPW_SMD</value>
+      <footprint>Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl071a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1646679901639</datasheet>
+      <fields>
+        <field name="SPN">3099</field>
+        <field name="Val">TL074</field>
+      </fields>
+      <libsource lib="Shulltronics_ICs" part="3099_TL074CPW_SMD" description=""/>
+      <property name="SPN" value="3099"/>
+      <property name="Val" value="TL074"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>d94ed16a-48b3-462c-a2e3-87efa9165266 c1962871-82b1-4134-bd44-c0ba9118222e c41c47c1-1ce7-4aeb-8226-157f03e0a09b e6c7da63-9673-412c-a1b6-2d6d4e14c0ca 5af96089-d1b7-454c-ab7d-9cd50aff608f</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>3099_TL074CPW_SMD</value>
+      <footprint>Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl071a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1646679901639</datasheet>
+      <fields>
+        <field name="SPN">3099</field>
+        <field name="Val">TL074</field>
+      </fields>
+      <libsource lib="Shulltronics_ICs" part="3099_TL074CPW_SMD" description=""/>
+      <property name="SPN" value="3099"/>
+      <property name="Val" value="TL074"/>
+      <property name="Sheetname" value="IO Jacks"/>
+      <property name="Sheetfile" value="IO_Jacks.kicad_sch"/>
+      <sheetpath names="/IO Jacks/" tstamps="/4dfe3baa-4352-450f-8be2-7b95dd9dc153/"/>
+      <tstamps>b79ef1cf-94b6-4c4e-98fb-8b5ae8bcb7b0 b006ca70-94de-41c5-ba58-6092d02daa51 1ec47497-5fd9-4c87-a805-1284b63c26e1 45440427-7841-42fe-91bf-fa345c69a7d7 168580f3-f678-407d-8794-4712c98e3f61</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="Shulltronics_Connectors_3085_MiniJack_Thonk_Vert">
+    <libpart lib="Shulltronics_Connectors" part="3046_Header_Male_Vert_3pos">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Shulltronics_Connectors_3085_MiniJack_Thonk_Vert</field>
+        <field name="Value">3046_Header_Male_Vert_3pos</field>
+        <field name="Footprint">Shulltronics_Connectors:3046_Header_3pos_2.54mm</field>
+        <field name="SPN">3046</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Connectors" part="3085_MiniJack_Thonk_Vert">
+      <docs>https://www.thonk.co.uk/shop/thonkiconn/</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3085_MiniJack_Thonk_Vert</field>
         <field name="Footprint">Shulltronics_Connectors:3085_MiniJack_Thonk_Vert</field>
+        <field name="Datasheet">https://www.thonk.co.uk/shop/thonkiconn/</field>
         <field name="SPN">3085</field>
       </fields>
       <pins>
@@ -366,10 +1641,10 @@
         <pin num="TN" name="TN" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="Shulltronics_Connectors_3086_Connector_Eurorack_Power">
+    <libpart lib="Shulltronics_Connectors" part="3086_Connector_Eurorack_Power">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Shulltronics_Connectors_3086_Connector_Eurorack_Power</field>
+        <field name="Value">3086_Connector_Eurorack_Power</field>
         <field name="Footprint">Shulltronics_Connectors:3086_SMD_Eurorack_Power</field>
         <field name="SPN">3086</field>
       </fields>
@@ -386,66 +1661,277 @@
         <pin num="10" name="Pin_10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="Shulltronics_ElectroMechanical_3087_Potentiometer_10k_Linear">
+    <libpart lib="Shulltronics_Connectors" part="3096_USBC_RA_SMD">
+      <docs>https://www.molex.com/pdm_docs/sd/2171790001_sd.pdf</docs>
       <fields>
-        <field name="Reference">RP</field>
-        <field name="Value">Shulltronics_ElectroMechanical_3087_Potentiometer_10k_Linear</field>
-        <field name="Footprint">Shulltronics_ElectroMechanical:3087_Potentiometer_10k</field>
-        <field name="SPN">3087</field>
-        <field name="Val">10k</field>
+        <field name="Reference">J</field>
+        <field name="Value">3096_USBC_RA_SMD</field>
+        <field name="Footprint">Shulltronics_Connectors:3096_USBC_RA</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/2171790001_sd.pdf</field>
+        <field name="SPN">3096</field>
+      </fields>
+      <pins>
+        <pin num="A1/B12" name="GND" type="power_in"/>
+        <pin num="A4/B9" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="DP1" type="bidirectional"/>
+        <pin num="A7" name="DN1" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="B1/A12" name="GND" type="power_in"/>
+        <pin num="B4/A9" name="VBUS" type="power_in"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="DP2" type="bidirectional"/>
+        <pin num="B7" name="DN2" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Connectors" part="4005_SWD_Header">
+      <docs>http://www.cnctech.us/pdfs/3220-XX-0300-00-TR_.PDF</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">4005_SWD_Header</field>
+        <field name="Footprint">Shulltronics_Connectors:4005_SWD_Header</field>
+        <field name="Datasheet">http://www.cnctech.us/pdfs/3220-XX-0300-00-TR_.PDF</field>
+        <field name="SPN">4005</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="SWDIO" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWCLK" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SWO" type="passive"/>
+        <pin num="7" name="KEY" type="passive"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="RESET" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Connectors" part="4029_Connector_PicoBlade_4pos_Vert_THT">
+      <docs>https://www.molex.com/pdm_docs/sd/530470410_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">4029_Connector_PicoBlade_4pos_Vert_THT</field>
+        <field name="Footprint">Shulltronics_Connectors:4029_PicoBlade_4pos_Vert_THT</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/530470410_sd.pdf</field>
+        <field name="SPN">4029</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_DevBoards" part="3097_TFT_Display_SPI">
+      <docs>https://learn.adafruit.com/adafruit-1-14-240x135-color-tft-breakout/overview</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">3097_TFT_Display_SPI</field>
+        <field name="Footprint">Shulltronics-DevBoards:3097_TFT_Display_SPI</field>
+        <field name="Datasheet">https://learn.adafruit.com/adafruit-1-14-240x135-color-tft-breakout/overview</field>
+        <field name="SPN">3097</field>
+        <field name="Val">1.14" TFT Display</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="3V3" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="MISO" type="output"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="TFT_CS" type="input"/>
+        <pin num="8" name="RST" type="input"/>
+        <pin num="9" name="DC" type="input"/>
+        <pin num="10" name="SD_CS" type="input"/>
+        <pin num="11" name="BL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_ElectroMechanical" part="4012_PushButton_NO_SMD">
+      <description>Push Button, Tactile Switch, NO, MOM, SMD</description>
+      <docs>https://www.we-online.com/catalog/datasheet/434133025816.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">4012_PushButton_NO_SMD</field>
+        <field name="Footprint">Shulltronics_ElectroMechanical:4012_PushButton_NO_SMD</field>
+        <field name="Datasheet">https://www.we-online.com/catalog/datasheet/434133025816.pdf</field>
+        <field name="SPN">4012</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="Shulltronics_Microcontrollers_3090_ATSAMD21E15B">
+    <libpart lib="Shulltronics_ElectroMechanical" part="4025_Encoder_Switch_SMD">
+      <description>Rotary Encoder, 12 PPR, Momentary Switch, 20mm Shaft</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/PEC11S.pdf</docs>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">Shulltronics_Microcontrollers_3090_ATSAMD21E15B</field>
-        <field name="Footprint">Shulltronics_Microcontrollers:3090_ATSAMD21E15B_TQFP32</field>
-        <field name="SPN">3090</field>
+        <field name="Reference">E</field>
+        <field name="Value">4025_Encoder_Switch_SMD</field>
+        <field name="Footprint">Shulltronics_ElectroMechanical:4025_Encoder_PEC11S</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/PEC11S.pdf</field>
+        <field name="SPN">4025</field>
       </fields>
       <pins>
-        <pin num="1" name="PA00" type="bidirectional"/>
-        <pin num="2" name="PA01" type="bidirectional"/>
-        <pin num="3" name="PA02" type="bidirectional"/>
-        <pin num="4" name="PA03" type="bidirectional"/>
-        <pin num="5" name="PA04" type="bidirectional"/>
-        <pin num="6" name="PA05" type="bidirectional"/>
-        <pin num="7" name="PA06" type="bidirectional"/>
-        <pin num="8" name="PA07" type="bidirectional"/>
-        <pin num="9" name="VDDANA" type="power_in"/>
-        <pin num="10" name="GND" type="power_in"/>
-        <pin num="11" name="PA08" type="bidirectional"/>
-        <pin num="12" name="PA09" type="bidirectional"/>
-        <pin num="13" name="PA10" type="bidirectional"/>
-        <pin num="14" name="PA11" type="bidirectional"/>
-        <pin num="15" name="PA14" type="bidirectional"/>
-        <pin num="16" name="PA15" type="bidirectional"/>
-        <pin num="17" name="PA16" type="bidirectional"/>
-        <pin num="18" name="PA17" type="bidirectional"/>
-        <pin num="19" name="PA18" type="bidirectional"/>
-        <pin num="20" name="PA19" type="bidirectional"/>
-        <pin num="21" name="PA22" type="bidirectional"/>
-        <pin num="22" name="PA23" type="bidirectional"/>
-        <pin num="23" name="PA24" type="bidirectional"/>
-        <pin num="24" name="PA25" type="bidirectional"/>
-        <pin num="25" name="PA27" type="bidirectional"/>
-        <pin num="26" name="~{RESET}" type="input"/>
-        <pin num="27" name="PA28" type="bidirectional"/>
-        <pin num="28" name="GND" type="input"/>
-        <pin num="29" name="VDDCORE" type="power_in"/>
-        <pin num="30" name="VDDIN" type="power_in"/>
-        <pin num="31" name="PA30" type="bidirectional"/>
-        <pin num="32" name="PA31" type="bidirectional"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="Shulltronics_Passives_3088_Capacitor_10u_50V_SMD">
+    <libpart lib="Shulltronics_ICs" part="3099_TL074CPW_SMD">
+      <docs>https://www.ti.com/lit/ds/symlink/tl071a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1646679901639</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">3099_TL074CPW_SMD</field>
+        <field name="Footprint">Shulltronics_Integrated_Circuits:3099_TL074CPW_TSSOP14</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tl071a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1646679901639</field>
+        <field name="SPN">3099</field>
+        <field name="Val">TL074</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OUT" type="output"/>
+        <pin num="2" name="1IN-" type="input"/>
+        <pin num="3" name="1IN+" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="2IN+" type="input"/>
+        <pin num="6" name="2IN-" type="input"/>
+        <pin num="7" name="2OUT" type="output"/>
+        <pin num="8" name="3OUT" type="output"/>
+        <pin num="9" name="3IN-" type="input"/>
+        <pin num="10" name="3IN+" type="input"/>
+        <pin num="11" name="VEE" type="power_in"/>
+        <pin num="12" name="4IN+" type="input"/>
+        <pin num="13" name="4IN-" type="input"/>
+        <pin num="14" name="4OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_ICs" part="4001_MCP48FEB24_DAC">
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MCP48FXBX4-8-Family-Data-Sheet-DS20006362A.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4001_MCP48FEB24_DAC</field>
+        <field name="Footprint">Shulltronics_Generics:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MCP48FXBX4-8-Family-Data-Sheet-DS20006362A.pdf</field>
+        <field name="SPN">4001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{LAT1}" type="input"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="~{CS}" type="input"/>
+        <pin num="4" name="VREF0" type="input"/>
+        <pin num="5" name="VOUT0" type="output"/>
+        <pin num="6" name="VOUT2" type="output"/>
+        <pin num="7" name="" type="no_connect"/>
+        <pin num="8" name="" type="no_connect"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="" type="no_connect"/>
+        <pin num="11" name="" type="no_connect"/>
+        <pin num="12" name="" type="no_connect"/>
+        <pin num="13" name="" type="no_connect"/>
+        <pin num="14" name="VOUT3" type="output"/>
+        <pin num="15" name="VOUT1" type="output"/>
+        <pin num="16" name="VREF1" type="input"/>
+        <pin num="17" name="SDO" type="output"/>
+        <pin num="18" name="SCK" type="input"/>
+        <pin num="19" name="SDI" type="input"/>
+        <pin num="20" name="~{LAT0}" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_ICs" part="4002_RP2040">
+      <docs>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4002_RP2040</field>
+        <field name="Footprint">Shulltronics_Microcontrollers:4002_RP2040_QFN-56-7x7mm_P0.4mm</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</field>
+        <field name="SPN">4002</field>
+      </fields>
+      <pins>
+        <pin num="0" name="GND" type="power_in"/>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="input"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="output"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="input"/>
+        <pin num="25" name="SWDIO" type="bidirectional"/>
+        <pin num="26" name="RUN" type="bidirectional"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26/ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27/ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28/ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29/ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_VIN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="output"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="~{QSPI_SS}" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Opto" part="4028_OptoIsolator_TLP290">
+      <description>AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, not recommended for new designs, SOP4</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?https://toshiba.semicon-storage.com/info/docget.jsp?did=14154&amp;prodName=TLP290(SE</docs>
+      <footprints>
+        <fp>SOP*4*4.4x2.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4028_OptoIsolator_TLP290</field>
+        <field name="Footprint">Shulltronics_Opto:4028_OptoIsolator_TLP290_SOP-4</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?https://toshiba.semicon-storage.com/info/docget.jsp?did=14154&amp;prodName=TLP290(SE</field>
+        <field name="SPN">4028</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="3088_Capacitor_10u_50V_SMD">
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">Shulltronics_Passives_3088_Capacitor_10u_50V_SMD</field>
+        <field name="Value">3088_Capacitor_10u_50V_SMD</field>
         <field name="Footprint">Shulltronics_Passives:3088_Capacitor_10u_50V_SMD</field>
         <field name="SPN">3088</field>
         <field name="Val">10u</field>
@@ -455,11 +1941,13 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="Shulltronics_Passives_3089_Capacitor_100n_16V_SMD">
+    <libpart lib="Shulltronics_Passives" part="3089_Capacitor_100n_16V_0402">
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</docs>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">Shulltronics_Passives_3089_Capacitor_100n_16V_SMD</field>
+        <field name="Value">3089_Capacitor_100n_16V_0402</field>
         <field name="Footprint">Shulltronics_Generics:C_0402_HandSolder</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</field>
         <field name="SPN">3089</field>
         <field name="Val">100n</field>
       </fields>
@@ -468,260 +1956,908 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Shulltronics_Passives" part="4003_Capacitor_22pF_50V_0402">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555G1H220JA16-01.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4003_Capacitor_22pF_50V_0402</field>
+        <field name="Footprint">Shulltronics_Generics:C_0402_HandSolder</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555G1H220JA16-01.pdf</field>
+        <field name="SPN">4003</field>
+        <field name="Val">22pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4004-Crystal-12MHz_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>https://suntsu.com/wp-content/uploads/2019/07/SXT224-Series-1.pdf</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">4004-Crystal-12MHz_GND24</field>
+        <field name="Footprint">Shulltronics_Passives:4004-Crystal-12MHz-4Pin_2.5x2.0mm</field>
+        <field name="Datasheet">https://suntsu.com/wp-content/uploads/2019/07/SXT224-Series-1.pdf</field>
+        <field name="SPN">4004</field>
+        <field name="Val">12.00MHz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4006_Resistor_SMD_68k_0.125W_1%">
+      <description>SMD Resistor, 68k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4006_Resistor_SMD_68k_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4006</field>
+        <field name="Val">68k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4008_Resistor_SMD_10k_0.125W_1%">
+      <description>SMD Resistor, 10k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4008_Resistor_SMD_10k_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4008</field>
+        <field name="Val">10k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4009_Resistor_SMD_5k1_0.10W_1%">
+      <description>SMD Resistor, 5k1 Ohms, 1/10W, 1%, 0402</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4009_Resistor_SMD_5k1_0.10W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="SPN">4009</field>
+        <field name="Val">5k1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4010_Resistor_SMD_1k_0.125W_1%">
+      <description>SMD Resistor, 1k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4010_Resistor_SMD_1k_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4010</field>
+        <field name="Val">1k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4011_Resistor_SMD_27_0.125W_1%">
+      <description>SMD Resistor, 1k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4011_Resistor_SMD_27_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4011</field>
+        <field name="Val">27</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4013_Capacitor_1u_16V_0402">
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4013_Capacitor_1u_16V_0402</field>
+        <field name="Footprint">Shulltronics_Generics:C_0402_HandSolder</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</field>
+        <field name="SPN">4013</field>
+        <field name="Val">1u</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4018_Resistor_SMD_82k_0.125W_1%">
+      <description>SMD Resistor, 82k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4018_Resistor_SMD_82k_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4018</field>
+        <field name="Val">82k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4019_Resistor_SMD_270k_0.125W_1%">
+      <description>SMD Resistor, 270k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4019_Resistor_SMD_270k_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4019</field>
+        <field name="Val">270k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4020_Resistor_SMD_180k_0.125W_1%">
+      <description>SMD Resistor, 180k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4020_Resistor_SMD_180k_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4020</field>
+        <field name="Val">180k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4021_Resistor_SMD_Jumper">
+      <description>Jumper</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4021_Resistor_SMD_Jumper</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4021</field>
+        <field name="Val">0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4022_Resistor_SMD_120k_0.125W_1%">
+      <description>SMD Resistor, 120k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4022_Resistor_SMD_120k_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4022</field>
+        <field name="Val">120k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4023_Resistor_SMD_56k_0.125W_1%">
+      <description>SMD Resistor, 56k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4023_Resistor_SMD_56k_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4023</field>
+        <field name="Val">56k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Passives" part="4030_Resistor_SMD_220_0.125W_1%">
+      <description>SMD Resistor, 180k Ohms, 1/8W, 1%, 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4030_Resistor_SMD_220_0.125W_1%</field>
+        <field name="Footprint">Shulltronics_Generics:RES-0402</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-9&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="SPN">4030</field>
+        <field name="Val">220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Regulators" part="4015_Adjustable_Reg_500mA_SOT-23-5">
+      <docs>https://assets.maxlinear.com/web/documents/spx3819.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4015_Adjustable_Reg_500mA_SOT-23-5</field>
+        <field name="Footprint">Shulltronics_Generics:SOT-23-5</field>
+        <field name="Datasheet">https://assets.maxlinear.com/web/documents/spx3819.pdf</field>
+        <field name="SPN">4015</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="ADJ" type="passive"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Sch_Symbols" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint">Shulltronics_Generics:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shulltronics_Semiconductors" part="4014_Voltage_Reference_5V_SOT23-6">
+      <docs>https://www.ti.com/lit/ds/symlink/ref34-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1647014997288</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4014_Voltage_Reference_5V_SOT23-6</field>
+        <field name="Footprint">Shulltronics_Generics:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ref34-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1647014997288</field>
+        <field name="SPN">4014</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="no_connect"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="VOUT" type="output"/>
+        <pin num="5" name="" type="no_connect"/>
+      </pins>
+    </libpart>
   </libparts>
-  <libraries/>
+  <libraries>
+    <library logical="Shulltronics_Connectors">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="Shulltronics_DevBoards">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_DevBoards.kicad_sym</uri>
+    </library>
+    <library logical="Shulltronics_ElectroMechanical">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_ElectroMechanical.kicad_sym</uri>
+    </library>
+    <library logical="Shulltronics_ICs">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_ICs.kicad_sym</uri>
+    </library>
+    <library logical="Shulltronics_Opto">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_Opto.kicad_sym</uri>
+    </library>
+    <library logical="Shulltronics_Passives">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_Passives.kicad_sym</uri>
+    </library>
+    <library logical="Shulltronics_Regulators">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_Regulators.kicad_sym</uri>
+    </library>
+    <library logical="Shulltronics_Sch_Symbols">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_Sch_Symbols.kicad_sym</uri>
+    </library>
+    <library logical="Shulltronics_Semiconductors">
+      <uri>C:\Users\carstentb\Documents\KiCad\6.0\User Libraries\symbols/Shulltronics_Semiconductors.kicad_sym</uri>
+    </library>
+  </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    <net code="1" name="/5V3">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="OUT" pintype="power_out"/>
     </net>
-    <net code="2" name="VCC">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="2" name="/BOOTSEL">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="3" name="VSS">
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="J9" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J9" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    <net code="3" name="/D+">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="4" name="unconnected-(C5-Pad1)">
-      <node ref="C5" pin="1" pintype="passive"/>
+    <net code="4" name="/D-">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="5" name="unconnected-(C5-Pad2)">
-      <node ref="C5" pin="2" pintype="passive"/>
+    <net code="5" name="/ENC_0">
+      <node ref="E1" pin="3" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="6" name="unconnected-(C6-Pad1)">
-      <node ref="C6" pin="1" pintype="passive"/>
+    <net code="6" name="/ENC_1">
+      <node ref="E1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
-    <net code="7" name="unconnected-(C6-Pad2)">
-      <node ref="C6" pin="2" pintype="passive"/>
+    <net code="7" name="/ENC_2">
+      <node ref="U2" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
     </net>
-    <net code="8" name="unconnected-(C7-Pad1)">
-      <node ref="C7" pin="1" pintype="passive"/>
+    <net code="8" name="/ENC_BTN">
+      <node ref="E1" pin="5" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
     </net>
-    <net code="9" name="unconnected-(C7-Pad2)">
-      <node ref="C7" pin="2" pintype="passive"/>
+    <net code="9" name="/I2C_SCL">
+      <node ref="U2" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
     </net>
-    <net code="10" name="unconnected-(C8-Pad1)">
-      <node ref="C8" pin="1" pintype="passive"/>
+    <net code="10" name="/I2C_SDA">
+      <node ref="U2" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
-    <net code="11" name="unconnected-(C8-Pad2)">
-      <node ref="C8" pin="2" pintype="passive"/>
+    <net code="11" name="/IO Jacks/5V3">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="12" name="unconnected-(J1-PadS)">
-      <node ref="J1" pin="S" pinfunction="S" pintype="passive"/>
+    <net code="12" name="/IO Jacks/CV0_FB">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="1IN-" pintype="input"/>
     </net>
-    <net code="13" name="unconnected-(J1-PadT)">
-      <node ref="J1" pin="T" pinfunction="T" pintype="passive"/>
+    <net code="13" name="/IO Jacks/CV0_OUT">
+      <node ref="J10" pin="T" pinfunction="T" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="1OUT" pintype="output"/>
     </net>
-    <net code="14" name="unconnected-(J1-PadTN)">
-      <node ref="J1" pin="TN" pinfunction="TN" pintype="passive"/>
+    <net code="14" name="/IO Jacks/CV1_FB">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="2IN-" pintype="input"/>
     </net>
-    <net code="15" name="unconnected-(J2-PadS)">
-      <node ref="J2" pin="S" pinfunction="S" pintype="passive"/>
+    <net code="15" name="/IO Jacks/CV1_OUT">
+      <node ref="J11" pin="T" pinfunction="T" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="2OUT" pintype="output"/>
     </net>
-    <net code="16" name="unconnected-(J2-PadT)">
-      <node ref="J2" pin="T" pinfunction="T" pintype="passive"/>
+    <net code="16" name="/IO Jacks/CV2_FB">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="3IN-" pintype="input"/>
     </net>
-    <net code="17" name="unconnected-(J2-PadTN)">
-      <node ref="J2" pin="TN" pinfunction="TN" pintype="passive"/>
+    <net code="17" name="/IO Jacks/CV2_OUT">
+      <node ref="J12" pin="T" pinfunction="T" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="3OUT" pintype="output"/>
     </net>
-    <net code="18" name="unconnected-(J3-PadS)">
-      <node ref="J3" pin="S" pinfunction="S" pintype="passive"/>
+    <net code="18" name="/IO Jacks/CV3_FB">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="4IN-" pintype="input"/>
     </net>
-    <net code="19" name="unconnected-(J3-PadT)">
-      <node ref="J3" pin="T" pinfunction="T" pintype="passive"/>
+    <net code="19" name="/IO Jacks/CV3_OUT">
+      <node ref="J13" pin="T" pinfunction="T" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="4OUT" pintype="output"/>
     </net>
-    <net code="20" name="unconnected-(J3-PadTN)">
-      <node ref="J3" pin="TN" pinfunction="TN" pintype="passive"/>
+    <net code="20" name="/IO Jacks/CVx_REF">
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="unconnected-(J4-PadS)">
-      <node ref="J4" pin="S" pinfunction="S" pintype="passive"/>
+    <net code="21" name="/IO Jacks/DAC_VOUT0">
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="VOUT0" pintype="output"/>
+      <node ref="U7" pin="3" pinfunction="1IN+" pintype="input"/>
     </net>
-    <net code="22" name="unconnected-(J4-PadT)">
-      <node ref="J4" pin="T" pinfunction="T" pintype="passive"/>
+    <net code="22" name="/IO Jacks/DAC_VOUT1">
+      <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="VOUT1" pintype="output"/>
+      <node ref="U7" pin="5" pinfunction="2IN+" pintype="input"/>
     </net>
-    <net code="23" name="unconnected-(J4-PadTN)">
-      <node ref="J4" pin="TN" pinfunction="TN" pintype="passive"/>
+    <net code="23" name="/IO Jacks/DAC_VOUT2">
+      <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="VOUT2" pintype="output"/>
+      <node ref="U7" pin="10" pinfunction="3IN+" pintype="input"/>
     </net>
-    <net code="24" name="unconnected-(J5-PadS)">
-      <node ref="J5" pin="S" pinfunction="S" pintype="passive"/>
+    <net code="24" name="/IO Jacks/DAC_VOUT3">
+      <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="VOUT3" pintype="output"/>
+      <node ref="U7" pin="12" pinfunction="4IN+" pintype="input"/>
     </net>
-    <net code="25" name="unconnected-(J5-PadT)">
-      <node ref="J5" pin="T" pinfunction="T" pintype="passive"/>
-    </net>
-    <net code="26" name="unconnected-(J5-PadTN)">
-      <node ref="J5" pin="TN" pinfunction="TN" pintype="passive"/>
-    </net>
-    <net code="27" name="unconnected-(J6-PadS)">
-      <node ref="J6" pin="S" pinfunction="S" pintype="passive"/>
-    </net>
-    <net code="28" name="unconnected-(J6-PadT)">
+    <net code="25" name="/IO Jacks/TRIG0">
       <node ref="J6" pin="T" pinfunction="T" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="1IN+" pintype="input"/>
     </net>
-    <net code="29" name="unconnected-(J6-PadTN)">
-      <node ref="J6" pin="TN" pinfunction="TN" pintype="passive"/>
+    <net code="26" name="/IO Jacks/TRIG0_FB">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="1OUT" pintype="output"/>
+      <node ref="U8" pin="2" pinfunction="1IN-" pintype="input"/>
     </net>
-    <net code="30" name="unconnected-(J7-PadS)">
-      <node ref="J7" pin="S" pinfunction="S" pintype="passive"/>
-    </net>
-    <net code="31" name="unconnected-(J7-PadT)">
+    <net code="27" name="/IO Jacks/TRIG1">
       <node ref="J7" pin="T" pinfunction="T" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="2IN+" pintype="input"/>
     </net>
-    <net code="32" name="unconnected-(J7-PadTN)">
-      <node ref="J7" pin="TN" pinfunction="TN" pintype="passive"/>
+    <net code="28" name="/IO Jacks/TRIG1_FB">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="2IN-" pintype="input"/>
+      <node ref="U8" pin="7" pinfunction="2OUT" pintype="output"/>
     </net>
-    <net code="33" name="unconnected-(J8-PadS)">
-      <node ref="J8" pin="S" pinfunction="S" pintype="passive"/>
-    </net>
-    <net code="34" name="unconnected-(J8-PadT)">
+    <net code="29" name="/IO Jacks/TRIG2">
       <node ref="J8" pin="T" pinfunction="T" pintype="passive"/>
+      <node ref="U8" pin="10" pinfunction="3IN+" pintype="input"/>
     </net>
-    <net code="35" name="unconnected-(J8-PadTN)">
-      <node ref="J8" pin="TN" pinfunction="TN" pintype="passive"/>
+    <net code="30" name="/IO Jacks/TRIG2_FB">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="3OUT" pintype="output"/>
+      <node ref="U8" pin="9" pinfunction="3IN-" pintype="input"/>
     </net>
-    <net code="36" name="unconnected-(RP1-Pad1)">
-      <node ref="RP1" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="31" name="/IO Jacks/TRIG3">
+      <node ref="J9" pin="T" pinfunction="T" pintype="passive"/>
+      <node ref="U8" pin="12" pinfunction="4IN+" pintype="input"/>
     </net>
-    <net code="37" name="unconnected-(RP1-Pad2)">
-      <node ref="RP1" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="32" name="/IO Jacks/TRIG3_FB">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U8" pin="13" pinfunction="4IN-" pintype="input"/>
+      <node ref="U8" pin="14" pinfunction="4OUT" pintype="output"/>
     </net>
-    <net code="38" name="unconnected-(RP1-Pad3)">
-      <node ref="RP1" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="33" name="/IO Jacks/VREF_5V0">
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="VOUT" pintype="output"/>
+      <node ref="U6" pin="16" pinfunction="VREF1" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="VREF0" pintype="input"/>
     </net>
-    <net code="39" name="unconnected-(RP2-Pad1)">
-      <node ref="RP2" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="34" name="/IO_CS">
+      <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="~{CS}" pintype="input"/>
     </net>
-    <net code="40" name="unconnected-(RP2-Pad2)">
-      <node ref="RP2" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="35" name="/IO_SCK">
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+      <node ref="U6" pin="18" pinfunction="SCK" pintype="input"/>
     </net>
-    <net code="41" name="unconnected-(RP2-Pad3)">
-      <node ref="RP2" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="36" name="/IO_SDI">
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+      <node ref="U6" pin="19" pinfunction="SDI" pintype="input"/>
     </net>
-    <net code="42" name="unconnected-(RP3-Pad1)">
-      <node ref="RP3" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="37" name="/IO_SDO">
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+      <node ref="U6" pin="17" pinfunction="SDO" pintype="output"/>
     </net>
-    <net code="43" name="unconnected-(RP3-Pad2)">
-      <node ref="RP3" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="38" name="/IO_TRIG0">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="TP28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="38" pinfunction="GPIO26/ADC0" pintype="bidirectional"/>
     </net>
-    <net code="44" name="unconnected-(RP3-Pad3)">
-      <node ref="RP3" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="39" name="/IO_TRIG1">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="39" pinfunction="GPIO27/ADC1" pintype="bidirectional"/>
     </net>
-    <net code="45" name="unconnected-(RP4-Pad1)">
-      <node ref="RP4" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="40" name="/IO_TRIG2">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="TP30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="40" pinfunction="GPIO28/ADC2" pintype="bidirectional"/>
     </net>
-    <net code="46" name="unconnected-(RP4-Pad2)">
-      <node ref="RP4" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="41" name="/IO_TRIG3">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="41" pinfunction="GPIO29/ADC3" pintype="bidirectional"/>
     </net>
-    <net code="47" name="unconnected-(RP4-Pad3)">
-      <node ref="RP4" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="42" name="/LCD_CS">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="TFT_CS" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
     </net>
-    <net code="48" name="unconnected-(U1-Pad1)">
-      <node ref="U1" pin="1" pinfunction="PA00" pintype="bidirectional"/>
+    <net code="43" name="/LCD_DC">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="DC" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
     </net>
-    <net code="49" name="unconnected-(U1-Pad2)">
-      <node ref="U1" pin="2" pinfunction="PA01" pintype="bidirectional"/>
+    <net code="44" name="/LCD_RST">
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="RST" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
-    <net code="50" name="unconnected-(U1-Pad3)">
-      <node ref="U1" pin="3" pinfunction="PA02" pintype="bidirectional"/>
+    <net code="45" name="/LCD_VIN">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="51" name="unconnected-(U1-Pad4)">
-      <node ref="U1" pin="4" pinfunction="PA03" pintype="bidirectional"/>
+    <net code="46" name="/LCD{slash}SD_SCK">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SCK" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
     </net>
-    <net code="52" name="unconnected-(U1-Pad5)">
-      <node ref="U1" pin="5" pinfunction="PA04" pintype="bidirectional"/>
+    <net code="47" name="/LCD{slash}SD_SDI">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="MOSI" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
     </net>
-    <net code="53" name="unconnected-(U1-Pad6)">
-      <node ref="U1" pin="6" pinfunction="PA05" pintype="bidirectional"/>
+    <net code="48" name="/MIDI_OUT_SRC">
+      <node ref="J1" pin="4" pintype="input"/>
+      <node ref="R33" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="unconnected-(U1-Pad7)">
-      <node ref="U1" pin="7" pinfunction="PA06" pintype="bidirectional"/>
+    <net code="49" name="/MIDI_R">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U9" pin="2" pintype="passive"/>
     </net>
-    <net code="55" name="unconnected-(U1-Pad8)">
-      <node ref="U1" pin="8" pinfunction="PA07" pintype="bidirectional"/>
+    <net code="50" name="/MIDI_SNK">
+      <node ref="J1" pin="1" pintype="input"/>
+      <node ref="R31" pin="2" pintype="passive"/>
     </net>
-    <net code="56" name="unconnected-(U1-Pad9)">
-      <node ref="U1" pin="9" pinfunction="VDDANA" pintype="power_in"/>
+    <net code="51" name="/MIDI_SRC">
+      <node ref="J1" pin="2" pintype="input"/>
+      <node ref="U9" pin="1" pintype="passive"/>
     </net>
-    <net code="57" name="unconnected-(U1-Pad10)">
-      <node ref="U1" pin="10" pinfunction="GND" pintype="power_in"/>
+    <net code="52" name="/SD_CS">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="SD_CS" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
     </net>
-    <net code="58" name="unconnected-(U1-Pad11)">
-      <node ref="U1" pin="11" pinfunction="PA08" pintype="bidirectional"/>
+    <net code="53" name="/SD_SDO">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="MISO" pintype="output"/>
+      <node ref="U2" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
     </net>
-    <net code="59" name="unconnected-(U1-Pad12)">
-      <node ref="U1" pin="12" pinfunction="PA09" pintype="bidirectional"/>
+    <net code="54" name="/SWCLK">
+      <node ref="J2" pin="4" pinfunction="SWCLK" pintype="output"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="SWCLK" pintype="input"/>
     </net>
-    <net code="60" name="unconnected-(U1-Pad13)">
-      <node ref="U1" pin="13" pinfunction="PA10" pintype="bidirectional"/>
+    <net code="55" name="/SWDIO">
+      <node ref="J2" pin="2" pinfunction="SWDIO" pintype="bidirectional"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="SWDIO" pintype="bidirectional"/>
     </net>
-    <net code="61" name="unconnected-(U1-Pad14)">
-      <node ref="U1" pin="14" pinfunction="PA11" pintype="bidirectional"/>
+    <net code="56" name="/UART_RX">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+      <node ref="U9" pin="4" pintype="passive"/>
     </net>
-    <net code="62" name="unconnected-(U1-Pad15)">
-      <node ref="U1" pin="15" pinfunction="PA14" pintype="bidirectional"/>
+    <net code="57" name="/UART_TX">
+      <node ref="J1" pin="3" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
     </net>
-    <net code="63" name="unconnected-(U1-Pad16)">
-      <node ref="U1" pin="16" pinfunction="PA15" pintype="bidirectional"/>
+    <net code="58" name="/USB_CC1">
+      <node ref="J4" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R13" pin="1" pintype="passive"/>
     </net>
-    <net code="64" name="unconnected-(U1-Pad17)">
-      <node ref="U1" pin="17" pinfunction="PA16" pintype="bidirectional"/>
+    <net code="59" name="/USB_CC2">
+      <node ref="J4" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="65" name="unconnected-(U1-Pad18)">
-      <node ref="U1" pin="18" pinfunction="PA17" pintype="bidirectional"/>
+    <net code="60" name="/USB_D+">
+      <node ref="J4" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="66" name="unconnected-(U1-Pad19)">
-      <node ref="U1" pin="19" pinfunction="PA18" pintype="bidirectional"/>
+    <net code="61" name="/USB_D-">
+      <node ref="J4" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="67" name="unconnected-(U1-Pad20)">
-      <node ref="U1" pin="20" pinfunction="PA19" pintype="bidirectional"/>
+    <net code="62" name="/VREG_1V2">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U2" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
+      <node ref="U2" pin="50" pinfunction="DVDD" pintype="power_in"/>
     </net>
-    <net code="68" name="unconnected-(U1-Pad21)">
-      <node ref="U1" pin="21" pinfunction="PA22" pintype="bidirectional"/>
+    <net code="63" name="/XIN">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="XIN" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="69" name="unconnected-(U1-Pad22)">
-      <node ref="U1" pin="22" pinfunction="PA23" pintype="bidirectional"/>
+    <net code="64" name="/XOUT">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="XOUT" pintype="output"/>
     </net>
-    <net code="70" name="unconnected-(U1-Pad23)">
-      <node ref="U1" pin="23" pinfunction="PA24" pintype="bidirectional"/>
+    <net code="65" name="/~{RESET}">
+      <node ref="J2" pin="10" pinfunction="RESET" pintype="output"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="RUN" pintype="bidirectional"/>
     </net>
-    <net code="71" name="unconnected-(U1-Pad24)">
-      <node ref="U1" pin="24" pinfunction="PA25" pintype="bidirectional"/>
+    <net code="66" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="E1" pin="2" pintype="passive"/>
+      <node ref="J10" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="J11" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="J12" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="J13" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="7" pinfunction="KEY" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="A1/B12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="B1/A12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="J6" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="J7" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="J8" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="J9" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="0" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="TESTEN" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="~{LAT1}" pintype="input"/>
+      <node ref="U6" pin="20" pinfunction="~{LAT0}" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U9" pin="3" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="72" name="unconnected-(U1-Pad25)">
-      <node ref="U1" pin="25" pinfunction="PA27" pintype="bidirectional"/>
+    <net code="67" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="73" name="unconnected-(U1-Pad26)">
-      <node ref="U1" pin="26" pinfunction="~{RESET}" pintype="input"/>
+    <net code="68" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="56" pinfunction="~{QSPI_SS}" pintype="output"/>
     </net>
-    <net code="74" name="unconnected-(U1-Pad27)">
-      <node ref="U1" pin="27" pinfunction="PA28" pintype="bidirectional"/>
+    <net code="69" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="ADJ" pintype="passive"/>
     </net>
-    <net code="75" name="unconnected-(U1-Pad28)">
-      <node ref="U1" pin="28" pinfunction="GND" pintype="input"/>
+    <net code="70" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="ADJ" pintype="passive"/>
     </net>
-    <net code="76" name="unconnected-(U1-Pad29)">
-      <node ref="U1" pin="29" pinfunction="VDDCORE" pintype="power_in"/>
+    <net code="71" name="VCC">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="E1" pin="4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U2" pin="44" pinfunction="VREG_VIN" pintype="power_in"/>
+      <node ref="U2" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U2" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="power_out"/>
     </net>
-    <net code="77" name="unconnected-(U1-Pad30)">
-      <node ref="U1" pin="30" pinfunction="VDDIN" pintype="power_in"/>
+    <net code="72" name="VDD">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="78" name="unconnected-(U1-Pad31)">
-      <node ref="U1" pin="31" pinfunction="PA30" pintype="bidirectional"/>
+    <net code="73" name="VSS">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="VEE" pintype="power_in"/>
+      <node ref="U8" pin="11" pinfunction="VEE" pintype="power_in"/>
     </net>
-    <net code="79" name="unconnected-(U1-Pad32)">
-      <node ref="U1" pin="32" pinfunction="PA31" pintype="bidirectional"/>
+    <net code="74" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="SWO" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(J4-PadA4/B9)">
+      <node ref="J4" pin="A4/B9" pinfunction="VBUS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(J4-PadA8)">
+      <node ref="J4" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J4-PadB4/A9)">
+      <node ref="J4" pin="B4/A9" pinfunction="VBUS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J4-PadB6)">
+      <node ref="J4" pin="B6" pinfunction="DP2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J4-PadB7)">
+      <node ref="J4" pin="B7" pinfunction="DN2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J4-PadB8)">
+      <node ref="J4" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(J6-PadTN)">
+      <node ref="J6" pin="TN" pinfunction="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(J7-PadTN)">
+      <node ref="J7" pin="TN" pinfunction="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J8-PadTN)">
+      <node ref="J8" pin="TN" pinfunction="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(J9-PadTN)">
+      <node ref="J9" pin="TN" pinfunction="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(J10-PadTN)">
+      <node ref="J10" pin="TN" pinfunction="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(J11-PadTN)">
+      <node ref="J11" pin="TN" pinfunction="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(J12-PadTN)">
+      <node ref="J12" pin="TN" pinfunction="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(J13-PadTN)">
+      <node ref="J13" pin="TN" pinfunction="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="BL" pintype="input+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U2-Pad18)">
+      <node ref="U2" pin="18" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U2-Pad27)">
+      <node ref="U2" pin="27" pinfunction="GPIO16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U2-Pad32)">
+      <node ref="U2" pin="32" pinfunction="GPIO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U2-Pad34)">
+      <node ref="U2" pin="34" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U2-Pad35)">
+      <node ref="U2" pin="35" pinfunction="GPIO23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U2-Pad36)">
+      <node ref="U2" pin="36" pinfunction="GPIO24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U2-Pad37)">
+      <node ref="U2" pin="37" pinfunction="GPIO25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U2-Pad51)">
+      <node ref="U2" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U2-Pad52)">
+      <node ref="U2" pin="52" pinfunction="QSPI_SCLK" pintype="output+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U2-Pad53)">
+      <node ref="U2" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U2-Pad54)">
+      <node ref="U2" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U2-Pad55)">
+      <node ref="U2" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pintype="no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U6-Pad7)">
+      <node ref="U6" pin="7" pintype="no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U6-Pad8)">
+      <node ref="U6" pin="8" pintype="no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U6-Pad10)">
+      <node ref="U6" pin="10" pintype="no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U6-Pad11)">
+      <node ref="U6" pin="11" pintype="no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U6-Pad12)">
+      <node ref="U6" pin="12" pintype="no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U6-Pad13)">
+      <node ref="U6" pin="13" pintype="no_connect"/>
     </net>
   </nets>
 </export>

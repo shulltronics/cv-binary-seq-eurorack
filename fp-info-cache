@@ -1,4 +1,4 @@
-20225772491138925
+20231269954700779
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79055,8 +79055,8 @@ Shulltronics-DevBoards
 
 
 0
-25
-25
+11
+11
 Shulltronics_Connectors
 3027_Header_9pos_2.54mm
 
@@ -79218,6 +79218,13 @@ connector Molex PicoBlade side entry
 0
 3
 3
+Shulltronics_Connectors
+4029_PicoBlade_4pos_Vert_THT
+
+connector Molex PicoBlade
+0
+4
+4
 Shulltronics_ElectroMechanical
 3051_Relay_SPDT_5A
 
@@ -79442,6 +79449,13 @@ Shulltronics_Opto
 0
 16
 16
+Shulltronics_Opto
+4028_OptoIsolator_TLP290_SOP-4
+SOP, 4 Pin (http://www.vishay.com/docs/83510/tcmt1100.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
 Shulltronics_Passives
 3048_Switch_SPDT_RA
 
@@ -79463,6 +79477,13 @@ SMD SMT crystal
 0
 4
 4
+Shulltronics_Passives
+4031_Capacitor_10u_35V_SMD
+
+
+0
+2
+2
 Shulltronics_Regulators
 3093_MIC5225_3v3_LDO
 
