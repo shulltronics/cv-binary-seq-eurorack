@@ -1,4 +1,4 @@
-20231269954700779
+20237861574363681
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79182,7 +79182,7 @@ Shulltronics_Connectors
 
 0
 16
-16
+12
 Shulltronics_Connectors
 4000_Header_10pos_2.54mm
 
@@ -79338,6 +79338,13 @@ LED_5MM
 2
 2
 Shulltronics_Generics
+LED_0402
+LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+Shulltronics_Generics
 RES-0402
 Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 resistor
@@ -79359,12 +79366,26 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W len
 2
 2
 Shulltronics_Generics
+SMD_SolderJumper-3
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+3
+Shulltronics_Generics
 SOT-23-5
 SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
 0
 5
 5
+Shulltronics_Generics
+Shulltronics_Logo
+
+
+0
+0
+0
 Shulltronics_Generics
 TO-92
 
@@ -79386,6 +79407,13 @@ test point SMD pad
 0
 1
 1
+Shulltronics_Generics
+logo_test
+
+
+0
+0
+0
 Shulltronics_Integrated_Circuits
 3092_MCP48FEB22_DAC
 
@@ -79419,7 +79447,7 @@ Shulltronics_Microcontrollers
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
-61
+77
 57
 Shulltronics_Opto
 3017_SevenSegment
