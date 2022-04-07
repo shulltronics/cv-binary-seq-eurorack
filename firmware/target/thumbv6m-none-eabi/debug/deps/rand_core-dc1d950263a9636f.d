@@ -1,0 +1,11 @@
+C:\Users\carstentb\Documents\KiCad\6.0\Carsten Projects\cv_sequencer\firmware\target\thumbv6m-none-eabi\debug\deps\rand_core-dc1d950263a9636f.rmeta: C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\lib.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\block.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\error.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\impls.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\le.rs
+
+C:\Users\carstentb\Documents\KiCad\6.0\Carsten Projects\cv_sequencer\firmware\target\thumbv6m-none-eabi\debug\deps\librand_core-dc1d950263a9636f.rlib: C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\lib.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\block.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\error.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\impls.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\le.rs
+
+C:\Users\carstentb\Documents\KiCad\6.0\Carsten Projects\cv_sequencer\firmware\target\thumbv6m-none-eabi\debug\deps\rand_core-dc1d950263a9636f.d: C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\lib.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\block.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\error.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\impls.rs C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\le.rs
+
+C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\lib.rs:
+C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\block.rs:
+C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\error.rs:
+C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\impls.rs:
+C:\Users\carstentb\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\le.rs:

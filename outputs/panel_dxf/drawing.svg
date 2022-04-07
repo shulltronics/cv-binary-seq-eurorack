@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path11" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path14" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path16" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path18" />
+    </pattern>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g2248"
+       transform="translate(-30.278351,19.221649)">
+      <g
+         id="g39"
+         transform="scale(0.26458333)">
+        <g
+           id="g23" />
+        <g
+           id="g25" />
+      </g>
+      <g
+         id="g1368"
+         transform="matrix(9.9999996e-7,0,0,9.9999996e-7,-77.465274,-77.758749)">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="g987" />
+        <g
+           style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="g989" />
+        <g
+           style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:120000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="g1235">
+          <circle
+             cx="194462400"
+             cy="69977000"
+             r="3300000"
+             id="circle991" />
+          <circle
+             cx="194462400"
+             cy="81407000"
+             r="3300000"
+             id="circle993" />
+          <circle
+             cx="163271200"
+             cy="81407000"
+             r="3300000"
+             id="circle995" />
+          <circle
+             cx="163271200"
+             cy="69977000"
+             r="3300000"
+             id="circle997" />
+          <circle
+             cx="210008992"
+             cy="69977000"
+             r="3300000"
+             id="circle999" />
+          <circle
+             cx="210058000"
+             cy="81407000"
+             r="3300000"
+             id="circle1001" />
+          <circle
+             cx="178866800"
+             cy="69977000"
+             r="3300000"
+             id="circle1003" />
+          <circle
+             cx="178866800"
+             cy="81407000"
+             r="3300000"
+             id="circle1005" />
+          <path
+             d="M 155050000,87065000 H 126700000"
+             id="path1007" />
+          <path
+             d="M 126700000,87065000 V 69365000"
+             id="path1009" />
+          <path
+             d="m 126700000,69365000 h 28350000"
+             id="path1011" />
+          <path
+             d="M 155050000,69365000 V 87065000"
+             id="path1013" />
+          <circle
+             cx="115316000"
+             cy="75692000"
+             r="3600000"
+             id="circle1015" />
+          <g
+             id="g1017" />
+          <g
+             id="g1019" />
+          <g
+             id="g1021" />
+          <g
+             id="g1023" />
+          <g
+             id="g1025" />
+          <g
+             id="g1027" />
+          <g
+             id="g1029" />
+          <g
+             id="g1031" />
+          <g
+             id="g1033" />
+          <g
+             id="g1035" />
+          <g
+             id="g1037" />
+          <g
+             id="g1039" />
+          <g
+             id="g1041" />
+          <g
+             id="g1043" />
+          <g
+             id="g1045" />
+          <g
+             id="g1047" />
+          <g
+             id="g1049" />
+          <g
+             id="g1051" />
+          <g
+             id="g1053" />
+          <g
+             id="g1055" />
+          <g
+             id="g1057" />
+          <g
+             id="g1059" />
+          <g
+             id="g1061" />
+          <g
+             id="g1063" />
+          <g
+             id="g1065" />
+          <g
+             id="g1067" />
+          <g
+             id="g1069" />
+          <g
+             id="g1071" />
+          <g
+             id="g1073" />
+          <g
+             id="g1075" />
+          <g
+             id="g1077" />
+          <g
+             id="g1079" />
+          <g
+             id="g1081" />
+          <g
+             id="g1083" />
+          <g
+             id="g1085" />
+          <g
+             id="g1087" />
+          <g
+             id="g1089" />
+          <g
+             id="g1091" />
+          <g
+             id="g1093" />
+          <g
+             id="g1095" />
+          <g
+             id="g1097" />
+          <g
+             id="g1099" />
+          <g
+             id="g1101" />
+          <g
+             id="g1103" />
+          <g
+             id="g1105" />
+          <g
+             id="g1107" />
+          <g
+             id="g1109" />
+          <g
+             id="g1111" />
+          <g
+             id="g1113" />
+          <g
+             id="g1115" />
+          <g
+             id="g1117" />
+          <g
+             id="g1119" />
+          <g
+             id="g1121" />
+          <g
+             id="g1123" />
+          <g
+             id="g1125" />
+          <g
+             id="g1127" />
+          <g
+             id="g1129" />
+          <g
+             id="g1131" />
+          <g
+             id="g1133" />
+          <g
+             id="g1135" />
+          <g
+             id="g1137" />
+          <g
+             id="g1139" />
+          <g
+             id="g1141" />
+          <g
+             id="g1143" />
+          <g
+             id="g1145" />
+          <g
+             id="g1147" />
+          <g
+             id="g1149" />
+          <g
+             id="g1151" />
+          <g
+             id="g1153" />
+          <g
+             id="g1155" />
+          <g
+             id="g1157" />
+          <g
+             id="g1159" />
+          <g
+             id="g1161" />
+          <g
+             id="g1163" />
+          <g
+             id="g1165" />
+          <g
+             id="g1167" />
+          <g
+             id="g1169" />
+          <g
+             id="g1171" />
+          <g
+             id="g1173" />
+          <g
+             id="g1175" />
+          <g
+             id="g1177" />
+          <g
+             id="g1179" />
+          <g
+             id="g1181" />
+          <g
+             id="g1183" />
+          <g
+             id="g1185" />
+          <g
+             id="g1187" />
+          <g
+             id="g1189" />
+          <g
+             id="g1191" />
+          <g
+             id="g1193" />
+          <g
+             id="g1195" />
+          <g
+             id="g1197" />
+          <g
+             id="g1199" />
+          <g
+             id="g1201" />
+          <g
+             id="g1203" />
+          <g
+             id="g1205" />
+          <g
+             id="g1207" />
+          <g
+             id="g1209" />
+          <g
+             id="g1211" />
+          <g
+             id="g1213" />
+          <g
+             id="g1215" />
+          <g
+             id="g1217" />
+          <g
+             id="g1219" />
+          <g
+             id="g1221" />
+          <g
+             id="g1223" />
+          <g
+             id="g1225" />
+          <g
+             id="g1227" />
+          <g
+             id="g1229" />
+          <g
+             id="g1231" />
+          <g
+             id="g1233" />
+        </g>
+      </g>
+      <g
+         id="g1970"
+         transform="matrix(9.9999996e-7,0,0,9.9999996e-7,-76.224645,-75.178647)">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="g1616" />
+        <g
+           style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="g1618" />
+        <g
+           style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:100000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="g1846">
+          <path
+             d="M 106553000,56007000 H 218059000"
+             id="path1620" />
+          <path
+             d="M 218059000,56007000 V 95377000"
+             id="path1622" />
+          <path
+             d="M 218059000,95377000 H 106553000"
+             id="path1624" />
+          <path
+             d="M 106553000,95377000 V 56007000"
+             id="path1626" />
+          <g
+             id="g1628" />
+          <g
+             id="g1630" />
+          <g
+             id="g1632" />
+          <g
+             id="g1634" />
+          <g
+             id="g1636" />
+          <g
+             id="g1638" />
+          <g
+             id="g1640" />
+          <g
+             id="g1642" />
+          <g
+             id="g1644" />
+          <g
+             id="g1646" />
+          <g
+             id="g1648" />
+          <g
+             id="g1650" />
+          <g
+             id="g1652" />
+          <g
+             id="g1654" />
+          <g
+             id="g1656" />
+          <g
+             id="g1658" />
+          <g
+             id="g1660" />
+          <g
+             id="g1662" />
+          <g
+             id="g1664" />
+          <g
+             id="g1666" />
+          <g
+             id="g1668" />
+          <g
+             id="g1670" />
+          <g
+             id="g1672" />
+          <g
+             id="g1674" />
+          <g
+             id="g1676" />
+          <g
+             id="g1678" />
+          <g
+             id="g1680" />
+          <g
+             id="g1682" />
+          <g
+             id="g1684" />
+          <g
+             id="g1686" />
+          <g
+             id="g1688" />
+          <g
+             id="g1690" />
+          <g
+             id="g1692" />
+          <g
+             id="g1694" />
+          <g
+             id="g1696" />
+          <g
+             id="g1698" />
+          <g
+             id="g1700" />
+          <g
+             id="g1702" />
+          <g
+             id="g1704" />
+          <g
+             id="g1706" />
+          <g
+             id="g1708" />
+          <g
+             id="g1710" />
+          <g
+             id="g1712" />
+          <g
+             id="g1714" />
+          <g
+             id="g1716" />
+          <g
+             id="g1718" />
+          <g
+             id="g1720" />
+          <g
+             id="g1722" />
+          <g
+             id="g1724" />
+          <g
+             id="g1726" />
+          <g
+             id="g1728" />
+          <g
+             id="g1730" />
+          <g
+             id="g1732" />
+          <g
+             id="g1734" />
+          <g
+             id="g1736" />
+          <g
+             id="g1738" />
+          <g
+             id="g1740" />
+          <g
+             id="g1742" />
+          <g
+             id="g1744" />
+          <g
+             id="g1746" />
+          <g
+             id="g1748" />
+          <g
+             id="g1750" />
+          <g
+             id="g1752" />
+          <g
+             id="g1754" />
+          <g
+             id="g1756" />
+          <g
+             id="g1758" />
+          <g
+             id="g1760" />
+          <g
+             id="g1762" />
+          <g
+             id="g1764" />
+          <g
+             id="g1766" />
+          <g
+             id="g1768" />
+          <g
+             id="g1770" />
+          <g
+             id="g1772" />
+          <g
+             id="g1774" />
+          <g
+             id="g1776" />
+          <g
+             id="g1778" />
+          <g
+             id="g1780" />
+          <g
+             id="g1782" />
+          <g
+             id="g1784" />
+          <g
+             id="g1786" />
+          <g
+             id="g1788" />
+          <g
+             id="g1790" />
+          <g
+             id="g1792" />
+          <g
+             id="g1794" />
+          <g
+             id="g1796" />
+          <g
+             id="g1798" />
+          <g
+             id="g1800" />
+          <g
+             id="g1802" />
+          <g
+             id="g1804" />
+          <g
+             id="g1806" />
+          <g
+             id="g1808" />
+          <g
+             id="g1810" />
+          <g
+             id="g1812" />
+          <g
+             id="g1814" />
+          <g
+             id="g1816" />
+          <g
+             id="g1818" />
+          <g
+             id="g1820" />
+          <g
+             id="g1822" />
+          <g
+             id="g1824" />
+          <g
+             id="g1826" />
+          <g
+             id="g1828" />
+          <g
+             id="g1830" />
+          <g
+             id="g1832" />
+          <g
+             id="g1834" />
+          <g
+             id="g1836" />
+          <g
+             id="g1838" />
+          <g
+             id="g1840" />
+          <g
+             id="g1842" />
+          <g
+             id="g1844" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
