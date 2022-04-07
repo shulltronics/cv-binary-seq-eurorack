@@ -1,1 +1,0 @@
-C:\Users\carstentb\Documents\KiCad\6.0\Carsten\ Projects\cv_sequencer\firmware\target\thumbv6m-none-eabi\debug\cv-binary-sequencer: C:\Users\carstentb\Documents\KiCad\6.0\Carsten\ Projects\cv_sequencer\firmware\src\main.rs

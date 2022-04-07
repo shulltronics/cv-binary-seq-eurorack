@@ -8,13 +8,24 @@ use embedded_hal::{
     digital::v2::{OutputPin, InputPin}
 };
 use embedded_time::rate::*;
-use rp2040_hal::{
+use rp2040_hal as hal;
+use hal::{
     clocks::{init_clocks_and_plls, Clock},
     pac,
     watchdog::Watchdog,
     Sio,
-    gpio::Pins
+    gpio::Pins,
 };
+use display_interface_spi::SPIInterface;
+use st7789::{Orientation, ST7789};
+use embedded_graphics::{
+    prelude::*,
+    primitives::*,
+    pixelcolor::Rgb565,
+    mono_font::{ascii::FONT_6X9, MonoTextStyle},
+    text::Text,
+};
+
 /// The linker will place this boot block at the start of our program image. We
 /// need this to help the ROM bootloader get our code up and running.
 // #[link_section = ".boot2"]
@@ -48,13 +59,53 @@ fn main() -> ! {
     );
 
     let mut timer = cortex_m::delay::Delay::new(core.SYST, clocks.system_clock.freq().integer());
+    
+    // general purpose testing pin (goes to unpopulated LED for now)
     let mut status_pin = pins.gpio25.into_push_pull_output();
+    let encoder_button = pins.gpio7.into_pull_down_input();
 
+    // pins for use with ST7789 LCD
+    let _lcd_cs  = pins.gpio9.into_push_pull_output();
+    let _lcd_sclk = pins.gpio10.into_mode::<hal::gpio::FunctionSpi>();
+    let _lcd_mosi = pins.gpio11.into_mode::<hal::gpio::FunctionSpi>();
+    let _lcd_miso = pins.gpio12.into_mode::<hal::gpio::FunctionSpi>();
+    let _lcd_rst = pins.gpio13.into_push_pull_output();
+    let _lcd_dc  = pins.gpio14.into_push_pull_output();
+    // // initialize the SPI module
+    let spi = hal::Spi::<_, _, 8>::new(pac.SPI1);
+    let mut spi = spi.init(
+        &mut pac.RESETS,
+        clocks.peripheral_clock.freq(),
+        64_000_000u32.Hz(),
+        &embedded_hal::spi::MODE_3,
+    );
+    // create the SPI "display interface"
+    let di = SPIInterface::new(spi, _lcd_dc, _lcd_cs);
+    let mut lcd = ST7789::new(di, _lcd_rst, 240, 135);
+    // // initialize the display and set its orientation
+    lcd.init(&mut timer).unwrap();
+    lcd.set_orientation(Orientation::Landscape).unwrap();
+
+    // let line = Line::new(Point::new(0, 0), Point::new(100, 100))
+    //     .into_styled(PrimitiveStyle::with_stroke(Rgb565::WHITE, 1));
+    lcd.clear(Rgb565::WHITE).unwrap();
+    // line.draw(&mut lcd).unwrap();
+
+    let style = MonoTextStyle::new(&FONT_6X9, Rgb565::RED);
+    let mut text = Text::new("hello, rust!", Point::new(100, 100), style);
+    
     // loop code here
+    let mut old_button_state: bool = false;
     loop {
-        status_pin.set_high().unwrap();
-        timer.delay_ms(500);
-        status_pin.set_low().unwrap();
-        timer.delay_ms(500);
+        let current_button_state: bool = encoder_button.is_high().unwrap();
+        let button_changed: bool = (old_button_state != current_button_state);
+        if button_changed {
+            old_button_state = current_button_state;
+            if current_button_state == true {
+                text.draw(&mut lcd).unwrap();
+            } else {
+                lcd.clear(Rgb565::BLACK).unwrap();
+            }
+        }
     }
 }
