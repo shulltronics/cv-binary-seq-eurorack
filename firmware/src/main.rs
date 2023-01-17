@@ -7,7 +7,8 @@ use cortex_m_rt::entry;
 use embedded_hal::{
     digital::v2::{OutputPin, InputPin}
 };
-use embedded_time::rate::*;
+// use embedded_time::rate::*;
+use fugit::RateExtU32;  // allows the .to_Hz() method
 use rp2040_hal as hal;
 use hal::{
     clocks::{init_clocks_and_plls, Clock},
@@ -58,7 +59,7 @@ fn main() -> ! {
         &mut pac.RESETS,
     );
 
-    let mut timer = cortex_m::delay::Delay::new(core.SYST, clocks.system_clock.freq().integer());
+    let mut timer = cortex_m::delay::Delay::new(core.SYST, clocks.system_clock.freq().to_Hz());
     
     // general purpose testing pin (goes to unpopulated LED for now)
     let mut status_pin = pins.gpio25.into_push_pull_output();

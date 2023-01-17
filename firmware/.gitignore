@@ -1,2 +1,4 @@
 *.lock
 target/*
+bu.mem.x
+link.x
