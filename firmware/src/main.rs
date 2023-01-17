@@ -17,6 +17,7 @@ use hal::{
     Sio,
     gpio::Pins,
 };
+
 use display_interface_spi::SPIInterface;
 use st7789::{Orientation, ST7789};
 use embedded_graphics::{
@@ -26,6 +27,9 @@ use embedded_graphics::{
     mono_font::{ascii::FONT_6X9, MonoTextStyle},
     text::Text,
 };
+
+mod mcp48fxbxx;
+use mcp48fxbxx::MCP48FXBxx;
 
 /// The linker will place this boot block at the start of our program image. We
 /// need this to help the ROM bootloader get our code up and running.
@@ -95,6 +99,22 @@ fn main() -> ! {
     let style = MonoTextStyle::new(&FONT_6X9, Rgb565::RED);
     let mut text = Text::new("hello, rust!", Point::new(100, 100), style);
     
+    // pins for use with MCP48FXB2X DAC
+    let _dac_cs   = pins.gpio17.into_push_pull_output();
+    let _dac_sclk = pins.gpio18.into_mode::<hal::gpio::FunctionSpi>();
+    let _dac_mosi = pins.gpio19.into_mode::<hal::gpio::FunctionSpi>();
+    let _dac_miso = pins.gpio20.into_mode::<hal::gpio::FunctionSpi>();
+    // // initialize the SPI module
+    let spi0 = hal::Spi::<_, _, 8>::new(pac.SPI0);
+    let mut spi0 = spi0.init(
+        &mut pac.RESETS,
+        clocks.peripheral_clock.freq(),
+        64_000_000u32.Hz(),
+        &embedded_hal::spi::MODE_3,
+    );
+
+    let dac = MCP48FXBxx::new(spi0, _dac_cs);
+
     // loop code here
     let mut old_button_state: bool = false;
     loop {
