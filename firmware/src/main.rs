@@ -81,7 +81,7 @@ fn main() -> ! {
     let mut spi = spi.init(
         &mut pac.RESETS,
         clocks.peripheral_clock.freq(),
-        64_000_000u32.Hz(),
+        10_000_000u32.Hz(),
         &embedded_hal::spi::MODE_3,
     );
     // create the SPI "display interface"
@@ -99,7 +99,9 @@ fn main() -> ! {
     let style = MonoTextStyle::new(&FONT_6X9, Rgb565::RED);
     let mut text = Text::new("hello, rust!", Point::new(100, 100), style);
     
-    // pins for use with MCP48FXB2X DAC
+    /**************************************************************************
+    MCP DAC Setup and Testing
+    **************************************************************************/
     let _dac_cs   = pins.gpio17.into_push_pull_output();
     let _dac_sclk = pins.gpio18.into_mode::<hal::gpio::FunctionSpi>();
     let _dac_mosi = pins.gpio19.into_mode::<hal::gpio::FunctionSpi>();
@@ -109,11 +111,15 @@ fn main() -> ! {
     let mut spi0 = spi0.init(
         &mut pac.RESETS,
         clocks.peripheral_clock.freq(),
-        64_000_000u32.Hz(),
+        10_000_000u32.Hz(),
         &embedded_hal::spi::MODE_3,
     );
-
-    let dac = MCP48FXBxx::new(spi0, _dac_cs);
+    // Create the driver object
+    let mut dac = MCP48FXBxx::new(spi0, _dac_cs);
+    dac.init();
+    // try reading from a register
+    let res = dac.read();
+    dac.write(0xAA);
 
     // loop code here
     let mut old_button_state: bool = false;
