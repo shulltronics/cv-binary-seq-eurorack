@@ -103,6 +103,7 @@ fn main() -> ! {
     
     // general purpose testing pin (goes to unpopulated LED for now)
     let mut status_pin = pins.gpio25.into_push_pull_output();
+    status_pin.set_high().unwrap();
     let encoder_button = pins.gpio7.into_pull_down_input();
 
     // pins for use with ST7789 LCD
