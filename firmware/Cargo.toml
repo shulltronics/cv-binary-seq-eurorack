@@ -21,6 +21,11 @@ embedded-graphics     = "0.7.1"
 
 rotary-encoder-hal    = "0.5.0"
 
+# For USB serial comms
+usbd-serial             = "0.1.1"
+usb-device              = "0.2.9"
+critical-section        = "1.1.1"
+
 [features]
 default               = ["boot2", "rt"]
 boot2                 = ["rp2040-boot2"]

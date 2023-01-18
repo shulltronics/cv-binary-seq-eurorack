@@ -13,6 +13,7 @@ use rp2040_hal as hal;
 use hal::{
     clocks::{init_clocks_and_plls, Clock},
     pac,
+    pac::interrupt,
     watchdog::Watchdog,
     Sio,
     gpio::Pins,
@@ -33,10 +34,29 @@ use mcp48fxbxx::MCP48FXBxx;
 
 /// The linker will place this boot block at the start of our program image. We
 /// need this to help the ROM bootloader get our code up and running.
-// #[link_section = ".boot2"]
-// #[used]
-// pub static BOOT2: [u8; 256] = rp2040_boot2::BOOT_LOADER_RAM_MEMCPY;
+#[link_section = ".boot2"]
+#[used]
+pub static BOOT2: [u8; 256] = rp2040_boot2::BOOT_LOADER_RAM_MEMCPY;
 const XTAL_OSC_FREQ: u32 = 12_000_000;
+
+// USB Device support
+// use usb_device::class_prelude::*;
+// // USB Communications Class Device support
+// mod usb_manager;
+// use usb_manager::UsbManager;
+// /******************************************************************************
+//      Global USB objects & interrupt
+// ******************************************************************************/
+// static mut USB_BUS: Option<UsbBusAllocator<hal::usb::UsbBus>> = None;
+// static mut USB_MANAGER: Option<UsbManager> = None;
+// #[allow(non_snake_case)]
+// #[interrupt]
+// unsafe fn USBCTRL_IRQ() {
+//     match USB_MANAGER.as_mut() {
+//         Some(manager) => manager.interrupt(),
+//         None => (),
+//     };
+// }
 
 #[entry]
 fn main() -> ! {
@@ -62,6 +82,22 @@ fn main() -> ! {
         sio.gpio_bank0,
         &mut pac.RESETS,
     );
+
+    // Setup USB
+    // let usb = unsafe {
+    //     USB_BUS = Some(UsbBusAllocator::new(hal::usb::UsbBus::new(
+    //         pac.USBCTRL_REGS,
+    //         pac.USBCTRL_DPRAM,
+    //         clocks.usb_clock,
+    //         true,
+    //         &mut pac.RESETS,
+    //     )));
+    //     USB_MANAGER = Some(UsbManager::new(USB_BUS.as_ref().unwrap()));
+    //     // Enable the USB interrupt
+    //     pac::NVIC::unmask(hal::pac::Interrupt::USBCTRL_IRQ);
+    //     USB_MANAGER.as_mut().unwrap()
+    // };
+
 
     let mut timer = cortex_m::delay::Delay::new(core.SYST, clocks.system_clock.freq().to_Hz());
     
@@ -119,7 +155,8 @@ fn main() -> ! {
     dac.init();
     // try reading from a register
     let res = dac.read();
-    dac.write(0xAA);
+    // dac.write(0xAA);
+    dac.setup();
 
     // loop code here
     let mut old_button_state: bool = false;

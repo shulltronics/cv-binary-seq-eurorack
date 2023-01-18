@@ -2,6 +2,7 @@ use embedded_hal::spi;
 
 // An enumeration of the device status and control registers
 // for non-volatile versions, add 0x10
+#[repr(u8)]
 pub enum Instruction {
     DAC0_REG       = 0x00,
     DAC1_REG       = 0x01,
@@ -50,7 +51,11 @@ where
     }
 
     // test method to write data to device
-    // pub fn setup(&mut self) {
-    //     let buf = [DAC]
-    // }
+    pub fn setup(&mut self) {
+        // I think this would set DAC1 output to full voltage
+        let buf = [0x01 << 3 | 0b000, 0x0F, 0xFF];
+        self.cs.set_low();
+        self.spi.write(&buf);
+        self.cs.set_high();
+    }
 }
