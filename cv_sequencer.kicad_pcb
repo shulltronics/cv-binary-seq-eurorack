@@ -265,7 +265,7 @@
     (zone (net 0) (net_name "") (layers *.Cu) (tstamp c96b3666-23a4-4295-8c61-74c48fee909c) (name "Jack_tip") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -366,7 +366,7 @@
     (zone (net 0) (net_name "") (layers *.Cu) (tstamp 55438d3c-00d0-4e17-a634-62966b596064) (name "Jack_tip") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -440,7 +440,7 @@
     (zone (net 0) (net_name "") (layers *.Cu) (tstamp 1ef71100-0ad5-45cf-b3b6-3fbda4b7832e) (name "Jack_tip") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -510,7 +510,7 @@
     (zone (net 0) (net_name "") (layers *.Cu) (tstamp 7e7d102f-7d54-4312-90dc-f41713838620) (name "Jack_tip") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -584,7 +584,7 @@
     (zone (net 0) (net_name "") (layers *.Cu) (tstamp 0a3380ba-2bba-4543-b966-107711de7ab0) (name "Jack_tip") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -685,7 +685,7 @@
     (zone (net 0) (net_name "") (layers *.Cu) (tstamp 34404c50-d51d-44fe-a12b-a1dd6ae09b33) (name "Jack_tip") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -759,7 +759,7 @@
     (zone (net 0) (net_name "") (layers *.Cu) (tstamp 3e27c9ff-4718-4bb8-ba0c-2ede1a5d82fd) (name "Jack_tip") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -908,7 +908,7 @@
     (zone (net 0) (net_name "") (layers *.Cu) (tstamp 0763925c-1837-4b94-b36f-97e7fa7caca5) (name "Jack_tip") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -1853,7 +1853,7 @@
     (fp_line (start 1.656 -1.672) (end 2.156 -1.172) (layer "B.Fab") (width 0.1) (tstamp f7df6080-cada-4338-9279-3cef3e683322))
     (fp_line (start -2.044 -1.172) (end -1.544 -1.672) (layer "B.Fab") (width 0.1) (tstamp f7e45b7d-3ba6-4ab6-96b0-4b38ff727669))
     (fp_arc (start -0.844 1.027999) (mid -1.404147 -0.072) (end -0.844 -1.171999) (layer "B.Fab") (width 0.1) (tstamp 119e11c6-85f7-408f-b2bd-501f4ee62fcb))
-    (fp_arc (start 0.855999 -1.171999) (mid 1.45984 -0.072) (end 0.856 1.027999) (layer "B.Fab") (width 0.1) (tstamp 55e29082-15c4-40da-ac1a-3a93e8d4ba38))
+    (fp_arc (start 0.855999 -1.171999) (mid 1.459839 -0.072) (end 0.856 1.027999) (layer "B.Fab") (width 0.1) (tstamp 55e29082-15c4-40da-ac1a-3a93e8d4ba38))
     (pad "1" smd rect (at -2.019 1.003) (size 1.05 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp 464dddce-6230-4093-b423-a57ade46cb62))
     (pad "1" smd rect (at 2.131 1.003) (size 1.05 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
@@ -4597,7 +4597,7 @@
     (fp_line (start -2.044 1.028) (end -1.544 1.528) (layer "B.Fab") (width 0.1) (tstamp e275f866-0ca0-46f2-93a9-b7840a518e34))
     (fp_line (start -2.044 1.528) (end 2.156 1.528) (layer "B.Fab") (width 0.1) (tstamp f392d474-f586-4ce4-877d-7428f1eec1f9))
     (fp_arc (start -0.844 1.027999) (mid -1.404147 -0.072) (end -0.844 -1.171999) (layer "B.Fab") (width 0.1) (tstamp 925697ac-ad0f-49d8-8167-fb4b21418f0a))
-    (fp_arc (start 0.855999 -1.171999) (mid 1.45984 -0.072) (end 0.856 1.027999) (layer "B.Fab") (width 0.1) (tstamp 9aad0216-6653-4783-9755-0bde2a799afc))
+    (fp_arc (start 0.855999 -1.171999) (mid 1.459839 -0.072) (end 0.856 1.027999) (layer "B.Fab") (width 0.1) (tstamp 9aad0216-6653-4783-9755-0bde2a799afc))
     (pad "1" smd rect (at 2.131 1.003 180) (size 1.05 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 16 "/~{RESET}") (pinfunction "1") (pintype "passive") (tstamp 4abc957a-0c1b-4272-a52b-69acc93fd6a4))
     (pad "1" smd rect (at -2.019 1.003 180) (size 1.05 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
@@ -5657,6 +5657,9 @@
   (gr_text "cv_binary_sequencer\nrev 0.1" (at 209.3468 84.836) (layer "B.SilkS") (tstamp 8b6304e2-22bf-4bb4-a663-0e0e318863a3)
     (effects (font (size 1.016 1.016) (thickness 0.1524) italic) (justify mirror))
   )
+  (gr_text "Notes from testing - For REV 0.2" (at 71.12 64.008) (layer "Cmts.User") (tstamp b06d97a0-9902-47ac-8072-57dd39a62b6c)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "CV Sequencer Eurorack Module\n1U, 22HP" (at 72.009 46.736) (layer "Cmts.User") (tstamp d38aa458-d7c4-47af-ba08-2b6be506a3fd)
     (effects (font (size 2.032 2.032) (thickness 0.3048)))
   )
@@ -5676,7 +5679,7 @@
     (pts (xy 106.68 66.0908) (xy 217.932 66.0908))
     (height -3.8608)
     (orientation 0)
-    (gr_text "4380.0000 mils" (at 162.306 60.4012) (layer "F.Fab") (tstamp 313a59a3-4b2c-4ff3-b9e5-9601f351f5c8)
+    (gr_text "111.2520 mm" (at 162.306 60.4012) (layer "F.Fab") (tstamp 313a59a3-4b2c-4ff3-b9e5-9601f351f5c8)
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (format (units 3) (units_format 1) (precision 4))
