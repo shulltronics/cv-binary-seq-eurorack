@@ -381,7 +381,6 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "nets": [
-          "/5V3",
           "/IO Jacks/DAC_VDD",
           "VDD",
           "VSS"
